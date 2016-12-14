@@ -1,0 +1,194 @@
+body{
+  background-image: url(http://www.essenceinphotography.com/wp-content/uploads/2012/09/Flatirons-iPad-3-Wallpaper-export-from-LR.jpg);
+   /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);  */
+    /*color: #ffffff; changes the <p> text colors */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    max-width: 100%; 
+overflow-x: hidden; /* prevent horizontal scroll */
+    zoom: 80%;
+}
+
+p{
+    margin-top:-100px;
+    margin-left:150px;
+    font-size:30px;
+    color:white;
+text-shadow:1px 1px 0 #fff,
+-1px -1px 0 #fff,
+1px -1px 0 #fff,
+-1px 1px 0 #fff,
+0px 1px 0 #fff,
+1px 0px 0 #fff,
+0px -1px 0 #fff,
+-1px 0px 0 #fff,
+4px 4px 3px #000;
+font-family: Century Gothic, sans-serif;
+}
+
+/*course 4 letter prefix*/
+p.SubjectRows{
+    margin-top:-25px;
+    margin-left:415px;
+}
+
+/*course 4 digit suffix*/
+p.CourseNumRows{
+    margin-top:-25px;
+   margin-left:425px; 
+}
+
+img{
+    width:100px;
+    height:100px;
+    margin-left:25px;
+    margin-top:25px;
+}
+
+/*     remove ugly white border from both tables */
+
+            .google-visualization-table-table  td.CSStableCellRATING      
+   {
+        border:0px;
+        border-width:0px;
+   }
+
+.google-visualization-table-table th.CSSheaderCellRATING
+   {
+        border:0px;
+        border-width:0px;
+   }
+
+ .google-visualization-table-table  td.CSStableCellHOUR      
+   {
+        border:0px;
+        border-width:0px;
+   }
+
+.google-visualization-table-table th.CSSheaderCellHOUR
+   {
+        border:0px;
+        border-width:0px;
+   }
+/*------ COURSE RATING TABLE ELEMENTS --------*/
+
+CSSheaderRowRATING{
+    
+}
+
+/* initial background color of table  */
+tr.CSStableRowRATING{
+     background-color:#808080; /* initially black  */
+    border:none;
+}
+
+tr.CSSoddTableRowRATING{
+    
+}
+
+CSSselectedTableRowRATING{
+    background-color:gold; /* no hovering on mobile  */
+    border:none;
+}
+
+/*   background color of table when mouse hovers over      tr = table row    */
+tr.CSShoverTableRowRATING{
+   background-color:gold;
+border: none
+}
+
+/*  header background    */
+th.CSSheaderCellRATING{
+    background:black;
+    /*  text within header */
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+    font-size:20px;
+    border:none;
+}
+
+/* data within table  */
+td.CSStableCellRATING{
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+    border: none;
+}
+
+CSSrowNumberCellRATING{
+   
+}
+
+/*------ HOURS SPENT TABLE ELEMENTS --------*/
+
+/* background of header  */
+CSSheaderRowHOUR{
+    border: none;
+}
+
+/*  initial background of table    */
+tr.CSStableRowHOUR{
+     background:gold; 
+    border:none;
+}
+
+CSSoddTableRowHOUR{
+    
+}
+
+CSSselectedTableRowHOUR{
+   
+}
+
+/*   background color of table when the mouse hovers over     tr = table row    */
+tr.CSShoverTableRowHOUR{
+   background-color:black;
+    border: none;
+}
+
+/* header background    */
+th.CSSheaderCellHOUR{
+    background:#DAA520;
+    /*  text within header */
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+    font-size:20px;
+    border: none;
+}
+
+/* data within table       td = table data */
+td.CSStableCellHOUR{
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+ 
+}
+
+CSSrowNumberCellHOUR{
+   background-color:green;
+}
+
+/*       horizontal_wrapper for the tables WHICH IS within the wrapper for all the charts   */
+#horizontal_wrapper{
+    margin:0;
+    display:inline;
+}
+
+/* wrapper for all the charts  */
+
+#chart_wrapper{
+    margin:0;
+}
+
+text{
+    font-size: 17px;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+}
+
+thead{
+    border:0;
+}
+
