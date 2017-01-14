@@ -1,13 +1,13 @@
 var React = require('react');
+var SmoothScroll = require('./SmoothScroll');
 
 var NavBar = React.createClass({
   render: function() {
     return (
-      <div className={'NavBar'}>
-        <button>Travel Info</button>
-        <button>Booking</button>
-        <button>Safaris</button>
-        <button>Tours</button>
+      <div className={this.props.className}>
+        <SmoothScroll goTo={this.props.goTo}>
+          {this.props.children}
+        </SmoothScroll>
       </div>
     );
   }
