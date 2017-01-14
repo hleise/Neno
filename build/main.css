@@ -127,5 +127,14 @@ body {
     padding-right: 10px;
     height: 8vh;
     background-color: #af8075; }
+  body .NavBar {
+    position: absolute;
+    top: 10vh;
+    left: 50%; }
+  body .NavBar button {
+    font: 100% Elsa, sans-serif;
+    border: none;
+    padding: 10px;
+    margin-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */

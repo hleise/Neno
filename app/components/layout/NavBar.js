@@ -3,7 +3,7 @@ var React = require('react');
 var NavBar = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className={'NavBar'}>
         <button>Travel Info</button>
         <button>Booking</button>
         <button>Safaris</button>
