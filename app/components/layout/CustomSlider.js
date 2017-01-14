@@ -1,28 +1,38 @@
 var React = require('react');
-var Slider = require('react-slick');
-var SlickCSS = require('slick-carousel');
-var SliderElement = require('./SliderElement');
+var SliderImage = require('./SliderImage');
+var Slider = require('react-slick-carousel');
 
 var CustomSlider = React.createClass({
   render: function () {
-
     var settings = {
       dots: true,
-      slidesToShow: 1,
       infinite: true,
+      speed: 1500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      arrows: true,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 777000,
+      pauseOnHover: false,
+      draggable: false,
+      easing: 'easeOutQuad',
+      accessibility: false,
+      lazyLoad: false,
+      infinite: true
     };
+    var images = [];
+    for(var i = 1; i < 6; i++) {
+      images.push(<div className={'SliderImage'} key={i}>
+        <h3>
+        <img src={'../app/components/data/images/' + i + '.jpg'} alt={i} />
+        </h3>
+      </div>);
+    }
     return (
-      <div>
       <Slider {...settings}>
-        <SliderElement key={'1'} imageName={'1'}/>
-        <SliderElement key={'2'} imageName={'2'}/>
-        <SliderElement key={'3'} imageName={'3'}/>
-        <SliderElement key={'4'} imageName={'4'}/>
-        <SliderElement key={'5'} imageName={'5'}/>
+      {images}
       </Slider>
-      </div>
     );
   }
 });

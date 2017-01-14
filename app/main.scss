@@ -1,13 +1,13 @@
 $title-font-stack: Didot-italic, sans-serif;
 $font-stack: Elsa, sans-serif;
 $primary-color: #41374c;
-$bg-h1-color: #555;
 $bg-p-color: #111;
 $bg-header-color: #983131;
 $bg-section-color: #8f9bad;
-$h1-color: #a58888;
-$h2-color: #b29569;
-
+$bg-footer-color: #b4bbc6;
+$bg-baseline-footer-color: #af8075;
+$h1-color: #FFF;
+$h2-color: #263244;
 
 @mixin center($horizontal: true, $vertical: true) {
   position: absolute;
@@ -29,22 +29,129 @@ $h2-color: #b29569;
 
 body {
   margin: 0;
+  overflow-x: hidden;
+
   h1 {
     @include center(true, true);
     font: 200% $title-font-stack;
     color: $h1-color;
-    background-color: $bg-h1-color;
   }
   h2 {
     @include center(true, false);
     font: 200% $title-font-stack;
     color: $h2-color;
-    background-color: $bg-h1-color;
+  }
+  h3 {
+    margin: 0px;
   }
   p {
+    float: right;
     font: 100% $font-stack;
     color: $primary-color;
-    background-color: $bg-p-color;
+
+  }
+
+  img {
+    width: 100%;
+
+  }
+
+  .SliderImage {
+    -webkit-filter: brightness(75%) sepia(10%) hue-rotate(1deg) grayscale(10%) contrast(85%); /* Safari */
+    filter: brightness(75%) sepia(10%) hue-rotate(1deg) grayscale(10%) contrast(85%);
+  }
+
+  .slick-dots {
+    bottom: 25vh;
+    width:100%;
+    margin:0;
+    list-style:none;
+    text-align:center;
+  }
+
+  .slick-dots li {
+    position:relative;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin:0 8px;
+    padding:0;
+    cursor:pointer;
+  }
+
+  .slick-dots li button {
+  font-size:0;
+  line-height:0;
+  display:block;
+  width: 100%;
+  height: 100%;
+  padding:5px;
+  cursor:pointer;
+  color:transparent;
+  outline:0;
+  background:0 0;
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  }
+
+  .slick-dots li button:focus,.slick-dots li button:hover {
+    outline: 0;
+    opacity: 1;
+  }
+
+  .slick-dots li button:hover {
+    transform: scale3D(0.8, 0.8, 0.8);
+   -moz-transform: scale3D(0.8, 0.8, 0.8);
+   -webkit-transform: scale3D(0.8, 0.8, 0.8);
+   transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+   border: 3px solid white;
+    border-radius: 40px;
+   opacity: 1;
+  }
+
+
+
+  .slick-dots li button:focus:before,.slick-dots li button:hover:before {
+    opacity:1;
+    opacity: 0.25;
+  }
+
+  .slick-dots li button:before{
+  /* font-size: 15px; */
+  /* line-height: 0%; */
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  /* size: a3; */
+  content: '';
+  content: 0;
+  /* text-align: center; */
+  border: 3px solid white;
+  border-radius: 40px;
+  opacity: 1;
+  margin: 10% 10%;
+  color: #FFF;
+  }
+
+  #circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  }
+
+
+  .slick-dots li.slick-active button:before {
+    opacity:.75;
+    color:#FFF;
+    background-color: azure;
   }
 
   .Header {
@@ -60,13 +167,27 @@ body {
   .Section {
     width: 100%;
     height: 100vh;
-    margin-top: 10px;
+    border-top: 2px solid black;
     top:0;
     right:0;
     bottom:0;
     left:0;
     z-index: -1;
     background-color: $bg-section-color;
+  }
+
+  .Footer {
+    padding: 0px;
+    padding-right: 10px;
+    height: 25vh;
+    background-color: $bg-footer-color;
+  }
+
+  .BaselineFooter {
+    padding: 0px;
+    padding-right: 10px;
+    height: 8vh;
+    background-color: $bg-baseline-footer-color;
   }
 
 }
