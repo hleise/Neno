@@ -1,8 +1,8 @@
 var React = require('react');
-var SliderImage = require('./SliderImage');
-var Slider = require('react-slick-carousel');
+var SlickSliderImage = require('./SlickSliderImage');
+var SlickSlider = require('react-slick-carousel');
 
-var CustomSlider = React.createClass({
+var CustomSlickSlider = React.createClass({
   render: function () {
     var settings = {
       dots: true,
@@ -23,18 +23,18 @@ var CustomSlider = React.createClass({
     };
     var images = [];
     for(var i = 1; i < 6; i++) {
-      images.push(<div className={'SliderImage'} key={i}>
+      images.push(<div className={'SlickSliderImage'} key={i}>
         <h3>
         <img src={'../app/components/data/images/' + i + '.jpg'} alt={i} />
         </h3>
       </div>);
     }
     return (
-      <Slider {...settings}>
+      <SlickSlider {...settings}>
       {images}
-      </Slider>
+      </SlickSlider>
     );
   }
 });
 
-module.exports = CustomSlider;
+module.exports = CustomSlickSlider;
