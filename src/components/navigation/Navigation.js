@@ -1,12 +1,12 @@
 var React = require('react');
-var NavBar = require('./NavBar');
+var NavBar = require('../navbar/Navbar');
 
 var Navigation = React.createClass({
   render: function() {
     return (
       <div className={'Navigation'}>
         <h2>Navigation</h2>
-          <NavBar className={'BottomNavBar'} goTo={'Gallery'}>
+          <NavBar className={'BottomNavbar'} goTo={'Gallery'}>
             <h3 id="TravelInfo1">Travel Info</h3>
               <h3 id="Booking1">Booking</h3>
               <h3 id="Safaris1">Safaris</h3>

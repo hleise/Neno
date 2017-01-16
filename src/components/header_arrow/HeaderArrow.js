@@ -1,5 +1,5 @@
 var React = require('react');
-var SmoothScroll = require('./SmoothScroll');
+var SmoothScroll = require('../smooth_scroll/SmoothScroll');
 
 var HeaderArrow = React.createClass({
   render: function() {
