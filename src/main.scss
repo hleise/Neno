@@ -9,7 +9,15 @@ $bg-baseline-footer-color: #af8075;
 $h1-color: #FFF;
 $h2-color: #263244;
 
-@import 'components/*.scss';
+@import 'components/baseline_footer/BaselineFooter';
+@import 'components/footer/Footer';
+@import 'components/header/Header';
+@import 'components/header_arrow/HeaderArrow';
+@import 'components/navbar/Navbar';
+@import 'components/navigation/Navigation';
+@import 'components/section/Section';
+@import 'components/slider/Slider';
+@import 'components/slider_image/SliderImage';
 
 
 @mixin center($horizontal: true, $vertical: true) {
