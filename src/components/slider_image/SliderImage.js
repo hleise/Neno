@@ -5,7 +5,7 @@ var SliderImage = React.createClass({
   return (
       <div className={'SliderImage'} key={this.props.key}>
         <h3>
-        <img src={'../app/components/data/images/' + this.props.imageName + '.jpg'} alt={this.props.imageName} />
+        <img src={'/src/images/slider_images/' + this.props.imageName + '.jpg'} alt={this.props.imageName} />
         </h3>
       </div>
     );
