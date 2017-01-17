@@ -3,13 +3,13 @@ var NavBar = require('../navbar/Navbar');
 
 
 var Section = React.createClass({
-  render: function() {
-    return (
-      <div className={'Section'} id={this.props.name}>
-        <h2>{this.props.name}</h2>
-      </div>
-    );
-  }
+    render: function () {
+        return (
+            <div className={'Section'} id={this.props.name}>
+                <h2>{this.props.name}</h2>
+            </div>
+        );
+    }
 });
 
 module.exports = Section;
