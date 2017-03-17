@@ -1,11 +1,12 @@
 .HeaderArrow {
     position: absolute;
-    bottom: 25vh;
-    left: 45%;
-    width: 10%;
+    width: 20%;
+    left: 40%;
+    transform: translate(0%, -25vw);
 
     h3 {
         font-size: 10px;
+
     }
 
     button {
