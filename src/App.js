@@ -1,9 +1,9 @@
 var React = require('react');
-var Header = require('../header/Header');
-var Footer = require('../footer/Footer');
-var Navigation = require('../navigation/Navigation');
-var BaselineFooter = require('../baseline_footer/BaselineFooter');
-var Section = require('../section/Section');
+var Header = require('./components/Header');
+var Footer = require('./components/Footer');
+var Navigation = require('./components/Navigation');
+var BaselineFooter = require('./components/BaselineFooter');
+var Section = require('./components/Section');
 
 var App = React.createClass({
     getInitialState: function () {

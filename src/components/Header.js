@@ -1,7 +1,7 @@
 var React = require('react');
-var NavBar = require('../navbar/Navbar');
-var Slider = require('../slider/Slider');
-var HeaderArrow = require('../header_arrow/HeaderArrow');
+var NavBar = require('./Navbar');
+var Slider = require('./Slider');
+var HeaderArrow = require('./HeaderArrow');
 
 var Header = React.createClass({
     render: function () {

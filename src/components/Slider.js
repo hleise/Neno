@@ -1,5 +1,5 @@
 var React = require('react');
-var SlickSliderImage = require('../slider_image/SliderImage');
+var SlickSliderImage = require('./SliderImage');
 var SlickSlider = require('react-slick-carousel');
 
 var Slider = React.createClass({

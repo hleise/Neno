@@ -1,5 +1,5 @@
 var React = require('react');
-var NavBar = require('../navbar/Navbar');
+var NavBar = require('./Navbar');
 
 
 var Section = React.createClass({

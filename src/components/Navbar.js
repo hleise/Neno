@@ -1,5 +1,5 @@
 var React = require('react');
-var SmoothScroll = require('../smooth_scroll/SmoothScroll');
+var SmoothScroll = require('./SmoothScroll');
 
 var Navbar = React.createClass({
     render: function () {

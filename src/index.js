@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var App = require('./components/app/App');
+var App = require('./App');
 var Sass = require('../build/main.css');
 
 ReactDOM.render(
