@@ -1,0 +1,32 @@
+$menu-bar-color: #f7f5f5;
+$transition-time: 0.25s;
+$transition-prop: transform;
+$transition-easing: ease-in-cubic;
+$mobile-width: 60vw;
+
+@import '../helpers/Transform_Mixins.scss';
+
+
+.MenuBar {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  width: 33.33vw;
+  background: transparent;
+  position: absolute;
+  top: 12vh;
+
+  @media all and (max-width: 800px) {
+    width: $mobile-width;
+  }
+}
+
+.MenuBarSlideOpen {
+  right: 0vw;
+}
+
+.MenuBarSlideClose {
+  right: -33.33vw;
+
+  @media all and (max-width: 800px) {
+    right: -60vw;
+  }
+}

@@ -1,12 +1,12 @@
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-    template: __dirname + '/src/index.html',
+    template: __dirname + '/app/index.html',
     filename: 'index.html',
     inject: 'body'
 });
 
 module.exports = {
-    entry: __dirname + '/src/index.js',
+    entry: __dirname + '/app/index.js',
     module: {
         preloaders: [
             {
@@ -21,6 +21,18 @@ module.exports = {
                 loader: 'babel-loader'
             },
             {
+            test: /.jsx?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+              presets: ['es2015', 'react']
+              }
+            },
+            {
+              test: /\.scss$/,
+              loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
+            },
+            {
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
             },
@@ -31,6 +43,13 @@ module.exports = {
                 query: {
                     presets: ['react']
                 }
+            },
+            {
+              test: /\.(eot|svg|ttf|woff|woff2)$/,
+              loader: 'file-loader?name=app/assets/fonts/[name].[ext]'
+            },
+            {
+              test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'
             }
         ]
     },

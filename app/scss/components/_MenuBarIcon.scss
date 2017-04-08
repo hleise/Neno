@@ -1,0 +1,64 @@
+$menu-bar-icon-color: #efdbdb;
+/*#f7f5f5*/
+$menu-bar-icon-color-dark: #1c1c1c;
+$transition-time: 0.9s;
+$transition-prop: transform;
+$transition-easing: ease-in-out;
+
+@import '../helpers/Transform_Mixins.scss';
+
+
+.SlideMenuBarButton {
+  border: none;
+  color: $menu-bar-icon-color;
+  background: transparent;
+  outline: none;
+  user-select: none;
+  position: fixed;
+  z-index: 9999;
+}
+
+.SlideMenuBarButton:hover > div {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  /*background: #d6c4b9;*/
+}
+
+.SlideMenuBarButton div {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  width: 30px;
+  height: 5px;
+  background: $menu-bar-icon-color;
+  margin-top: 5px;
+}
+
+.SlideMenuBarButton:hover > #topBar {
+  /*@include css-transition(all, $transition-time, ease-in-out);*/
+  /*@include css-transform-rotate-and-translate-down(45deg, 10px);*/
+}
+
+.SlideMenuBarButton:hover > #bottomBar {
+  /*@include css-transition(all, $transition-time, ease-in-out);*/
+  /*@include css-transform-rotate-and-translate-up(-45deg, -10px);*/
+
+}
+
+.SlideMenuBarButton:hover > #middleBar {
+  /*@include css-transform-translate-x(-50px);*/
+  /*@include css-transform-squash(0);*/
+}
+
+.clicked > #topBar {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  @include css-transform-rotate-and-translate-down(45deg, 10px);
+}
+
+.clicked > #bottomBar {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  @include css-transform-rotate-and-translate-up(-45deg, -10px);
+}
+
+.clicked > #middleBar {
+  @include css-transition($transition-prop, $transition-time, $transition-easing);
+  @include css-transform-squash(0);
+  opacity: 0;
+}

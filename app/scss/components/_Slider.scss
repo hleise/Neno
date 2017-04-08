@@ -1,0 +1,57 @@
+$prop: all;
+$time: 0.2s;
+$easing: ease-in-out;
+$button-hover-scale: 0.75;
+$border-width: 2px;
+
+.Slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.SliderButtons {
+  .OuterCircle {
+    @include css-transition($prop, $time, $easing);
+    border-radius: 100%;
+    height: 4vw;
+    width: 4vw;
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: $border-width solid white;
+    border-color: transparent;
+  }
+
+  .OuterCircle:hover {
+    @include css-transition($prop, $time, $easing);
+    border-radius: 0%;
+    @include css-transform-scale($button-hover-scale);
+    border-color: white;
+  }
+
+  .OuterCircle:hover > div {
+    background: white;
+  }
+
+  max-width: 100%;
+  z-index: 9999;
+  position: absolute;
+  bottom: 30vh;
+  display: inline-flex;
+
+  div {
+  @include css-transition($prop, $time, $easing);
+  transition: all, 0.2s, ease-in-out;
+  border: $border-width solid white;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  outline: none;
+  }
+
+}
