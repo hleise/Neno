@@ -1,5 +1,0 @@
-@mixin css-filter($brightness, $sepia, $hue, $grayscale, $contrast){
-  -webkit-filter: brightness($brightness) sepia($sepia) hue-rotate($hue) grayscale($grayscale) contrast($contrast);
-  /* Safari */
-  filter: brightness($brightness) sepia($sepia) hue-rotate($hue) grayscale($grayscale) contrast($contrast);
-}
