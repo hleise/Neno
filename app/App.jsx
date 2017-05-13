@@ -21,7 +21,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className={'App'}>
                 <Header />
                 {this.state.sectionsArray.map((name, i) => <Section key={i} id={i} name={name}/>)}
                 <Footer />

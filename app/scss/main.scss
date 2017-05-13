@@ -42,8 +42,13 @@ $carousel-dots-scale: 0.7;
 }
 
 body {
+
+    .App {
+      overflow-x: hidden;
+    }
+
     margin: 0;
-    overflow-x: hidden;
+
 
     h2 {
         @include center(true, false);
