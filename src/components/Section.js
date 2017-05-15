@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Header from './Header.js';
 
 class Section extends Component {
   render() {
     return (
       <div className="section">
-        <Header name={this.props.name}/>
+        <h1>{this.props.title}</h1>
         <p>{this.props.description}</p>
       </div>
     );
