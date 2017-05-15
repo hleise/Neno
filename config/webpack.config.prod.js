@@ -46,14 +46,6 @@ const extractTextPluginOptions = shouldUseRelativeAssetPaths
 // It compiles slowly and is focused on producing a fast and minimal bundle.
 // The development configuration is different and lives in a separate file.
 module.exports = {
-  module: {
-     rules: [
-       {
-         test: /\.txt$/,
-         use: 'raw-loader'
-       }
-     ]
-   },
   // Don't attempt to continue if there are any errors.
   bail: true,
   // We generate sourcemaps in production. This is slow but gives good results.
@@ -139,6 +131,10 @@ module.exports = {
         test: /\.scss$/,
         include: paths.appSrc,
         loaders: ["style", "css", "sass"]
+      },
+      {
+        test: /\.md$/,
+        loader: 'raw-loader'
       },
       // The notation here is somewhat confusing.
       // "postcss" loader applies autoprefixer to our CSS.
