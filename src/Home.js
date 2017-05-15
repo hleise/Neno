@@ -10,13 +10,16 @@ class Home extends Component {
         <NavBar/>
         <div className='image-wrapper'>
           <div className='image'>
-            <img className='left-image' src={require('./img/5.jpg')}/>
+            <img className='left-image' src={require('./img/5.jpg')} alt='left'/>
           </div>
           <div className='image'>
-            <img className='right-image' src={require('./img/4.jpg')}/>
+            <img className='right-image' src={require('./img/4.jpg')} alt='right'/>
           </div>
         </div>
-        <Section title='Neno Tours & Travel Agency' description='Neno Tours & Travel Agency offers you, the discerning traveler...'/>
+        <Section>
+          <h1>Neno Tours & Travel Agency</h1>
+            {HomeDescription}
+        </Section>
       </div>
     );
   }
