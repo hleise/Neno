@@ -1,0 +1,19 @@
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #1c1c1e;
+  font-weight: 100;
+  align-items: center;
+  position: fixed;
+  height: 32px;
+
+  .nav-bar-button {
+    color: grey;
+    transition: color 0.2s ease-in-out; 
+  }
+
+  .nav-bar-button:hover {
+    color: white;
+  }
+}
