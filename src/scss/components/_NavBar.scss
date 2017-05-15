@@ -12,7 +12,32 @@
     color: grey;
     transition: color 0.2s ease-in-out;
     padding: 0px 20px;
+
+    .dropdown-options {
+      display: none;
+      position: absolute;
+    }
+
+    .dropdown-options:hover {
+        display: block;
+
+        .dropdown-option:hover {
+          color: grey;
+          background-color: #f1f1f1;
+          cursor: pointer;
+        }
+
+
+    }
   }
+
+  .nav-bar-button:hover > .dropdown-options {
+      display: block;
+      padding-top: 10px;
+  }
+
+
+
 
   .nav-bar-button:hover {
     color: white;
