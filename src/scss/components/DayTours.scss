@@ -1,0 +1,67 @@
+.day-tour-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow:hidden;
+}
+
+.culture-day-tours{
+  height:750px;
+  p{
+    font-size:50px;
+    margin-right:250px;
+    margin-bottom: 250px;
+    position:absolute;
+    color:white;
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+  img{
+    max-width:100%;
+    margin-top:-225px;
+    overflow:hidden;
+  }
+  .culture-horizontal{
+    height:250px;
+  }
+}
+
+.boat-tours{
+height:750px;
+  p{
+    font-size:50px;
+    position:absolute;
+    color:white;
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+  img{
+    max-width: 100%;
+  }
+}
+
+.fishing-tours{
+  margin-top:250px;
+  height:750px;
+    p{
+      font-size:50px;
+      position:absolute;
+      color:white;
+      font-family: 'Raleway', Helvetica, sans-serif;
+    }
+    img{
+      max-width:100%;
+    }
+}
+
+.other-tours{
+  height:750px;
+    p{
+      font-size:50px;
+      position:absolute;
+      color:white;
+      font-family: 'Raleway', Helvetica, sans-serif;
+    }
+    img{
+      max-width:100%;
+    }
+}
