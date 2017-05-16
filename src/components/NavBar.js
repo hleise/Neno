@@ -21,13 +21,27 @@ class NavBar extends Component {
           </div>
         </div>
         <div className='nav-bar-button'>
-          Transportation
+          <div className='nav-bar-button-title'>
+            Transportation
+          </div>
+          <div className='dropdown-options'>
+              <div className='dropdown-option'>
+                Flight Info
+              </div>
+              <div className='dropdown-option'>
+                Car Hire
+              </div>
+          </div>
         </div>
         <div className='nav-bar-button'>
-          Hotels
+          <div className='nav-bar-button-title'>
+            Hotels
+          </div>
         </div>
         <div className='nav-bar-button'>
-          History of Zanzibar
+          <div className='nav-bar-button-title'>
+            History of Zanzibar
+            </div>
         </div>
       </div>
     );

@@ -1,5 +1,5 @@
 .image-wrapper {
-  height: 360px;
+  height: 100vh;
   overflow: hidden;
   display: flex;
 
@@ -8,12 +8,12 @@
 
     .left-image {
       max-width: 100%;
-
+      height:35vw;
     }
 
     .right-image {
       max-width: 100%;
-
+      height:35vw;
     }
   }
 }
