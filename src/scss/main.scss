@@ -9,10 +9,14 @@ body {
   font-family: sans-serif;
 
   p {
-
+    font-family: 'Cambay', Helvetica, sans-serif;
   }
 
-  h1 {
-    
+  h1, h2 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+
+  h2 {
+    font-weight: 900;
   }
 }

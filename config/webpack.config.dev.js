@@ -113,6 +113,7 @@ module.exports = {
           /\.(js|jsx)(\?.*)?$/,
           /\.css$/,
           /\.scss$/,
+          /\.md$/,
           /\.json$/,
           /\.svg$/
         ],
@@ -142,7 +143,7 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        loader: 'raw-loader'
+        loader: "html!markdown?gfm=false"
       },
       // "postcss" loader applies autoprefixer to our CSS.
       // "css" loader resolves paths in CSS and adds assets as dependencies.

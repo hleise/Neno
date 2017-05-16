@@ -134,7 +134,7 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        loader: 'raw-loader'
+        loader: "html!markdown?gfm=false"
       },
       // The notation here is somewhat confusing.
       // "postcss" loader applies autoprefixer to our CSS.

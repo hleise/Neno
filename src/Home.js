@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import Section from './components/Section.js';
 import NavBar from './components/NavBar.js';
-import HomeDescription from './content/home.md';
+import markdownFile  from './content/home.md';
 
 class Home extends Component {
+  rawMarkup(){
+           return{ __html: markdownFile};
+  }
   render() {
     return (
       <div className="home">
@@ -17,8 +20,9 @@ class Home extends Component {
           </div>
         </div>
         <Section>
-          <h1>Neno Tours & Travel Agency</h1>
-            {HomeDescription}
+          <h1>Neno</h1>
+            <div className='home-markdown' dangerouslySetInnerHTML={this.rawMarkup()}>
+            </div>
         </Section>
       </div>
     );

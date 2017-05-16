@@ -4,7 +4,9 @@ class Section extends Component {
   render() {
     return (
       <div className="section">
-        {this.props.children}
+        <div className="section-content">
+          {this.props.children}
+        </div>
       </div>
     );
   }
