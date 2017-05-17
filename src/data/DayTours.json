@@ -1,0 +1,37 @@
+[
+  {
+    "sectionTitle":"Cultural Day",
+    "featuredTours": [
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Boat",
+    "featuredTours": [
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg",
+      "../img/0.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Fishing",
+    "featuredTours": [
+      "../img/0.jpg",
+      "../img/0.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Other",
+    "featuredTours": [
+      "../img/0.jpg",
+      "../img/0.jpg"
+    ]
+  }
+]

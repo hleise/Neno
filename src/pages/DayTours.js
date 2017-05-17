@@ -1,21 +1,38 @@
 import React, { Component } from 'react';
-import Section from '../components/Section.js';
-import NavBar from '../components/NavBar.js';
+import DayToursData from '../data/DayTours.json';
 
 class DayTours extends Component {
   render() {
-    const sections = ["Cultural Day","Boat","Fishing","Other"];
+    // const row1 = section.featuredTours.slice(0,5);
+    // const row2 = section.featuredTours.slice(5,9);
+    // const row3 = section.featuredTours.slice(9,13);
     return (
       <div className="day-tours">
-        {sections.map((title, i) =>
+        {DayToursData.map((section, i) =>
           <div className="tours-section">
             <h1 className="section-title">
-              {title + " Tours"}
+              {section.sectionTitle + " Tours"}
             </h1>
-           <img className='section-image' src={require('../img/' + i + '.jpg')} />
+           <img className='section-image' src={require("../img/" + i + ".jpg")} />
+           <div className='featured-tours'>
+             <div className='tours-row'>
+               {section.featuredTours.slice(0,4).map((tourImg, i) =>
+                 <div className='tour-block'>
+                   <img className='tour-image' src={require("../img/" + i + ".jpg")} />
+                 </div>
+               )}
+             </div>
+             <div className='tours-row'>
+               {section.featuredTours.slice(4,8).map((tourImg, i) =>
+                 <div className='tour-block'>
+                   <img className='tour-image' src={require("../img/" + i + ".jpg")} />
+                 </div>
+               )}
+             </div>
+
+           </div>
           </div>
         )}
-
       </div>
     );
   }
