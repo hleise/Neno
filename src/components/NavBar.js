@@ -6,41 +6,41 @@ class NavBar extends Component {
       <div className='nav-bar'>
         <div className='nav-bar-button'>
           <div className='nav-bar-button-title'>
-            Booking
+            <h3>Booking</h3>
           </div>
           <div className='dropdown-options'>
             <div className='dropdown-option'>
-              Day Tours
+              <h3>Day Tours</h3>
             </div>
             <div className='dropdown-option'>
-              Package Tours
+              <h3>Package Tours</h3>
             </div>
             <div className='dropdown-option'>
-              Safaris
+              <h3>Safaris</h3>
             </div>
           </div>
         </div>
         <div className='nav-bar-button'>
           <div className='nav-bar-button-title'>
-            Transportation
+            <h3>Transportation</h3>
           </div>
           <div className='dropdown-options'>
               <div className='dropdown-option'>
-                Flight Info
+                <h3>Flight Info</h3>
               </div>
               <div className='dropdown-option'>
-                Car Hire
+                <h3>Car Hire</h3>
               </div>
           </div>
         </div>
         <div className='nav-bar-button'>
           <div className='nav-bar-button-title'>
-            Hotels
+            <h3>Hotels</h3>
           </div>
         </div>
         <div className='nav-bar-button'>
           <div className='nav-bar-button-title'>
-            History of Zanzibar
+            <h3>History of Zanzibar</h3>
             </div>
         </div>
       </div>
