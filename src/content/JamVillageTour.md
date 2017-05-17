@@ -1,0 +1,6 @@
+## Jambiani Village Tour
+
+During this cultural day tour, you will have an opportunity to visit some of our community projects, talk with the friendly Swahili people and participate in their daily life activities. Your lunch will consist of delicious Zanzibar cuisine.
+
+Jambiani is a fishing village on the East Coast of Zanzibar, we offer a cultural village tour to visit villagers from this region. Our experienced guide will explain the history of the village, and will take you to see villagers with unique professions. During this immersive cultural tour you will meet a traditional herbalist, who will show you the local medicines and herbs as well as their uses. Our guide will bring you to an organically produced  plantation on coral stone, where farmers cultivate under difficult circumstances.
+This tour will also take you to seaweed farms run by the hard-working women of the region. Along the way you will meet groups of local women who make ropes from coconut husks, as well as various other intricate handicrafts. This cultural day tour offers a realistic learning opportunity for the unique culture and the diverse environment of Zanzibar's villages. We will show you real life, not places designed for tourists.

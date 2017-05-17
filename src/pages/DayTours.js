@@ -15,7 +15,6 @@ class DayTours extends Component {
            <img className='section-image' src={require('../img/' + i + '.jpg')} />
           </div>
         )}
-
       </div>
     );
   }
