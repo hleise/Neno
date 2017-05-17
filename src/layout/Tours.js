@@ -32,8 +32,8 @@ class Tours extends Component {
       <div className="tours">
         {DayToursData.map((section, i) =>
         <div className='tours-section'>
-          <div className="tours-banner">
-            <h1 onMouseDown={this.toggleMenu.bind(this, i)} className="section-title">
+          <div className="tours-banner" onMouseDown={this.toggleMenu.bind(this, i)}>
+            <h1  className="section-title">
               {section.sectionTitle + " Tours"}
             </h1>
            <img className='section-image' src={require("../img/" + this.props.page + "/" + i + ".jpg")} />

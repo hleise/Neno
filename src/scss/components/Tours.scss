@@ -6,23 +6,25 @@ $slide-duration: 0.5s;
     flex-direction: column;
 
     .tours-banner {
-      @include transition(all, 0.5s, ease);
+      @include transition(margin, 0.5s, ease);
       display: flex;
       justify-content: center;
       flex-direction: column;
       width: 100%;
       height: 80vh;
       z-index: 9;
+      cursor: pointer;
     }
 
     .tours-menu {
-      @include transition(all, $slide-duration, ease-in-out);
+      @include transition(all, 0.5s, ease-in-out);
       z-index: 99;
       background: $nav-bar-color;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 80vh;
+      @include transform(translateZ(0));
       margin-top: -80vh;
       z-index: 8;
       opacity: 0.5;
@@ -53,11 +55,13 @@ $slide-duration: 0.5s;
             height: 120px;
             object-fit: cover;
             object-position: 50% 100%;
+
           }
         }
       }
     }
     .section-title {
+      position: absolute;
       z-index: 9;
       color: white;
       display: flex;
@@ -67,7 +71,6 @@ $slide-duration: 0.5s;
       cursor:pointer;
     }
     .section-image {
-      position: absolute;
       width: 100%;
       height: 80vh;
       object-fit: cover;
