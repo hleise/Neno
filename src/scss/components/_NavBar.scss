@@ -12,7 +12,7 @@ $nav-bar-option-color: #656068;
   box-shadow: 0px 0px 5px 1px rgba(33, 34, 33, 0.5);
   z-index: 99;
 
-  h3 {
+  h3, a {
     cursor: pointer;
     padding: 5px 10px;
     color: #656068;
@@ -30,15 +30,16 @@ $nav-bar-option-color: #656068;
       z-index: 9999;
       background: $nav-bar-color;
 
-      h3 {
+      h3, a {
         @include transition(all, 0.2s, ease-out);
+        color: grey;
+      }
+
+      a {
         color: grey;
       }
     }
 
-    .nav-bar-button-title:hover > h3 {
-      color: #f1f1f1;
-    }
 
     .dropdown-options {
       position: absolute;
@@ -57,7 +58,7 @@ $nav-bar-option-color: #656068;
       @include transition(all, 0.2s, ease);
     }
 
-    .dropdown-option:hover > h3 {
+    .dropdown-option:hover > a {
       color: #f1f1f1;
     }
 
@@ -67,8 +68,12 @@ $nav-bar-option-color: #656068;
 
 
         .dropdown-option:hover {
-          color: #f1f1f1;
-          cursor: pointer;
+          h3 {
+            a {
+                color: #f1f1f1;
+                cursor: pointer;
+            }
+          }
         }
     }
   }
@@ -84,6 +89,13 @@ $nav-bar-option-color: #656068;
 
 
   .nav-bar-button:hover {
-    color: #f1f1f1;
+    .nav-bar-button-title {
+      h3 {
+        a {
+            color: #f1f1f1;
+        }
+
+      }
+    }
   }
 }

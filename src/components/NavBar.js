@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class NavBar extends Component {
   render() {
@@ -8,42 +9,78 @@ class NavBar extends Component {
           <div className='nav-bar'>
             <div className='nav-bar-button'>
               <div className='nav-bar-button-title'>
-                <h3>Booking</h3>
+                <h3>
+                  <Link to="/booking">
+                    Booking
+                  </Link>
+                </h3>
               </div>
               <div className='dropdown-options'>
                 <div className='dropdown-option'>
-                  <h3>Day Tours</h3>
+                  <h3>
+                    <Link to="/day-tours">
+                      Day Tours
+                    </Link>
+                  </h3>
                 </div>
                 <div className='dropdown-option'>
-                  <h3>Package Tours</h3>
+                  <h3>
+                    <Link to="/package-tours">
+                      Package Tours
+                    </Link>
+                  </h3>
                 </div>
                 <div className='dropdown-option'>
-                  <h3>Safaris</h3>
+                  <h3>
+                    <Link to="/safaris">
+                      Safaris
+                    </Link>
+                  </h3>
                 </div>
               </div>
             </div>
             <div className='nav-bar-button'>
               <div className='nav-bar-button-title'>
-                <h3>Transportation</h3>
+                <h3>
+                  <Link to="/transportation">
+                    Transportation
+                  </Link>
+                </h3>
               </div>
               <div className='dropdown-options'>
                   <div className='dropdown-option'>
-                    <h3>Flight Info</h3>
+                    <h3>
+                      <Link to="/flight-info">
+                        Flight Info
+                      </Link>
+                    </h3>
                   </div>
                   <div className='dropdown-option'>
-                    <h3>Car Hire</h3>
+                    <h3>
+                      <Link to="/car-hire">
+                        Car Hire
+                      </Link>
+                    </h3>
                   </div>
               </div>
             </div>
             <div className='nav-bar-button'>
               <div className='nav-bar-button-title'>
-                <h3>Hotels</h3>
+                <h3>
+                  <Link to="/hotels">
+                    Hotels
+                  </Link>
+                </h3>
               </div>
             </div>
             <div className='nav-bar-button'>
               <div className='nav-bar-button-title'>
-                <h3>History of Zanzibar</h3>
-                </div>
+                <h3>
+                  <Link to="/history-of-zanzibar">
+                    History of Zanzibar
+                  </Link>
+                </h3>
+              </div>
             </div>
           </div>
         </div>

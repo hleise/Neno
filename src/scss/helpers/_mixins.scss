@@ -1,9 +1,20 @@
 @mixin transition($prop, $time, $easing) {
   -webkit-transition: $prop $time $easing;
+  -webkit-transition: $prop, $time, $easing;
+  -webkit-transition: -webkit-transform $time $easing;
   -moz-transition: $prop $time $easing;
   -ms-transition: $prop $time $easing;
   -o-transition: $prop $time $easing;
   transition: $prop $time $easing;
+}
+
+@mixin transform($prop) {
+  -webkit-transition: $prop;
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -ms-transition: $prop;
+  -o-transition: $prop;
+  transition: $prop;
 }
 
 @mixin user-select($v) {

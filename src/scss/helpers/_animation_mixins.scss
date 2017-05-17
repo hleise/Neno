@@ -1,0 +1,301 @@
+@mixin fadein($t) {
+-webkit-animation: fadein $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein $t; /* Firefox < 16 */
+    -ms-animation: fadein $t; /* Internet Explorer */
+     -o-animation: fadein $t; /* Opera < 12.1 */
+        animation: fadein $t;
+}
+
+
+@keyframes fadein {
+    from {
+    opacity: 0;
+    }
+    to   {
+    opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+@mixin dropin($t) {
+-webkit-animation: dropin $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: dropin $t; /* Firefox < 16 */
+    -ms-animation: dropin $t; /* Internet Explorer */
+     -o-animation: dropin $t; /* Opera < 12.1 */
+        animation: dropin $t;
+}
+
+
+@keyframes dropin {
+    from {
+      opacity: 0.5;
+      transform: scale(2.8);
+    }
+    to   {
+      opacity: 1.0;
+      transform: scale(1);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropin {
+    from {
+      transform: scale(1.2);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropin {
+    from {
+      transform: scale(1.2);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropin {
+    from {
+      transform: scale(1.2);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropin {
+    from {
+      transform: scale(1.2);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+
+
+
+@mixin dropout($t) {
+-webkit-animation: dropout $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: dropout $t; /* Firefox < 16 */
+    -ms-animation: dropout $t; /* Internet Explorer */
+     -o-animation: dropout $t; /* Opera < 12.1 */
+        animation: dropout $t;
+}
+
+
+@keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropout {
+    from {
+      transform: scale(1);
+     }
+    to   {
+      transform: scale(1.2);
+     }
+}
+
+
+
+
+
+@mixin slidein($t) {
+-webkit-animation: slidein $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: slidein $t; /* Firefox < 16 */
+    -ms-animation: slidein $t; /* Internet Explorer */
+     -o-animation: slidein $t; /* Opera < 12.1 */
+        animation: slidein $t;
+}
+
+
+@keyframes slidein {
+    from {
+      transform: translate3d(0, -120vh, 0);
+    }
+    to   {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slidein {
+    from {
+      transform: translate3d(0, -120vh, 0);
+    }
+    to   {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slidein {
+    from {
+      transform: translate3d(0, -120vh, 0);
+    }
+    to   {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slidein {
+    from {
+      transform: translate3d(0, -120vh, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slidein {
+    from {
+     transform: translate3d(0, -120vh, 0);
+    }
+    to {
+     transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+@mixin slideout($t) {
+-webkit-animation: slideout $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: slideout $t; /* Firefox < 16 */
+    -ms-animation: slideout $t; /* Internet Explorer */
+     -o-animation: slideout $t; /* Opera < 12.1 */
+        animation: slideout $t;
+}
+
+
+@keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to   {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideout {
+    from {
+     transform: translate3d(0, 0, 0);
+    }
+    to {
+     transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to   {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -120vh, 0);
+    }
+}

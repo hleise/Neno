@@ -1,19 +1,31 @@
 @import './helpers/mixins.scss';
+@import './helpers/_animation_mixins.scss';
 @import './helpers/variables.scss';
 
 @import './components/NavBar.scss';
 @import './pages/Home.scss';
 @import './components/Image.scss';
 @import './components/Section.scss';
-@import './components/DayTours.scss';
+@import './components/Tours.scss';
 
 @import './pages/NotFound.scss';
 @import './pages/Home.scss';
+@import './pages/Booking.scss';
+@import './pages/CarHire.scss';
+@import './pages/FlightInfo.scss';
+@import './pages/History.scss';
+@import './pages/Hotels.scss';
+@import './pages/PackageTours.scss';
+@import './pages/Safaris.scss';
+@import './pages/Transportation.scss';
 
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  @include fadein(3s);
 
   p {
     font-family: 'Cambay', Helvetica, sans-serif;
@@ -35,5 +47,8 @@ body {
   h3 {
     font-size: 0.9em;
     font-weight: 100;
+  }
+  a{
+    text-decoration:none;
   }
 }
