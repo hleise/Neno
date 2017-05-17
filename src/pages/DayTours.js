@@ -25,7 +25,7 @@ class DayTours extends Component {
              <div className='tours-row'>
                {section.featuredTours.slice(4,8).map((tourImg, i) =>
                  <div className='tour-block'>
-                   <img className='tour-image' src={require("../img/" + i+3 + ".jpg")} />
+                   <img className='tour-image' src={require("../img/day-tours/"  + section.imgFolder + "/" + (i+4) + ".jpg")} />
                  </div>
                )}
              </div>
