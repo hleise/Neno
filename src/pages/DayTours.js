@@ -2,6 +2,27 @@ import React, { Component } from 'react';
 import DayToursData from '../data/DayTours.json';
 
 class DayTours extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menu: 'closed'
+    }
+    this.toggleMenu = this.toggleMenu.bind(this);
+  }
+  toggleMenu() {
+    this.setState((prevState, props) => {
+      if(prevState.menu == 'closed') {
+        return {
+            menu: 'open'
+        }
+      } else {
+        return {
+            menu: 'closed'
+        }
+      }
+    });
+    console.log(this.state.menu);
+  }
   render() {
     // const row1 = section.featuredTours.slice(0,5);
     // const row2 = section.featuredTours.slice(5,9);
@@ -11,12 +32,12 @@ class DayTours extends Component {
         {DayToursData.map((section, i) =>
         <div className='tours-section'>
           <div className="tours-banner">
-            <h1 className="section-title">
+            <h1 onMouseDown={this.toggleMenu} className="section-title">
               {section.sectionTitle + " Tours"}
             </h1>
            <img className='section-image' src={require("../img/day-tours/" + i + ".jpg")} />
           </div>
-          <div className="tours-menu">
+          <div className={"tours-menu" + " " + this.state.menu}>
             <div className='featured-tours'>
               <div className='tours-row'>
                 {section.featuredTours.slice(0,4).map((tourImg, i) =>
