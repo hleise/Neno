@@ -1,14 +1,28 @@
 .day-tours {
   .tours-section {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
     flex-direction: column;
+    height: 80vh;
+
+    .tours-banner {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 40vh;
+    }
+
+    .tours-menu {
+        z-index: 99;
+        background: $nav-bar-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+    }
 
     .featured-tours {
       width: 75%;
-      z-index: 9;
 
       .tours-row {
         display: flex;
@@ -34,6 +48,11 @@
     .section-title {
       z-index: 9;
       color: white;
+      display: flex;
+      @include user-select(none);
+      justify-content: center;
+      align-items: center;
+      cursor:pointer;
     }
     .section-image {
       position: absolute;
