@@ -5,23 +5,27 @@ class DayTours extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      menu: 'closed'
+      menus: [
+        "closed",
+        "closed",
+        "closed",
+        "closed"
+      ]
     }
     this.toggleMenu = this.toggleMenu.bind(this);
   }
-  toggleMenu() {
+  toggleMenu(i) {
     this.setState((prevState, props) => {
-      if(prevState.menu == 'closed') {
-        return {
-            menu: 'open'
-        }
+      var newMenus = prevState.menus;
+      if(prevState.menus[i] == "closed") {
+        newMenus[i] = "open";
       } else {
-        return {
-            menu: 'closed'
-        }
+        newMenus[i] = "closed";
+      }
+      return {
+          menus: newMenus
       }
     });
-    console.log(this.state.menu);
   }
   render() {
     // const row1 = section.featuredTours.slice(0,5);
@@ -32,12 +36,12 @@ class DayTours extends Component {
         {DayToursData.map((section, i) =>
         <div className='tours-section'>
           <div className="tours-banner">
-            <h1 onMouseDown={this.toggleMenu} className="section-title">
+            <h1 onMouseDown={this.toggleMenu.bind(this, i)} className="section-title">
               {section.sectionTitle + " Tours"}
             </h1>
            <img className='section-image' src={require("../img/day-tours/" + i + ".jpg")} />
           </div>
-          <div className={"tours-menu" + " " + this.state.menu}>
+          <div className={"tours-menu" + " " + this.state.menus[i]}>
             <div className='featured-tours'>
               <div className='tours-row'>
                 {section.featuredTours.slice(0,4).map((tourImg, i) =>
