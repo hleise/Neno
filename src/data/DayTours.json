@@ -1,6 +1,7 @@
 [
   {
     "sectionTitle":"Cultural Day",
+    "imgFolder":"cultural-day",
     "featuredTours": [
       "../img/jambiani_village.jpg",
       "../img/nungwi_village.jpg",
@@ -10,6 +11,7 @@
   },
   {
     "sectionTitle":"Boat",
+    "imgFolder":"boat",
     "featuredTours": [
       "../img/dolphin.jpg",
       "../img/blue4.jpg",
@@ -22,6 +24,7 @@
   },
   {
     "sectionTitle":"Fishing",
+    "imgFolder":"fishing",
     "featuredTours": [
       "../img/fishing.jpg",
       "../img/sea_fishing_2.jpg"
@@ -29,6 +32,7 @@
   },
   {
     "sectionTitle":"Other",
+    "imgFolder":"other",
     "featuredTours": [
       "../img/city.jpg",
       "../img/jozani2.jpg"

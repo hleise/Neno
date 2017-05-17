@@ -13,19 +13,19 @@ class DayTours extends Component {
             <h1 className="section-title">
               {section.sectionTitle + " Tours"}
             </h1>
-           <img className='section-image' src={require("../img/" + i + ".jpg")} />
+           <img className='section-image' src={require("../img/day-tours/" + i + ".jpg")} />
            <div className='featured-tours'>
              <div className='tours-row'>
                {section.featuredTours.slice(0,4).map((tourImg, i) =>
                  <div className='tour-block'>
-                   <img className='tour-image' src={require("../img/" + i + ".jpg")} />
+                   <img className='tour-image' src={require("../img/day-tours/"  + section.imgFolder + "/" + i + ".jpg")} />
                  </div>
                )}
              </div>
              <div className='tours-row'>
                {section.featuredTours.slice(4,8).map((tourImg, i) =>
                  <div className='tour-block'>
-                   <img className='tour-image' src={require("../img/" + i + ".jpg")} />
+                   <img className='tour-image' src={require("../img/" + i+3 + ".jpg")} />
                  </div>
                )}
              </div>
