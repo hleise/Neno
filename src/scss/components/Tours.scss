@@ -1,6 +1,6 @@
 $slide-duration: 0.5s;
 
-.day-tours {
+.tours {
   .tours-section {
     display: flex;
     flex-direction: column;
@@ -56,12 +56,7 @@ $slide-duration: 0.5s;
           }
         }
       }
-
-
     }
-
-
-
     .section-title {
       z-index: 9;
       color: white;
@@ -79,7 +74,5 @@ $slide-duration: 0.5s;
       object-position: 50% 20%;
       filter: brightness(70%) saturate(90%) sepia(10%) blur(0px);
     }
-
-
   }
 }
