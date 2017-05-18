@@ -6,7 +6,7 @@ class Section extends Component {
   render() {
     return (
       <div className='safaris'>
-        <ToursLayout page="day-tours" data={SafarisData}/>
+        <ToursLayout page="safaris" data={SafarisData}/>
       </div>
     );
   }
