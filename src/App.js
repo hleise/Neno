@@ -13,14 +13,14 @@ import Hotels from './pages/Hotels.js';
 import PackageTours from './pages/PackageTours.js';
 import Safaris from './pages/Safaris.js';
 import Transportation from './pages/Transportation.js';
-import NavBar from './components/NavBar.js';
+import Layout from './layout/Layout.js';
 
 
 class App extends Component {
   render() {
     return (
         <BrowserRouter>
-          <NavBar>
+          <Layout>
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route exact path='/about' component={About}/>
@@ -36,7 +36,7 @@ class App extends Component {
               <Route exact path='/transportation' component={Transportation}/>
               <Route component={NotFound}/>
             </Switch>
-          </NavBar>
+          </Layout>
         </BrowserRouter>
     );
   }

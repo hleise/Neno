@@ -1,0 +1,41 @@
+[
+  {
+    "sectionTitle":"Circuit Safaris",
+    "imgFolder":"cultural-day",
+    "featuredTours": [
+      "../img/jambiani_village.jpg",
+      "../img/nungwi_village.jpg",
+      "../img/7.jpg",
+      "../img/spicy.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Coastal Safaris",
+    "imgFolder":"boat",
+    "featuredTours": [
+      "../img/dolphin.jpg",
+      "../img/blue4.jpg",
+      "../img/prison1.jpg",
+      "../img/boat_trip.jpg",
+      "../img/sunset.jpg",
+      "../img/sandbank3.jpg",
+      "../img/chumbe.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Cultural Safaris",
+    "imgFolder":"fishing",
+    "featuredTours": [
+      "../img/fishing.jpg",
+      "../img/sea_fishing_2.jpg"
+    ]
+  },
+  {
+    "sectionTitle":"Other",
+    "imgFolder":"other",
+    "featuredTours": [
+      "../img/city.jpg",
+      "../img/jozani2.jpg"
+    ]
+  }
+]

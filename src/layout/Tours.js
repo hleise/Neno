@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DayToursData from '../data/DayTours.json';
+
 
 class Tours extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class Tours extends Component {
   toggleMenu(i) {
     this.setState((prevState, props) => {
       var newMenus = prevState.menus;
-      if(prevState.menus[i] == "closed") {
+      if(prevState.menus[i] === "closed") {
         newMenus[i] = "open";
       } else {
         newMenus[i] = "closed";
@@ -30,7 +30,7 @@ class Tours extends Component {
   render() {
     return (
       <div className="tours">
-        {DayToursData.map((section, i) =>
+        {this.props.data.map((section, i) =>
         <div className='tours-section'>
           <div className="tours-banner" onMouseDown={this.toggleMenu.bind(this, i)}>
             <h1  className="section-title">
