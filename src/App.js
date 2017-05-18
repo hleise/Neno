@@ -25,14 +25,14 @@ class App extends Component {
               <Route exact path='/' component={Home}/>
               <Route exact path='/about' component={About}/>
               <Route exact path='/contact' component={Contact}/>
-              <Route exact path='/day-tours' component={DayTours}/>
               <Route exact path='/booking' component={Booking}/>
+              <Route exact path='/day-tours' component={DayTours}/>
+              <Route exact path='/package-tours' component={PackageTours}/>
+              <Route exact path='/safaris' component={Safaris}/>
               <Route exact path='/car-hire' component={CarHire}/>
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
               <Route exact path='/hotels' component={Hotels}/>
-              <Route exact path='/package-tours' component={PackageTours}/>
-              <Route exact path='/safaris' component={Safaris}/>
               <Route exact path='/transportation' component={Transportation}/>
               <Route component={NotFound}/>
             </Switch>
