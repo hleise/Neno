@@ -1,41 +1,39 @@
 [
   {
     "sectionTitle":"Northern Circuit Safaris",
-    "imgFolder":"cultural-day",
+    "imgFolder":"northern",
     "featuredTours": [
-      "../img/jambiani_village.jpg",
-      "../img/nungwi_village.jpg",
-      "../img/7.jpg",
-      "../img/spicy.jpg"
+      "Arusha National Park",
+      "Ngorongo Conservation Area",
+      "Serengeti National Park",
+      "Lake Manyara National Park",
+      "Tarangire National Park"
     ]
   },
   {
     "sectionTitle":"Southern Circuit Safaris",
-    "imgFolder":"boat",
+    "imgFolder":"southern",
     "featuredTours": [
-      "../img/dolphin.jpg",
-      "../img/blue4.jpg",
-      "../img/prison1.jpg",
-      "../img/boat_trip.jpg",
-      "../img/sunset.jpg",
-      "../img/sandbank3.jpg",
-      "../img/chumbe.jpg"
+      "Selous Game Refuge",
+      "Ruaha National Park",
+      "Mikumi & Udzungwa National Parks"
     ]
   },
   {
     "sectionTitle":"Western Circuit Safaris",
-    "imgFolder":"fishing",
+    "imgFolder":"western",
     "featuredTours": [
-      "../img/fishing.jpg",
-      "../img/sea_fishing_2.jpg"
+      "Katavi National Park",
+      "Mahale Mountains National Park"
     ]
   },
   {
     "sectionTitle":"The Coast & Islands",
-    "imgFolder":"other",
+    "imgFolder":"coast",
     "featuredTours": [
-      "../img/city.jpg",
-      "../img/jozani2.jpg"
+      "Mafia Archipelago",
+      "Pemba Island",
+      "Ras Kutani Area"
     ]
   }
 ]
