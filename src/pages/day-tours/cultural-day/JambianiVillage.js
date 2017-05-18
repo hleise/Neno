@@ -4,7 +4,11 @@ class JambianiVillage extends Component {
   render() {
     return (
       <div className="tour">
-        Tour
+        <h1>Tour</h1>
+        <h1>Tour</h1>
+        <h1>Tour</h1>
+        <h1>Tour</h1>
+        <h1>Tour</h1>
       </div>
     );
   }

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ToursLayout from '../layout/Tours';
+import DayToursHome from './DayToursHome';
 import DayToursData from '../data/DayTours.json';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import JambianiVillage from './day-tours/cultural-day/JambianiVillage';
 import KidichiVillage from './day-tours/cultural-day/KidichiVillage';
@@ -24,37 +25,41 @@ import JozaniForestTour from './day-tours/other/JozaniForestTour';
 
 
 
-
-
 class DayTours extends Component {
   render() {
-    return (
-      <div className="day-tours">
-        <Route path={`${this.props.match.path}/chumbe-island`} component={ChumbeIsland}/>
-        <Route path={`${this.props.match.path}/dolphin-tour`} component={DolphinTour}/>
-        <Route path={`${this.props.match.path}/prison-island`} component={PrisonIsland}/>
-        <Route path={`${this.props.match.path}/safari-blue`} component={SafariBlue}/>
-        <Route path={`${this.props.match.path}/sandbank-picnic`} component={SandbankPicnic}/>
-        <Route path={`${this.props.match.path}/sunset-dhow-cruise`} component={SunsetDhowCruise}/>
-        <Route path={`${this.props.match.path}/unguja-ukuu-boat-trip`} component={UngujaUkuuBoatTrip}/>
-
-        <Route path={`${this.props.match.path}/jambiani-village`} component={JambianiVillage}/>
-        <Route path={`${this.props.match.path}/kidichi-village`} component={KidichiVillage}/>
-        <Route path={`${this.props.match.path}/nungwi-village`} component={NungwiVillage}/>
-        <Route path={`${this.props.match.path}/spice-tour`} component={SpiceTour}/>
-
-        <Route path={`${this.props.match.path}/deep-sea-fishing`} component={DeepSeaFishing}/>
-        <Route path={`${this.props.match.path}/local-game-fishing`} component={LocalGameFishing}/>
-
-        <Route path={`${this.props.match.path}/city-tour`} component={CityTour}/>
-        <Route path={`${this.props.match.path}/jozani-forest-tour`} component={JozaniForestTour}/>
-
-        <Route>
-          <ToursLayout page="day-tours" data={DayToursData}/>
-        </Route>
-
-      </div>
-    );
+    console.log(this.props.match.path + "/cultural-day/jambiani-village");
+    switch(this.props.match.params.tour) {
+      case 'jambiani-village':
+        return (<JambianiVillage/>);
+      case 'kidichi-village':
+        return (<KidichiVillage/>);
+      case 'nungwi-village':
+        return (<KidichiVillage/>);
+      case 'spice-tour':
+        return (<KidichiVillage/>);
+      case 'chumbe-island':
+        return (<KidichiVillage/>);
+      case 'dolphin-tour':
+        return (<DolphinTour/>);
+      case 'prison-island':
+        return (<PrisonIsland/>);
+      case 'safari-blue':
+        return (<SafariBlue/>);
+      case 'sandbank-picnic':
+        return (<SandbankPicnic/>);
+      case 'sunset-dhow-cruise':
+        return (<SunsetDhowCruise/>);
+      case 'unguja-ukuu-boat-trip':
+        return (<UngujaUkuuBoatTrip/>);
+      case 'deep-sea-fishing':
+        return (<DeepSeaFishing/>);
+      case 'local-game-fishing':
+        return (<DeepSeaFishing/>);
+      case 'city-tour':
+        return (<CityTour/>);
+      case 'jozani-forest-tour':
+        return (<JozaniForestTour/>);
+    }
   }
 }
 
