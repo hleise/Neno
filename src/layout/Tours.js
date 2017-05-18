@@ -48,7 +48,7 @@ class Tours extends Component {
                   <div className='tour-block'>
                     <div className='tour-title'>
                       <h3>
-                        <Link to={"/" + this.props.page + "/" + section.imgFolder + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
+                        <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
                           {section.featuredTours[i]}
                         </Link>
                       </h3>
@@ -62,7 +62,7 @@ class Tours extends Component {
                   <div className='tour-block'>
                     <div className='tour-title'>
                       <h3>
-                        <Link to={"/" + this.props.page + "/" + section.imgFolder + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
+                        <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
                           {section.featuredTours[i+4]}
                         </Link>
                       </h3>
