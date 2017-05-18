@@ -1,6 +1,6 @@
 [
   {
-    "sectionTitle":"Circuit Safaris",
+    "sectionTitle":"Northern Circuit Safaris",
     "imgFolder":"cultural-day",
     "featuredTours": [
       "../img/jambiani_village.jpg",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "sectionTitle":"Coastal Safaris",
+    "sectionTitle":"Southern Circuit Safaris",
     "imgFolder":"boat",
     "featuredTours": [
       "../img/dolphin.jpg",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "sectionTitle":"Cultural Safaris",
+    "sectionTitle":"Western Circuit Safaris",
     "imgFolder":"fishing",
     "featuredTours": [
       "../img/fishing.jpg",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "sectionTitle":"Other",
+    "sectionTitle":"The Coast & Islands",
     "imgFolder":"other",
     "featuredTours": [
       "../img/city.jpg",
