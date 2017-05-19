@@ -1,6 +1,6 @@
 var React = require('react');
 
-var negativeOffset = 200;
+var negativeOffset = 0;
 
 var smoothScroll = {
     timer: null,

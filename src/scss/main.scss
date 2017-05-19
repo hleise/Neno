@@ -2,12 +2,14 @@
 @import './helpers/_animation_mixins.scss';
 @import './helpers/variables.scss';
 
-@import './layout/Layout.scss';
+@import './layout/layout.scss';
+@import './layout/Stack.scss';
 
 @import './components/NavBar.scss';
+@import './components/HotelsDropdown.scss';
 @import './pages/Home.scss';
 @import './components/Image.scss';
-@import './components/Section.scss';
+@import './components/TextSection.scss';
 @import './components/Footer.scss';
 
 @import './pages/transportation/CarHire.scss';
@@ -24,7 +26,7 @@
 @import './pages/Safaris.scss';
 @import './pages/Transportation.scss';
 
-@import './layout/ToursLayout.scss';
+
 
 body {
   margin: 0;

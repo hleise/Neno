@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/ToursLayout';
+import Stack from '../layout/Stack';
 import SafarisData from '../data/Safaris.json';
 
 class Section extends Component {
   render() {
     return (
       <div className='safaris'>
-        <ToursLayout page="safaris" data={SafarisData}/>
+        <Stack
+          className='tours'
+          page="safaris"
+          data={SafarisData}/>
       </div>
     );
   }

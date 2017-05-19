@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Section from '../components/Section.js';
+import TextSection from '../components/TextSection.js';
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        This is our contact:
+        <TextSection>
+          <h1>Neno Tours & Travels</h1>
+        </TextSection>
       </div>
     );
   }

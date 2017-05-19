@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Section from './components/Section.js';
+import TextSection from './components/TextSection.js';
 
 import markdownFile  from './content/home.md';
 
@@ -18,11 +18,11 @@ class Home extends Component {
             <img className='right-image' src={require('./img/4.jpg')} alt='right'/>
           </div>
         </div>
-        <Section>
+        <TextSection>
           <h1>Neno</h1>
             <div className='home-markdown' dangerouslySetInnerHTML={this.rawMarkup()}>
             </div>
-        </Section>
+        </TextSection>
       </div>
     );
   }

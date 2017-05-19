@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/ToursLayout';
 import DayTours from './DayTours';
 import DayToursData from '../data/DayTours.json';
 import { Route, Switch } from 'react-router-dom';
@@ -27,7 +26,6 @@ import JozaniForestTour from './day-tours/other/JozaniForestTour';
 
 class DayToursHandler extends Component {
   render() {
-    console.log(this.props.match.path + "/cultural-day/jambiani-village");
     switch(this.props.match.params.tour) {
       case 'jambiani-village':
         return (<JambianiVillage/>);

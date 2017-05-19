@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/ToursLayout';
+import Stack from '../layout/Stack';
 import DayToursData from '../data/DayTours.json';
 
 class DayTours extends Component {
   render() {
     return (
       <div>
-        <ToursLayout page="day-tours" data={DayToursData}/>
+        <Stack
+          className='tours'
+          page="day-tours"
+          data={DayToursData}/>
       </div>
     );
   }

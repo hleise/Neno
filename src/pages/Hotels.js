@@ -1,62 +1,17 @@
 import React, { Component } from 'react';
-import SmoothScroll from '../helpers/SmoothScroll';
-import Section from '../components/Section';
+import HotelsDropdown from '../components/HotelsDropdown';
+import HotelsData from '../data/Hotels.json';
+import Stack from '../layout/Stack';
 
 class Hotels extends Component {
   render() {
     return (
-      <div className='hotels'>
-        <div className='hotels-section'>
-          <img className='hotels-image' src={require('../img/hotels/lagemma.jpg')} />
-            <div className='nav-bar hotels-dropdown'>
-              <div className='nav-bar-button'>
-                <div className='nav-bar-button-title'>
-                  <h3>
-                      Types of Resorts
-                  </h3>
-                </div>
-                <div className='dropdown-options'>
-                  <div className='dropdown-option'>
-                    <SmoothScroll section='beach-resorts'>
-                      <h3>
-                        Beach Resorts
-                      </h3>
-                    </SmoothScroll>
-                  </div>
-                  <div className='dropdown-option'>
-                    <SmoothScroll section='beach-clubs'>
-                      <h3>
-                        Beach Clubs
-                      </h3>
-                    </SmoothScroll>
-                  </div>
-                  <div className='dropdown-option'>
-                    <SmoothScroll section='city-hotels'>
-                      <h3>
-                        City Hotels
-                      </h3>
-                    </SmoothScroll>
-                  </div>
-                </div>
-              </div>
-        </div>
-      </div>
-      <Section>
-        <div id='beach-resorts'>
-          Beach Resorts
-        </div>
-      </Section>
-      <Section>
-        <div id='beach-clubs'>
-          Beach Clubs
-        </div>
-      </Section>
-      <Section>
-        <div id='city-hotels'>
-          City Hotels
-        </div>
-      </Section>
-
+      <div>
+        <HotelsDropdown/>
+          <Stack
+            className='hotels'
+            page="hotels"
+            data={HotelsData}/>
       </div>
     );
   }
