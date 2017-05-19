@@ -68,8 +68,9 @@ $hover-easing: ease-in-out;
         padding: 10px;
 
         .tour-block {
-          /*height: 140px;*/
-          /*display: flex;*/
+          height: 140px;
+          display: flex;
+          justify-content: flex-start;
 
           .tour-title {
             position: absolute;
