@@ -1,0 +1,16 @@
+.footer {
+  background: $nav-bar-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    color: grey;
+  }
+}

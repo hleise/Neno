@@ -1,0 +1,39 @@
+[
+  {
+    "sectionTitle":"Northern Circuit Safaris",
+    "imgFolder":"northern",
+    "featuredTours": [
+      "Arusha National Park",
+      "Ngorongo Conservation Area",
+      "Serengeti National Park",
+      "Lake Manyara National Park",
+      "Tarangire National Park"
+    ]
+  },
+  {
+    "sectionTitle":"Southern Circuit Safaris",
+    "imgFolder":"southern",
+    "featuredTours": [
+      "Selous Game Refuge",
+      "Ruaha National Park",
+      "Mikumi & Udzungwa National Parks"
+    ]
+  },
+  {
+    "sectionTitle":"Western Circuit Safaris",
+    "imgFolder":"western",
+    "featuredTours": [
+      "Katavi National Park",
+      "Mahale Mountains National Park"
+    ]
+  },
+  {
+    "sectionTitle":"The Coast & Islands",
+    "imgFolder":"coast",
+    "featuredTours": [
+      "Mafia Archipelago",
+      "Pemba Island",
+      "Ras Kutani Area"
+    ]
+  }
+]
