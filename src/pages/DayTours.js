@@ -60,6 +60,7 @@ class DayTours extends Component {
       case 'jozani-forest-tour':
         return (<JozaniForestTour/>);
     }
+
   }
 }
 
