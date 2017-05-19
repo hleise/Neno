@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/Tours';
+import ToursLayout from '../layout/ToursLayout';
 import DayToursHome from './DayToursHome';
 import DayToursData from '../data/DayTours.json';
 import { Route, Switch } from 'react-router-dom';

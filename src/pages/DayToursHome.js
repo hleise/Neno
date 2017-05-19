@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/Tours';
+import ToursLayout from '../layout/ToursLayout';
 import DayToursData from '../data/DayTours.json';
 
 class DayToursHome extends Component {

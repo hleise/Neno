@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
-class Tours extends Component {
+class ToursLayout extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -80,4 +80,4 @@ class Tours extends Component {
   }
 }
 
-export default Tours;
+export default ToursLayout;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ToursLayout from '../layout/Tours';
+import ToursLayout from '../layout/ToursLayout';
 import SafarisData from '../data/Safaris.json';
 
 class Section extends Component {
