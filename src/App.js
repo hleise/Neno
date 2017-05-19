@@ -4,7 +4,7 @@ import Home from './Home.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import DayTours from './pages/DayTours.js';
-import DayToursHome from './pages/DayToursHome.js';
+import DayToursHandler from './pages/DayToursHandler.js';
 import NotFound from './pages/NotFound.js';
 import Booking from './pages/Booking.js';
 import CarHire from './pages/CarHire.js';
@@ -29,8 +29,8 @@ class App extends Component {
               <Route exact path='/about' component={About}/>
               <Route exact path='/contact' component={Contact}/>
               <Route exact path='/booking' component={Booking}/>
-              <Route exact path='/day-tours' component={DayToursHome}/>
-              <Route path='/day-tours/:tour' component={DayTours}/>
+              <Route exact path='/day-tours' component={DayTours}/>
+              <Route path='/day-tours/:tour' component={DayToursHandler}/>
               <Route exact path='/package-tours' component={PackageTours}/>
               <Route exact path='/safaris' component={Safaris}/>
               <Route exact path='/car-hire' component={CarHire}/>

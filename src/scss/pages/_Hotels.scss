@@ -1,0 +1,34 @@
+.hotels {
+
+  .hotels-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .hotels-image {
+
+    }
+
+    select::-ms-expand {
+    display: none;
+}
+
+    .hotels-dropdown {
+      margin-top: 30vh;
+      position: absolute;
+      z-index: 9;
+      width: 15%;
+      text-align: center;
+
+      .nav-bar-button {
+          width: 100%;
+
+          .dropdown-options {
+            width: 100%;
+          }
+      }
+    }
+  }
+
+
+}

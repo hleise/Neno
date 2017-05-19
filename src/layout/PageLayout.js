@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
-class HotelsLayout extends Component {
+class PageLayout extends Component {
   render() {
     return (
-      <div className='hotels-layout'>
+      <div className='page-layout'>
+        {this.props.children}
       </div>
     );
   }
 }
 
-export default HotelsLayout;
+export default PageLayout;

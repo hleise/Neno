@@ -59,17 +59,18 @@ $hover-easing: ease-in-out;
     }
 
     .featured-tours {
-
+      width: 100%;
 
       .tours-row {
         display: flex;
         justify-content: center;
-        justify-content: flex-start;
-        padding: 10px;
+        justify-content: space-around;
+        padding: 20px;
 
         .tour-block {
           height: 140px;
-          display: flex;
+          /*display: flex;*/
+
           justify-content: flex-start;
 
           .tour-title {
