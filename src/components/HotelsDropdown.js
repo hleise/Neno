@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <div className='hotels'>
         <div className='hotels-section'>
-          <img className='hotels-image' src={require('../img/hotels/lagemma.jpg')} />
+          <img className='hotels-image' src={require('../img/hotels/0.jpg')} />
             <div className='nav-bar hotels-dropdown'>
               <div className='nav-bar-button'>
                 <div className='nav-bar-button-title'>

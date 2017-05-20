@@ -5,12 +5,13 @@ import Stack from '../layout/Stack';
 
 class Hotels extends Component {
   render() {
+    console.log(HotelsData);
     return (
       <div>
         <HotelsDropdown/>
           <Stack
-            className='hotels'
-            page="hotels"
+            className='tours'
+            page='hotels'
             data={HotelsData}/>
       </div>
     );
