@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter, Switch, Redirect } from 'react-router-dom';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Home from './Home.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
@@ -38,7 +38,7 @@ class App extends Component {
               <Route exact path='/history-of-zanzibar' component={history}/>
               <Route exact path='/hotels' component={Hotels}/>
               <Route exact path='/transportation' component={Transportation}/>
-              <Route path='*' component={NotFound}/>
+              <Route path='*' component={Home}/>
             </Switch>
           </Layout>
         </BrowserRouter>
