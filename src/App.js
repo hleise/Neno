@@ -37,7 +37,7 @@ class App extends Component {
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
               <Route exact path='/hotels' component={Hotels}/>
-              
+
               <Route path='*' component={Home}/>
             </Switch>
           </Layout>
