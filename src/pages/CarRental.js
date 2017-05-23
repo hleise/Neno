@@ -9,32 +9,24 @@ import markdown4 from '../content/CarRental/VitaraPackage2.md';
 import markdown5 from '../content/CarRental/VitaraPackage3.md';
 
 class Section extends Component {
-  /*let us reimplement as one function that returns an array of .md to assign to specifc div */
-  createMarkup1(){return{ __html: markdown1};}
-  createMarkup2(){return{ __html: markdown2};}
-  createMarkup3(){return{ __html: markdown3};}
-  createMarkup4(){return{ __html: markdown4};}
-  createMarkup5(){return{ __html: markdown5};}
   render() {
+    const imageArray = ['bike1','bike2','vitara1','vitara2','vitara3'];
+    const mdArray = [markdown1,markdown2,markdown3,markdown4,markdown5];
     return (
       <div className='car-rental'>
       <HorizontalTextSection>
+      <div className='car-rental-title'>
         <h1>Car Rental</h1>
-          <img className='img' src={require('../img/bike1.jpg')} />
-          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup1()}>
+      </div>
+      <div className='car-rental-blocks'>
+        {imageArray.map((img,i) => (
+        <div key={i} className='car-wrapper'>
+          <img className='img' src={require('../img/' + imageArray[i] + '.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={{__html: mdArray[i]}}>
           </div>
-          <img className='img' src={require('../img/bike2.jpg')} />
-          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup2()}>
-          </div>
-          <img className='img' src={require('../img/vitara1.jpg')} />
-          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup3()}>
-          </div>
-          <img className='img' src={require('../img/vitara2.jpg')} />
-          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup4()}>
-          </div>
-          <img className='img' src={require('../img/vitara3.jpg')} />
-          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup5()}>
-          </div>
+        </div>
+        ))}
+      </div>
       </HorizontalTextSection>
       </div>
     );

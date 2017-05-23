@@ -5,19 +5,26 @@
   flex-direction: column;
   position:relative;
   width:100%;
-  margin:0 auto;
-  .car-markdown{
-    width:20%;
-    display:inline-block;
-    height:110%;
+
+  .car-rental-title {
+
   }
-}
 
-.img{
-  width:20%;
+  .car-rental-blocks {
+    display: flex;
+  }
 
-}
+  .car-wrapper {
+    width: 20%;
 
-.img-text-wrap{
-  height:50%;
+    .img {
+      width:100%;
+    }
+
+    .car-markdown{
+      width:100%;
+    }
+  }
+
+
 }
