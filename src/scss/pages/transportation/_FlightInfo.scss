@@ -1,0 +1,25 @@
+.flight-info{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  width:100%;
+  margin:0 auto;
+  .flight-banner{
+    margin:0 auto;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/plane.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+    height:70vw;
+  }
+  .flight-info-info{
+    height:110vw;
+    width:100%;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 /* text of page styled and wrapped like home */
-import TextSection from '../components/TextSection.js';
+import HorizontalTextSection from '../components/HorizontalTextSection.js';
 /*import 5 .md for 5 vehicles*/
 import markdown1 from '../content/CarRental/Motorcyle.md';
 import markdown2 from '../content/CarRental/Vespa.md';
@@ -18,19 +18,24 @@ class Section extends Component {
   render() {
     return (
       <div className='car-rental'>
-      <TextSection>
+      <HorizontalTextSection>
         <h1>Car Rental</h1>
-          <div className='car-markdown1' dangerouslySetInnerHTML={this.createMarkup1()}>
+          <img className='img' src={require('../img/bike1.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup1()}>
           </div>
-          <div className='car-markdown2' dangerouslySetInnerHTML={this.createMarkup2()}>
+          <img className='img' src={require('../img/bike2.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup2()}>
           </div>
-          <div className='car-markdown3' dangerouslySetInnerHTML={this.createMarkup3()}>
+          <img className='img' src={require('../img/vitara1.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup3()}>
           </div>
-          <div className='car-markdown4' dangerouslySetInnerHTML={this.createMarkup4()}>
+          <img className='img' src={require('../img/vitara2.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup4()}>
           </div>
-          <div className='car-markdown5' dangerouslySetInnerHTML={this.createMarkup5()}>
+          <img className='img' src={require('../img/vitara3.jpg')} />
+          <div className='car-markdown' dangerouslySetInnerHTML={this.createMarkup5()}>
           </div>
-      </TextSection>
+      </HorizontalTextSection>
       </div>
     );
   }

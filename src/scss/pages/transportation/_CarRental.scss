@@ -1,23 +1,23 @@
 .car-rental{
   height:90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  width:100%;
+  margin:0 auto;
+  .car-markdown{
+    width:20%;
+    display:inline-block;
+    height:110%;
+  }
 }
 
-.car-markdown1{
+.img{
+  width:20%;
 
 }
 
-.car-markdown2{
-
-}
-
-.car-markdown3{
-
-}
-
-.car-markdown4{
-
-}
-
-.car-markdown5{
-
+.img-text-wrap{
+  height:50%;
 }
