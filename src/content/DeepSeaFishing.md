@@ -1,6 +1,6 @@
 ## Deep Sea Fishing
 
-The spice island of Zanzibar is home to some of the best big game and deep sea fishing opportunities in the Indian Ocean.
+The spice island of __Zanzibar__ is home to some of the best big game and deep sea fishing opportunities in the Indian Ocean.
 
 Come out and join us for a day of big game fishing in the waters of Zanzibar, the fishing charters are fully rigged and ready to take you out for an experience you will never forget! The prime location for this activity is at the northern tip of Zanzibar in Nungwi, a prominent fishing village. We fish by trolling a combination of lures, or natural dead baits (Ballyhoo or strips), or live bait.
 
