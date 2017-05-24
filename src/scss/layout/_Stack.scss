@@ -3,37 +3,12 @@ $hover-color: rgba(50, 44, 49, 0.75);
 $hover-prop: all;
 $hover-duration: 0.25s;
 $hover-easing: ease-in-out;
+$block-height: 160px;
 
 
 .section {
   display: flex;
   flex-direction: column;
-
-  .banner {
-    @include transition(margin, 0.5s, ease);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 80vh;
-    z-index: 9;
-    cursor: pointer;
-    align-items: center;
-  }
-
-  .banner:hover > .section-title {
-    background: $hover-color;
-    h1 {
-      transform: translateY(0px);
-    }
-    opacity: 1;
-  }
-
-  .menu:hover ~ .-banner .section-title {
-    background: $hover-color;
-    transform: translateY(0px);
-    opacity: 1;
-  }
 
   .menu {
     @include transition(all, 0.5s, ease-in-out);
@@ -60,23 +35,29 @@ $hover-easing: ease-in-out;
 
   .featured-tours {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 
     .row {
       display: flex;
-      justify-content: center;
       justify-content: space-around;
-      padding: 20px;
+      align-items: center;
+      padding: 15px 0px;
+
 
       .block {
-        height: 140px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center;
+        height: $block-height;
+        width: 250px;
+
+
 
 
         .title {
           position: absolute;
-          height: 140px;
+          height: $block-height;
           width: 250px;
           display: flex;
           justify-content: center;
@@ -86,8 +67,10 @@ $hover-easing: ease-in-out;
           @include user-select(none);
 
           h3 {
+            text-align: center;
             a {
               color: white;
+              text-align: center;
             }
             @include transition(all, 0.2s, ease);
             transform: translateY(-10px);
@@ -109,43 +92,15 @@ $hover-easing: ease-in-out;
         }
 
         .image {
-          height: 140px;
           width: 250px;
+          height: $block-height;
           object-fit: cover;
           object-position: 50% 100%;
           @include user-select(none);
+          pointer-events: none;
 
         }
       }
     }
-  }
-  .section-title {
-    position: absolute;
-    margin: 0;
-    z-index: 9;
-    color: white;
-    display: flex;
-    @include user-select(none);
-    justify-content: center;
-    align-items: center;
-    cursor:pointer;
-    width: 100%;
-    height:80vh;
-    h1 {
-      a {
-        color: white;
-      }
-      @include transition($hover-prop, $hover-duration, $hover-easing);
-      transform: translateY(-10px);
-    }
-    opacity: 0;
-    @include transition($hover-prop, $hover-duration, $hover-easing);
-  }
-  .section-image {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-    object-position: 50% 20%;
-    filter: brightness(70%) saturate(90%) sepia(10%) blur(0px);
   }
 }

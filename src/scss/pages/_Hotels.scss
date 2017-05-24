@@ -1,5 +1,14 @@
 .hotels {
 
+  .smooth-scroll {
+    h3 {
+      @include transition(all, 0.1s, ease-in-out);
+    }
+    h3:hover {
+      color: #f1f1f1;
+    }
+  }
+
   .hotels-section {
     display: flex;
     justify-content: center;
@@ -13,6 +22,17 @@
       display: none;
     }
   }
+
+  .menu {
+    height: 120vh;
+    z-index: -1;
+  }
+
+  .closed {
+    margin-top: -120vh;
+    z-index: -2;
+  }
+
 
 
 }

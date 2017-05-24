@@ -32,7 +32,7 @@ class Stack extends Component {
     return (
       <div className={this.props.className}>
         {this.props.data.map((section, i) =>
-        <div className='section'>
+        <div className='section' id={section.sectionTitle.replace(/\s+/g, '-').toLowerCase()}>
           <Banner
             page={this.props.page}
             sectionTitle={section.sectionTitle}

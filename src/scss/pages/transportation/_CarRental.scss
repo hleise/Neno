@@ -1,5 +1,4 @@
 .car-rental{
-  height:90vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,11 +17,25 @@
     width: 20%;
 
     .img {
-      width:100%;
+      width: 100%;
+      height: 110px;
+      object-fit: scale-down;
     }
 
     .car-markdown{
-      width:100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+
+      h2 {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
     }
   }
 

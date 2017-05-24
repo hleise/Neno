@@ -10,7 +10,7 @@ class Hotels extends Component {
       <div>
         <HotelsDropdown/>
           <Stack
-            className='tours'
+            className='hotels'
             page='hotels'
             data={HotelsData}/>
       </div>
