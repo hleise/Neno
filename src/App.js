@@ -13,7 +13,7 @@ import history from './pages/History.js';
 import Hotels from './pages/Hotels.js';
 import PackageTours from './pages/PackageTours.js';
 import Safaris from './pages/Safaris.js';
-
+import SafariHandler from './pages/SafariHandler.js';
 import Layout from './layout/Layout.js';
 
 
@@ -32,6 +32,7 @@ class App extends Component {
               <Route path='/day-tours/:tour' component={DayToursHandler}/>
               <Route exact path='/package-tours' component={PackageTours}/>
               <Route exact path='/safaris' component={Safaris}/>
+              <Route path='/safaris/:safari' component={SafariHandler}/>
               <Route exact path='/car-rental' component={CarRental}/>
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
