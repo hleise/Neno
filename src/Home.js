@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TextSection from './components/TextSection.js';
-
 import markdownFile  from './content/home.md';
+
 
 class Home extends Component {
   rawMarkup(){

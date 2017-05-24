@@ -32,11 +32,11 @@ class DayToursHandler extends Component {
       case 'kidichi-village':
         return (<KidichiVillage/>);
       case 'nungwi-village':
-        return (<KidichiVillage/>);
+        return (<NungwiVillage/>);
       case 'spice-tour':
-        return (<KidichiVillage/>);
+        return (<SpiceTour/>);
       case 'chumbe-island':
-        return (<KidichiVillage/>);
+        return (<ChumbeIsland/>);
       case 'dolphin-tour':
         return (<DolphinTour/>);
       case 'prison-island':
@@ -52,7 +52,7 @@ class DayToursHandler extends Component {
       case 'deep-sea-fishing':
         return (<DeepSeaFishing/>);
       case 'local-game-fishing':
-        return (<DeepSeaFishing/>);
+        return (<LocalGameFishing/>);
       case 'city-tour':
         return (<CityTour/>);
       case 'jozani-forest-tour':

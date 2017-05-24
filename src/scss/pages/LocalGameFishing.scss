@@ -1,0 +1,29 @@
+.local-page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  width:100%;
+  .local-banner{
+    width:100%;
+    margin:0 auto;
+    z-index: 9;
+    text-align:center;
+    background-image: url(../img/local.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:80vw;
+    @include transition(margin, 0.5s, ease);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:-410px;
+  }
+  .local-info{
+    width:100%;
+    z-index: 8;
+    -webkit-backface-visibility: hidden;
+    height:1000px;
+  }
+}

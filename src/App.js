@@ -15,8 +15,7 @@ import PackageTours from './pages/PackageTours.js';
 import Safaris from './pages/Safaris.js';
 
 import Layout from './layout/Layout.js';
-import JambianiVillage from './pages/day-tours/cultural-day/JambianiVillage';
-import KidichiVillage from './pages/day-tours/cultural-day/KidichiVillage';
+
 
 
 class App extends Component {
