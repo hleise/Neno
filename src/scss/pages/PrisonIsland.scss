@@ -1,0 +1,29 @@
+.prison-page{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  width:100%;
+  .prison-banner{
+    width:100%;
+    margin:0 auto;
+    z-index: 9;
+    text-align:center;
+    background-image: url(../img/prison.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:75vw;
+    @include transition(margin, 0.5s, ease);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:-100px;
+  }
+  .prison-info{
+    width:100%;
+    z-index: 8;
+    -webkit-backface-visibility: hidden;
+  }
+}
