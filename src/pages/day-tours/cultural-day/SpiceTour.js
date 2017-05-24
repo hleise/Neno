@@ -11,7 +11,7 @@ class SpiceTour extends Component {
           </div>
           <div className="spice-info">
            <HorizontalTextSection>
-            
+
             </HorizontalTextSection>
           </div>
       </div>

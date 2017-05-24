@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import jamMark from '../../../content/JamVillageTour.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
+
 class Jambiani extends Component {
   render() {
     return (
