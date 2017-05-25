@@ -11,9 +11,12 @@
 
   .hotels-section {
     width: 100%;
+    height: 100vh;
 
     .hotels-image {
       width: 100%;
+      position: absolute;
+      height: 100vh;
     }
 
     select::-ms-expand {

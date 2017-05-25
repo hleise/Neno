@@ -1,11 +1,12 @@
 .hotels-dropdown-container {
+  @include fadein(3s);
   width: 100%;
   display: flex;
   position: absolute;
-  z-index: 999999999999;
   align-items: center;
   justify-content: center;
-  top:45vh;
+  height: 100vh;
+  z-index: 9;
 
   .nav-bar {
     position: relative;

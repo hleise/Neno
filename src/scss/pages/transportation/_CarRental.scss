@@ -1,4 +1,5 @@
 .car-rental{
+  @include fadein(3s);
   display: flex;
   justify-content: center;
   flex-direction: column;
