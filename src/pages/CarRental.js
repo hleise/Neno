@@ -16,12 +16,8 @@ class Section extends Component {
     const mdArray = [markdown1,markdown2,markdown3,markdown4,markdown5];
     return (
       <div className='car-rental'>
-        <StaticBanner
-          bannerTitle='Car Rental'
-          page='flight-info'
-          i='0'
-          />
-      <HorizontalTextSection>
+        <HorizontalTextSection>
+          <h1> Car Rental </h1>
       <div className='car-rental-blocks'>
         {imageArray.map((img,i) => (
         <div key={i} className='car-wrapper'>
