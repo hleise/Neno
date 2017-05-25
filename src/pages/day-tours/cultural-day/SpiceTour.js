@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import spiceMark from '../../../content/SpiceTour.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 class SpiceTour extends Component {
@@ -11,7 +11,8 @@ class SpiceTour extends Component {
           </div>
           <div className="spice-info">
            <HorizontalTextSection>
-
+                <div className='chumbe-markdown' dangerouslySetInnerHTML={{__html: spiceMark}}>
+                </div>
             </HorizontalTextSection>
           </div>
       </div>
