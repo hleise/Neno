@@ -46,9 +46,6 @@ $block-height: 160px;
 
 
       .block {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         height: $block-height;
         width: 250px;
 
@@ -98,6 +95,7 @@ $block-height: 160px;
           object-position: 50% 100%;
           @include user-select(none);
           pointer-events: none;
+          position: absolute;
 
         }
       }
