@@ -5,7 +5,6 @@ import Stack from '../layout/Stack';
 
 class Hotels extends Component {
   render() {
-    console.log(HotelsData);
     return (
       <div>
         <HotelsDropdown/>

@@ -10,12 +10,10 @@
   }
 
   .hotels-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 100%;
 
     .hotels-image {
-
+      width: 100%;
     }
 
     select::-ms-expand {
