@@ -23,7 +23,7 @@ import Ras from './safaris/coast/Ras';
 
 class SafariHandler extends Component {
   render() {
-    switch(this.props.match.params.tour) {
+    switch(this.props.match.params.safari) {
       case 'arusha-national-park':
         return (<Arusha/>);
       case 'ngorongo-conservation-area':
@@ -38,13 +38,13 @@ class SafariHandler extends Component {
         return (<Selous/>);
       case 'ruaha-national-park':
         return (<Ruaha/>);
-      case 'mikumi-udzungwa-national-parks':
+      case 'mikumi-and-udzungwa-national-parks':
         return (<Mikumi/>);
       case 'katavi-national-park':
         return (<Katavi/>);
       case 'mahale-mountains-national-park':
         return (<Mahale/>);
-      case 'mafia-archipelgo':
+      case 'mafia-archipelago':
         return (<Mafia/>);
       case 'pemba-island':
         return (<Pemba/>);

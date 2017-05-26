@@ -40,7 +40,7 @@ import ZenjiHotel from './hotels/city/ZenjiHotel';
 
 class HotelHandler extends Component {
   render() {
-    switch(this.props.match.params.tour) {
+    switch(this.props.match.params.hotel) {
       case 'la-gemma-dell-est':
         return (<LaGemmaDellEst/>);
       case 'azanzi':
