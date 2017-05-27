@@ -5,12 +5,12 @@ import SafarisData from '../data/Safaris.json';
 class Section extends Component {
   render() {
     return (
-      <div className='safaris'>
+        <div>
         <Stack
           className='tours'
           page="safaris"
           data={SafarisData}/>
-      </div>
+       </div>
     );
   }
 }

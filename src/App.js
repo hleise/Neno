@@ -11,6 +11,7 @@ import CarRental from './pages/CarRental.js';
 import FlightInfo from './pages/FlightInfo.js';
 import history from './pages/History.js';
 import Hotels from './pages/Hotels.js';
+import HotelHandler from './pages/HotelHandler.js';
 import PackageTours from './pages/PackageTours.js';
 import Safaris from './pages/Safaris.js';
 import SafariHandler from './pages/SafariHandler.js';
@@ -37,7 +38,7 @@ class App extends Component {
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
               <Route exact path='/hotels' component={Hotels}/>
-
+              <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route path='*' component={Home}/>
             </Switch>
           </Layout>

@@ -1,0 +1,29 @@
+.mahale-page{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  width:100%;
+  .mahale-banner{
+    width:100%;
+    margin:0 auto;
+    z-index: 9;
+    text-align:center;
+    background-image: url(../img/mahale.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:60vw;
+    @include transition(margin, 0.5s, ease);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:-25px;
+  }
+  .mahale-info{
+    width:100%;
+    z-index: 8;
+    -webkit-backface-visibility: hidden;
+  }
+}
