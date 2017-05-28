@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import DayTours from './DayTours';
 import DayToursData from '../data/DayTours.json';
 import { Route, Switch } from 'react-router-dom';
+import PageLayout from '../layout/PageLayout';
 
 import JambianiVillage from './day-tours/cultural-day/JambianiVillage';
 import KidichiVillage from './day-tours/cultural-day/KidichiVillage';
@@ -26,39 +27,44 @@ import JozaniForestTour from './day-tours/other/JozaniForestTour';
 
 class DayToursHandler extends Component {
   render() {
+    var page;
     switch(this.props.match.params.tour) {
       case 'jambiani-village':
-        return (<JambianiVillage/>);
+        page = <JambianiVillage/>;
       case 'kidichi-village':
-        return (<KidichiVillage/>);
+        page = <KidichiVillage/>;
       case 'nungwi-village':
-        return (<NungwiVillage/>);
+        page = <NungwiVillage/>;
       case 'spice-tour':
-        return (<SpiceTour/>);
+        page = <SpiceTour/>;
       case 'chumbe-island':
-        return (<ChumbeIsland/>);
+        page = <ChumbeIsland/>;
       case 'dolphin-tour':
-        return (<DolphinTour/>);
+        page = <DolphinTour/>;
       case 'prison-island':
-        return (<PrisonIsland/>);
+        page = <PrisonIsland/>;
       case 'safari-blue':
-        return (<SafariBlue/>);
+        page = <SafariBlue/>;
       case 'sandbank-picnic':
-        return (<SandbankPicnic/>);
+        page = <SandbankPicnic/>;
       case 'sunset-dhow-cruise':
-        return (<SunsetDhowCruise/>);
+        page = <SunsetDhowCruise/>;
       case 'unguja-ukuu-boat-trip':
-        return (<UngujaUkuuBoatTrip/>);
+        page = <UngujaUkuuBoatTrip/>;
       case 'deep-sea-fishing':
-        return (<DeepSeaFishing/>);
+        page = <DeepSeaFishing/>;
       case 'local-game-fishing':
-        return (<LocalGameFishing/>);
+        page = <LocalGameFishing/>;
       case 'city-tour':
-        return (<CityTour/>);
+        page = <CityTour/>;
       case 'jozani-forest-tour':
-        return (<JozaniForestTour/>);
+        page = <JozaniForestTour/>;
     }
-
+    return (
+      <PageLayout>
+       {page}
+      </PageLayout>
+    );
   }
 }
 

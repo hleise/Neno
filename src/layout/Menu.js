@@ -5,64 +5,31 @@ class Menu extends Component {
   render() {
     return (
       <div className={"menu" + " " + this.props.menu}>
-        <div className='featured-tours'>
-          <div className='row'>
-            {this.props.featuredTours.slice(0,4).map((tour, i) =>
-              <div className='block'>
-                <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + i + ".jpg")} />
-                  <div className='title'>
-                    <h3>
-                      <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
-                        {this.props.featuredTours[i]}
-                      </Link>
-                    </h3>
+       <div className='back-button' onMouseDown={this.props.toggleMenu}>
+         <svg width="80px" height="80px" viewBox="0 -20 60 120">
+          <polyline fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
+       45.63,75.8 0.375,38.087 45.63,0.375 "/>
+        </svg>
+       </div>
+       <div className='featured-tours'>
+          {[...Array(Math.ceil(this.props.featuredTours.length / 4))].map((rowOfTours, rowIndex) => (
+              <div className='row' key={rowIndex}>
+                {this.props.featuredTours.slice(rowIndex*4,(rowIndex*4)+4).map((tour, i) =>
+                  <div className='block' key={i}>
+                    <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + (i+(rowIndex*4)) + ".jpg")} />
+                     <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
+                      <div className='title'>
+                        <h3>
+                         {this.props.featuredTours[(i+(rowIndex*4))]}
+                        </h3>
+                      </div>
+                    </Link>
                   </div>
+                )}
               </div>
-            )}
-          </div>
-          <div className='row'>
-            {this.props.featuredTours.slice(4,8).map((tour, i) =>
-              <div className='block'>
-                <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + (i+4) + ".jpg")} />
-                <div className='title'>
-                  <h3>
-                    <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
-                      {this.props.featuredTours[i+4]}
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            )}
-          </div>
-          <div className='row'>
-            {this.props.featuredTours.slice(8,12).map((tour, i) =>
-              <div className='block'>
-                <div className='title'>
-                  <h3>
-                    <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
-                      {this.props.featuredTours[i+8]}
-                    </Link>
-                  </h3>
-                </div>
-                <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + (i+8) + ".jpg")} />
-              </div>
-            )}
-          </div>
-          <div className='row'>
-            {this.props.featuredTours.slice(12,16).map((tour, i) =>
-              <div className='block'>
-                <div className='title'>
-                  <h3>
-                    <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
-                      {this.props.featuredTours[i+12]}
-                    </Link>
-                  </h3>
-                </div>
-                <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + (i+12) + ".jpg")} />
-              </div>
-            )}
-          </div>
-        </div>
+          ))
+        }
+       </div>
       </div>
     );
   }

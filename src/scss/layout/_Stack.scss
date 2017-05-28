@@ -7,31 +7,7 @@ $block-height: 160px;
 
 
 .section {
-  display: flex;
-  flex-direction: column;
-
-  .menu {
-    @include transition(all, 0.5s, ease-in-out);
-    z-index: 99;
-    background: $nav-bar-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    transform: translate3d(0,0,0);
-    margin-top: -80vh;
-    z-index: 8;
-    width: 100%;
-    -webkit-backface-visibility: hidden;
-  }
-
-  .open {
-    margin-top: 0vh;
-  }
-
-  .closed {
-    margin-top: -80vh;
-  }
+  display: inline-flex;
 
   .featured-tours {
     display: flex;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Hotels from './Hotels';
 import HotelsData from '../data/Hotels.json';
 import { Route, Switch } from 'react-router-dom';
+import PageLayout from '../layout/PageLayout';
 
 import Azanzi from './hotels/resorts/Azanzi';
 import BarazaBeach from './hotels/resorts/BarazaBeach';
@@ -40,68 +41,74 @@ import ZenjiHotel from './hotels/city/ZenjiHotel';
 
 class HotelHandler extends Component {
   render() {
+    var page;
     switch(this.props.match.params.hotel) {
       case 'la-gemma-dell-est':
-        return (<LaGemmaDellEst/>);
+        page = <LaGemmaDellEst/>;
       case 'azanzi':
-        return (<Azanzi/>);
+        page = <Azanzi/>;
       case 'baraza-beach':
-        return (<BarazaBeach/>);
+        page = <BarazaBeach/>;
       case 'bluebay-beach':
-        return (<BluebayBeach/>);
+        page = <BluebayBeach/>;
       case 'breezes-beach-club-and-spa':
-        return (<BreezesBeachClub/>);
+        page = <BreezesBeachClub/>;
       case 'diamond-dreams':
-        return (<DiamondDreams/>);
+        page = <DiamondDreams/>;
       case 'fumba-beach-lodge':
-        return (<FumbaBeach/>);
+        page = <FumbaBeach/>;
       case 'ocean-paradise':
-        return (<OceanParadise/>);
+        page = <OceanParadise/>;
       case 'sandies-neptune-pwani-beach-resort':
-        return (<SandiesNeptune/>);
+        page = <SandiesNeptune/>;
       case 'zanzibar-retreat-hotel':
-        return (<ZanzibarRetreat/>);
+        page = <ZanzibarRetreat/>;
       case 'anna-of-zannibar':
-        return (<Anna/>);
+        page = <Anna/>;
       case 'echo-beach':
-        return (<EchoBeach/>);
+        page = <EchoBeach/>;
       case 'flame-tree-cottages':
-        return (<FlameTree/>);
+        page = <FlameTree/>;
       case 'karamba-resort':
-        return (<KarambaResort/>);
+        page = <KarambaResort/>;
       case 'matemwe-beach':
-        return (<MatemweBeach/>);
+        page = <MatemweBeach/>;
       case 'matemwe-bungalows':
-        return (<MatemweBungalows/>);
+        page = <MatemweBungalows/>;
       case 'matemwe-retreat':
-        return (<MatemweRetreat/>);
+        page = <MatemweRetreat/>;
       case 'pongwe-cottages':
-        return (<PongweCottages/>);
+        page = <PongweCottages/>;
       case 'ras-nungwi':
-        return (<RasNungwi/>);
+        page = <RasNungwi/>;
       case 'shooting-star-hotel':
-        return (<ShootingStar/>);
+        page = <ShootingStar/>;
       case 'unguja-lodge':
-        return (<UngujaLodge/>);
+        page = <UngujaLodge/>;
       case 'z-hotel':
-        return (<ZHotel/>);
+        page = <ZHotel/>;
       case 'africa-house':
-        return (<AfricaHouse/>);
+        page = <AfricaHouse/>;
       case 'dhow-palace-hotel':
-        return (<DhowPalace/>);
+        page = <DhowPalace/>;
       case 'grand-palace-hotel':
-        return (<GrandPalaceHotel/>);
+        page = <GrandPalaceHotel/>;
       case '236-huruzumi-hotel':
-        return (<Huruzumi/>);
+        page = <Huruzumi/>;
       case 'swahili-house':
-        return (<SwahiliHouse/>);
+        page = <SwahiliHouse/>;
       case 'tembo-house-hotel':
-        return (<TemboHouse/>);
+        page = <TemboHouse/>;
       case 'zanzibar-palace-hotel':
-        return (<ZanzibarPalaceHotel/>);
+        page = <ZanzibarPalaceHotel/>;
       case 'zenji-hotel':
-        return (<ZenjiHotel/>);
+        page = <ZenjiHotel/>;
     }
+    return (
+      <PageLayout>
+        {page}
+      </PageLayout>
+    )
 
   }
 }

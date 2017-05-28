@@ -44,6 +44,7 @@ class Stack extends Component {
             featuredTours={section.featuredTours}
             page={this.props.page}
             imgFolder={section.imgFolder}
+            toggleMenu={this.toggleMenu.bind(this, i)}
             />
         </div>
         )}
