@@ -31,34 +31,49 @@ class DayToursHandler extends Component {
     switch(this.props.match.params.tour) {
       case 'jambiani-village':
         page = <JambianiVillage/>;
+        return page;
       case 'kidichi-village':
         page = <KidichiVillage/>;
+        return page;
       case 'nungwi-village':
         page = <NungwiVillage/>;
+        return page;
       case 'spice-tour':
         page = <SpiceTour/>;
+        return page;
       case 'chumbe-island':
         page = <ChumbeIsland/>;
+        return page;
       case 'dolphin-tour':
         page = <DolphinTour/>;
+        return page;
       case 'prison-island':
         page = <PrisonIsland/>;
+        return page;
       case 'safari-blue':
         page = <SafariBlue/>;
+        return page;
       case 'sandbank-picnic':
         page = <SandbankPicnic/>;
+        return page;
       case 'sunset-dhow-cruise':
         page = <SunsetDhowCruise/>;
+        return page;
       case 'unguja-ukuu-boat-trip':
         page = <UngujaUkuuBoatTrip/>;
+        return page;
       case 'deep-sea-fishing':
         page = <DeepSeaFishing/>;
+        return page;
       case 'local-game-fishing':
         page = <LocalGameFishing/>;
+        return page;
       case 'city-tour':
         page = <CityTour/>;
+        return page;
       case 'jozani-forest-tour':
         page = <JozaniForestTour/>;
+        return page;
     }
     return (
       <PageLayout>

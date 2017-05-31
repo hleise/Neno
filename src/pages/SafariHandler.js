@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Safaris from './Safaris';
 import SafarisData from '../data/Safaris.json';
 import { Route, Switch } from 'react-router-dom';
+import PageLayout from '../layout/PageLayout';
 
 import Arusha from './safaris/northern/Arusha';
 import Ngorongo from './safaris/northern/Ngorongo';
@@ -23,35 +24,53 @@ import Ras from './safaris/coast/Ras';
 
 class SafariHandler extends Component {
   render() {
+    var page;
     switch(this.props.match.params.safari) {
       case 'arusha-national-park':
-        return (<Arusha/>);
+        page = <Arusha/>;
+        return page;
       case 'ngorongo-conservation-area':
-        return (<Ngorongo/>);
+        page = <Ngorongo/>;
+        return page;
       case 'serengeti-national-park':
-        return (<Serengeti/>);
+        page = <Serengeti/>;
+        return page;
       case 'lake-manyara-national-park':
-        return (<Manyara/>);
+        page = <Manyara/>;
+        return page;
       case 'tarangire-national-park':
-        return (<Tarangire/>);
+        page = <Tarangire/>;
+        return page;
       case 'selous-game-refuge':
-        return (<Selous/>);
+        page = <Selous/>;
+        return page;
       case 'ruaha-national-park':
-        return (<Ruaha/>);
+        page = <Ruaha/>;
+        return page;
       case 'mikumi-and-udzungwa-national-parks':
-        return (<Mikumi/>);
+        page = <Mikumi/>;
+        return page;
       case 'katavi-national-park':
-        return (<Katavi/>);
+        page = <Katavi/>;
+        return page;
       case 'mahale-mountains-national-park':
-        return (<Mahale/>);
+        page = <Mahale/>;
+        return page;
       case 'mafia-archipelago':
-        return (<Mafia/>);
+        page = <Mafia/>;
+        return page;
       case 'pemba-island':
-        return (<Pemba/>);
+        page = <Pemba/>;
+        return page;
       case 'ras-kutani-area':
-        return (<Ras/>);
+        page = <Ras/>;
+        return page;
     }
-
+    return (
+      <PageLayout>
+        {page}
+      </PageLayout>
+    )
   }
 }
 
