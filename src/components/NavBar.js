@@ -82,6 +82,24 @@ class NavBar extends Component {
                 </h3>
               </div>
             </div>
+            <div className='nav-bar-button'>
+              <div className='nav-bar-button-title'>
+                <h3>
+                  <Link to="/volunteers">
+                     Volunteers
+                  </Link>
+                </h3>
+              </div>
+            </div>
+            <div className='nav-bar-button'>
+              <div className='nav-bar-button-title'>
+                <h3>
+                  <Link to="/about">
+                     <img className='logo' src={require('../logos/logo.png')} />
+                  </Link>
+                </h3>
+              </div>
+            </div>
           </div>
         </div>
           {this.props.children}
@@ -89,5 +107,5 @@ class NavBar extends Component {
     );
   }
 }
-
+ /*<img className='logo' src={require('../logos/logo.png')} />*/
 export default NavBar;
