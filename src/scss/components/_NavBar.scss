@@ -3,7 +3,7 @@ $nav-bar-option-color: #656068;
 .nav-bar {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   background: $nav-bar-color;
   font-weight: 100;
   align-items: center;
@@ -21,7 +21,7 @@ $nav-bar-option-color: #656068;
 
 .logo{
   height:3vw;
-  margin-right:60vw;
+
 }
 
 

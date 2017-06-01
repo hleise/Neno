@@ -105,6 +105,13 @@ class NavBar extends Component {
                     </Link>
                   </h3>
                 </div>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/general-information">
+                      General Information
+                    </Link>
+                  </h3>
+                </div>
             </div>
           </div>
             <div className='nav-bar-button'>
