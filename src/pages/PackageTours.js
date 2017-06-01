@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import Stack from '../layout/Stack';
 import PackageToursData from '../data/PackageTours.json';
 
-class Section extends Component {
+class PackageTours extends Component {
   render() {
     return (
-      <div className='package-tours'>
+        <div>
         <Stack
           className='tours'
-          page="day-tours"
+          page="package-tours"
           data={PackageToursData}/>
-      </div>
+
+        </div>
     );
   }
 }
 
-export default Section;
+export default PackageTours;

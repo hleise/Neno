@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Stack from '../layout/Stack';
 import SafarisData from '../data/Safaris.json';
 
-class Section extends Component {
+class Safaris extends Component {
   render() {
     return (
         <div>
@@ -15,4 +15,4 @@ class Section extends Component {
   }
 }
 
-export default Section;
+export default Safaris;

@@ -12,7 +12,7 @@ class Footer extends Component {
            <img className='fb-logo' src={require('../logos/facebook.png')} />
         </Link>
         <Link to="">
-           <img className='ta-logo' src={require('../logos/tripadvisor.png')} />
+          <img className='ta-logo' src={require('../logos/tripadvisor.png')} />
         </Link>
       </div>
     );
