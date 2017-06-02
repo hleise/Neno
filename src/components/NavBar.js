@@ -81,6 +81,29 @@ class NavBar extends Component {
                   </Link>
                 </h3>
               </div>
+              <div className='dropdown-options'>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/hotels">
+                      Beach Resorts
+                    </Link>
+                  </h3>
+                </div>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/hotels">
+                      Beach Clubs
+                    </Link>
+                  </h3>
+                </div>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/hotels">
+                      City Hotels
+                    </Link>
+                  </h3>
+                </div>
+              </div>
             </div>
             <div className='nav-bar-button'>
               <div className='nav-bar-button-title'>

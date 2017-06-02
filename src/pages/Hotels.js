@@ -7,11 +7,10 @@ class Hotels extends Component {
   render() {
     return (
       <div>
-        <HotelsDropdown/>
-          <Stack
-            className='hotels'
-            page='hotels'
-            data={HotelsData}/>
+        <Stack
+          className='hotels'
+          page='hotels'
+          data={HotelsData}/>
       </div>
     );
   }
