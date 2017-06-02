@@ -1,0 +1,3 @@
+## Arusha National Park
+
+Considering its small size (53 square miles), Arusha National Park boasts a remarkable range of habitats. These habitats include a miniature volcanic crater, highland rain forest, acacia woodland, and a string of attractive lakes. In addition, Arusha National Park also hosts Africa's fifth largest mountain, Meru. Due to the popularity of the nearby Serengeti and Ngorongoro crater, Arusha National Park maintains a relative quietness that is perfect for those who are looking to escape the crowds. Also it is worth noting that Arusha National Park is the least visited park on the Northern Circuit. __Read more__ 
