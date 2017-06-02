@@ -23,7 +23,7 @@ import LocalGameFishing from './day-tours/fishing/LocalGameFishing';
 import CityTour from './day-tours/other/CityTour';
 import JozaniForestTour from './day-tours/other/JozaniForestTour';
 
-class DayToursHandler extends Component {
+class PackageToursHandler extends Component {
   render() {
     var page;
     switch(this.props.match.params.tour) {
@@ -81,4 +81,4 @@ class DayToursHandler extends Component {
   }
 }
 
-export default DayToursHandler;
+export default PackageToursHandler;

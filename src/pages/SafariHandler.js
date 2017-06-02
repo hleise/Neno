@@ -28,43 +28,43 @@ class SafariHandler extends Component {
     switch(this.props.match.params.safari) {
       case 'arusha-national-park':
         page = <Arusha/>;
-        return page;
+        break;
       case 'ngorongo-conservation-area':
         page = <Ngorongo/>;
-        return page;
+        break;
       case 'serengeti-national-park':
         page = <Serengeti/>;
-        return page;
+        break;
       case 'lake-manyara-national-park':
         page = <Manyara/>;
-        return page;
+        break;
       case 'tarangire-national-park':
         page = <Tarangire/>;
-        return page;
+        break;
       case 'selous-game-refuge':
         page = <Selous/>;
-        return page;
+        break;
       case 'ruaha-national-park':
         page = <Ruaha/>;
-        return page;
+        break;
       case 'mikumi-and-udzungwa-national-parks':
         page = <Mikumi/>;
-        return page;
+        break;
       case 'katavi-national-park':
         page = <Katavi/>;
-        return page;
+        break;
       case 'mahale-mountains-national-park':
         page = <Mahale/>;
-        return page;
+        break;
       case 'mafia-archipelago':
         page = <Mafia/>;
-        return page;
+        break;
       case 'pemba-island':
         page = <Pemba/>;
-        return page;
+        break;
       case 'ras-kutani-area':
         page = <Ras/>;
-        return page;
+        break;
     }
     return (
       <PageLayout>

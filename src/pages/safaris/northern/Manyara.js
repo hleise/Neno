@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Manyara extends Component {
   render() {
     return (
-      <div className="manyara-page">
-          <div className="manyara-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Lake Manyara National Park</h1>
           </div>
-          <div className="manyara-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

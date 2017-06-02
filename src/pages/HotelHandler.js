@@ -45,94 +45,93 @@ class HotelHandler extends Component {
     switch(this.props.match.params.hotel) {
       case 'la-gemma-dell-est':
         page = <LaGemmaDellEst/>;
-        return page;
+        break;
       case 'azanzi':
         page = <Azanzi/>;
-        return page;
+        break;
       case 'baraza-beach':
         page = <BarazaBeach/>;
-        return page;
+        break;
       case 'bluebay-beach':
         page = <BluebayBeach/>;
-        return page;
+        break;
       case 'breezes-beach-club-and-spa':
         page = <BreezesBeachClub/>;
-        return page;
+        break;
       case 'diamond-dreams':
         page = <DiamondDreams/>;
-        return page;
+        break;
       case 'fumba-beach-lodge':
         page = <FumbaBeach/>;
-        return page;
+        break;
       case 'ocean-paradise':
         page = <OceanParadise/>;
-        return page;
+        break;
       case 'sandies-neptune-pwani-beach-resort':
         page = <SandiesNeptune/>;
-        return page;
+        break;
       case 'zanzibar-retreat-hotel':
         page = <ZanzibarRetreat/>;
-        return page;
+        break;
       case 'anna-of-zannibar':
         page = <Anna/>;
-        return page;
+        break;
       case 'echo-beach':
         page = <EchoBeach/>;
-        return page;
+        break;
       case 'flame-tree-cottages':
         page = <FlameTree/>;
-        return page;
       case 'karamba-resort':
         page = <KarambaResort/>;
-        return page;
+        break;
       case 'matemwe-beach':
         page = <MatemweBeach/>;
-        return page;
+        break;
       case 'matemwe-bungalows':
         page = <MatemweBungalows/>;
-        return page;
+        break;
       case 'matemwe-retreat':
         page = <MatemweRetreat/>;
-        return page;
+        break;
       case 'pongwe-cottages':
         page = <PongweCottages/>;
-        return page;
+        break;
       case 'ras-nungwi':
         page = <RasNungwi/>;
-        return page;
+        break;
       case 'shooting-star-hotel':
         page = <ShootingStar/>;
-        return page;
+        break;
       case 'unguja-lodge':
         page = <UngujaLodge/>;
-        return page;
+        break;
       case 'z-hotel':
         page = <ZHotel/>;
-        return page;
+        break;
       case 'africa-house':
         page = <AfricaHouse/>;
-        return page;
+        break;
       case 'dhow-palace-hotel':
         page = <DhowPalace/>;
-        return page;
+        break;
       case 'grand-palace-hotel':
         page = <GrandPalaceHotel/>;
-        return page;
+        break;
       case '236-huruzumi-hotel':
         page = <Huruzumi/>;
-        return page;
+        break;
       case 'swahili-house':
         page = <SwahiliHouse/>;
-        return page;
+        break;
       case 'tembo-house-hotel':
         page = <TemboHouse/>;
-        return page;
+        break;
       case 'zanzibar-palace-hotel':
         page = <ZanzibarPalaceHotel/>;
-        return page;
+        break;
       case 'zenji-hotel':
         page = <ZenjiHotel/>;
-        return page;
+        break;
     }
     return (
       <PageLayout>

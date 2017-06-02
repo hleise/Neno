@@ -5,13 +5,14 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class LocalGameFishing extends Component {
   render() {
     return (
-      <div className="local-page">
-          <div className="local-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Local Game Fishing</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/fishing/1.jpg')} />
           </div>
-          <div className="local-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='local-markdown' dangerouslySetInnerHTML={{__html: localMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: localMark}}>
             </div>
             </HorizontalTextSection>
           </div>

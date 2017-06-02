@@ -6,13 +6,14 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class JozaniForestTour extends Component {
   render() {
     return (
-      <div className="forest-page">
-          <div className="forest-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Jozani Forest</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/other/1.jpg')} />
           </div>
-          <div className="forest-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='forest-markdown' dangerouslySetInnerHTML={{__html: forestMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: forestMark}}>
             </div>
             </HorizontalTextSection>
           </div>

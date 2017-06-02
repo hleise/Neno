@@ -5,13 +5,13 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class DolpinTour extends Component {
   render() {
     return (
-      <div className="dolphin-page">
-          <div className="dolphin-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Dolphin Tour</h1>
           </div>
-          <div className="dolphin-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='dolphin-markdown' dangerouslySetInnerHTML={{__html: dolphinMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: dolphinMark}}>
             </div>
             </HorizontalTextSection>
           </div>

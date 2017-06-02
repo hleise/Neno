@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Mafia extends Component {
   render() {
     return (
-      <div className="mafia-page">
-          <div className="mafia-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Mafia Archipelago</h1>
           </div>
-          <div className="mafia-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

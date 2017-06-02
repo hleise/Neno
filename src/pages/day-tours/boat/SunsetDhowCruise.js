@@ -5,13 +5,13 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class SunsetDhowCruise extends Component {
   render() {
     return (
-      <div className="sunset-page">
-          <div className="sunset-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Sunset Dhow Cruise</h1>
           </div>
-          <div className="sunset-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='sunset-markdown' dangerouslySetInnerHTML={{__html: sunsetMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: sunsetMark}}>
             </div>
             </HorizontalTextSection>
           </div>

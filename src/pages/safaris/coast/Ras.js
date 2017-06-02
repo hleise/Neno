@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Ras extends Component {
   render() {
     return (
-      <div className="ras-page">
-          <div className="ras-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Ras Kutani Area</h1>
           </div>
-          <div className="ras-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

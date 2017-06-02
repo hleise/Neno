@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Katavi extends Component {
   render() {
     return (
-      <div className="katavi-page">
-          <div className="katavi-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Katavi National Park</h1>
           </div>
-          <div className="katavi-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

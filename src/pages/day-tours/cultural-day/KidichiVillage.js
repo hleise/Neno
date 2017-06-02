@@ -5,13 +5,14 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Kidichi extends Component {
   render() {
     return (
-      <div className="k-page">
-          <div className="k-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Kidichi Village</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/cultural-day/1.jpg')} />
           </div>
-          <div className="k-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='k-markdown' dangerouslySetInnerHTML={{__html: kidMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: kidMark}}>
             </div>
             </HorizontalTextSection>
           </div>

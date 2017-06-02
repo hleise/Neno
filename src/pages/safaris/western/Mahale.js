@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Mahale extends Component {
   render() {
     return (
-      <div className="mahale-page">
-          <div className="mahale-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Mahale Mountains National Park</h1>
           </div>
-          <div className="mahale-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Mikumi extends Component {
   render() {
     return (
-      <div className="mikumi-page">
-          <div className="mikumi-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Mikumi and Udzungwa National Parks</h1>
           </div>
-          <div className="mikumi-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Ruaha extends Component {
   render() {
     return (
-      <div className="ruaha-page">
-          <div className="ruaha-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Ruaha National Park</h1>
           </div>
-          <div className="ruaha-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

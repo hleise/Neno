@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Selous extends Component {
   render() {
     return (
-      <div className="selous-page">
-          <div className="selous-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Selous Game Refuge</h1>
           </div>
-          <div className="selous-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

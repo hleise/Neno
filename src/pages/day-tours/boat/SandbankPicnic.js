@@ -5,13 +5,13 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class SandbankPicnic extends Component {
   render() {
     return (
-      <div className="sand-page">
-          <div className="sand-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Sandbank Picnic</h1>
           </div>
-          <div className="sand-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='sand-markdown' dangerouslySetInnerHTML={{__html: sandMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: sandMark}}>
             </div>
             </HorizontalTextSection>
           </div>

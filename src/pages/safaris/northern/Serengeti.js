@@ -6,11 +6,11 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class Serengeti extends Component {
   render() {
     return (
-      <div className="serengeti-page">
-          <div className="serengeti-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Serengeti National Park</h1>
           </div>
-          <div className="serengeti-info">
+          <div className="info">
            <HorizontalTextSection>
 
             </HorizontalTextSection>

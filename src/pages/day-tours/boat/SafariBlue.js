@@ -5,13 +5,13 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class SafariBlue extends Component {
   render() {
     return (
-      <div className="blue-page">
-          <div className="blue-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Safari Blue</h1>
           </div>
-          <div className="blue-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='blue-markdown' dangerouslySetInnerHTML={{__html: blueMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: blueMark}}>
             </div>
             </HorizontalTextSection>
           </div>

@@ -5,13 +5,13 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class UngujaUkuuBoatTrip extends Component {
   render() {
     return (
-      <div className="unguja-page">
-          <div className="unguja-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Unguja Ukuu Boat Trip</h1>
           </div>
-          <div className="unguja-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='unguja-markdown' dangerouslySetInnerHTML={{__html: ungujaMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: ungujaMark}}>
             </div>
             </HorizontalTextSection>
           </div>

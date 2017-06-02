@@ -5,13 +5,14 @@ import HorizontalTextSection from '../../../components/HorizontalTextSection.js'
 class DeepSeaFishing extends Component {
   render() {
     return (
-      <div className="deep-page">
-          <div className="deep-banner">
+      <div className="page">
+          <div className="banner">
             <h1>Deep Sea Fishing</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/fishing/0.jpg')} />
           </div>
-          <div className="deep-info">
+          <div className="info">
            <HorizontalTextSection>
-            <div className='deep-markdown' dangerouslySetInnerHTML={{__html: deepMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: deepMark}}>
             </div>
             </HorizontalTextSection>
           </div>
