@@ -35,5 +35,24 @@
       "Pemba Island",
       "Ras Kutani Area"
     ]
+  },
+  {
+    "sectionTitle":"3 to 7 Day Safaris",
+    "imgFolder":"long",
+    "featuredTours": [
+      "3 Days",
+      "4 Days",
+      "5 Days",
+      "7 Days",
+      "General Information"
+    ]
+  },
+  {
+    "sectionTitle":"Cultural Safaris",
+    "imgFolder":"tribe",
+    "featuredTours": [
+      "Hadza",
+      "Maasai"
+    ]
   }
 ]
