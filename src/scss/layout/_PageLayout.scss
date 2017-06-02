@@ -5,6 +5,7 @@
     flex-direction: column;
     position:relative;
     width:100%;
+
     .banner {
       width:100%;
       margin:0 auto;
@@ -16,9 +17,10 @@
       flex-direction: column;
       align-items: center;
       h1 {
-        position: absolute;
+        
         z-index: 1;
         color: $section-color;
+
       }
       .banner-image {
         filter: brightness(40%) saturate(120%) sepia(40%) blur(0px);

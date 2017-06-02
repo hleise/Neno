@@ -8,6 +8,10 @@
   z-index: 9;
   cursor: pointer;
   align-items: center;
+    h1{
+      
+    }
+
 
 
   .section-title {
@@ -23,8 +27,10 @@
     width: 100%;
     height:100vh;
     h1 {
+
       a {
         color: white;
+
       }
       @include transition($hover-prop, $hover-duration, $hover-easing);
       transform: translateY(-10px);
