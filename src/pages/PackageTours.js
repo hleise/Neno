@@ -10,7 +10,6 @@ class PackageTours extends Component {
           className='tours'
           page="package-tours"
           data={PackageToursData}/>
-
         </div>
     );
   }
