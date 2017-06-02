@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import HotelsDropdown from '../components/HotelsDropdown';
 import HotelsData from '../data/Hotels.json';
 import Stack from '../layout/Stack';
 
