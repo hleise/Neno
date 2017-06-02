@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
-import Home from './Home.js';
-import About from './pages/About.js';
-import Contact from './pages/Contact.js';
-import DayTours from './pages/DayTours.js';
-import DayToursHandler from './pages/DayToursHandler.js';
-import NotFound from './pages/NotFound.js';
-import Booking from './pages/Booking.js';
-import CarRental from './pages/CarRental.js';
-import FlightInfo from './pages/FlightInfo.js';
-import history from './pages/History.js';
-import Hotels from './pages/Hotels.js';
-import HotelHandler from './pages/HotelHandler.js';
-import PackageTours from './pages/PackageTours.js';
-import PackageToursHandler from './pages/PackageToursHandler.js';
-import Safaris from './pages/Safaris.js';
-import SafariHandler from './pages/SafariHandler.js';
-import Layout from './layout/Layout.js';
+import Home from './Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import DayTours from './pages/DayTours';
+import DayToursHandler from './pages/DayToursHandler';
+import NotFound from './pages/NotFound';
+import Booking from './pages/Booking';
+import CarRental from './pages/CarRental';
+import FlightInfo from './pages/FlightInfo';
+import history from './pages/History';
+import Hotels from './pages/Hotels';
+import HotelHandler from './pages/HotelHandler';
+import PackageTours from './pages/PackageTours';
+import PackageToursHandler from './pages/PackageToursHandler';
+import Safaris from './pages/Safaris';
+import SafariHandler from './pages/SafariHandler';
+import Layout from './layout/Layout';
 
 
 

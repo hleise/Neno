@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TextSection from '../components/TextSection.js';
+import TextSection from '../components/TextSection';
 
 class NotFound extends Component {
   render() {
