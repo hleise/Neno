@@ -8,6 +8,7 @@ class SandbankPicnic extends Component {
       <div className="page">
           <div className="banner">
             <h1>Sandbank Picnic</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/boat/5.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

@@ -8,6 +8,7 @@ class SunsetDhowCruise extends Component {
       <div className="page">
           <div className="banner">
             <h1>Sunset Dhow Cruise</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/boat/6.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

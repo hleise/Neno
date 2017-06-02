@@ -8,6 +8,7 @@ class DolpinTour extends Component {
       <div className="page">
           <div className="banner">
             <h1>Dolphin Tour</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/boat/3.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

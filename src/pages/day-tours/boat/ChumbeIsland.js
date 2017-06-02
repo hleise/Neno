@@ -8,6 +8,7 @@ class ChumbeIsland extends Component {
       <div className="page">
           <div className="banner">
             <h1>Chumbe Island</h1>
+            <img className='banner-image' src={require('../../../img/day-tours/boat/2.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>
