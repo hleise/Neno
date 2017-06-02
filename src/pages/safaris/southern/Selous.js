@@ -9,6 +9,7 @@ class Selous extends Component {
       <div className="page">
           <div className="banner">
             <h1>Selous Game Refuge</h1>
+            <img className='banner-image' src={require('../../../img/safaris/southern/0.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

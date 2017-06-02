@@ -9,6 +9,7 @@ class Tarangire extends Component {
       <div className="page">
           <div className="banner">
             <h1>Tarangire National Park</h1>
+            <img className='banner-image' src={require('../../../img/safaris/northern/4.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

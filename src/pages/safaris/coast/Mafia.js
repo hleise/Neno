@@ -9,6 +9,7 @@ class Mafia extends Component {
       <div className="page">
           <div className="banner">
             <h1>Mafia Archipelago</h1>
+            <img className='banner-image' src={require('../../../img/safaris/coast/0.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

@@ -9,6 +9,7 @@ class Manyara extends Component {
       <div className="page">
           <div className="banner">
             <h1>Lake Manyara National Park</h1>
+            <img className='banner-image' src={require('../../../img/safaris/northern/3.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

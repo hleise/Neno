@@ -9,6 +9,7 @@ class Mikumi extends Component {
       <div className="page">
           <div className="banner">
             <h1>Mikumi and Udzungwa National Parks</h1>
+            <img className='banner-image' src={require('../../../img/safaris/southern/2.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

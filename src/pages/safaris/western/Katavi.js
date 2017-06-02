@@ -9,6 +9,7 @@ class Katavi extends Component {
       <div className="page">
           <div className="banner">
             <h1>Katavi National Park</h1>
+            <img className='banner-image' src={require('../../../img/safaris/western/0.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

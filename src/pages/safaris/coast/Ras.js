@@ -9,6 +9,7 @@ class Ras extends Component {
       <div className="page">
           <div className="banner">
             <h1>Ras Kutani Area</h1>
+            <img className='banner-image' src={require('../../../img/safaris/coast/2.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>

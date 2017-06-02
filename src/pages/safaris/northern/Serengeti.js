@@ -9,6 +9,7 @@ class Serengeti extends Component {
       <div className="page">
           <div className="banner">
             <h1>Serengeti National Park</h1>
+            <img className='banner-image' src={require('../../../img/safaris/northern/2.jpg')} />
           </div>
           <div className="info">
            <HorizontalTextSection>
