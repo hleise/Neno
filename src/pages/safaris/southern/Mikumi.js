@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import mikumiMD from '../../../content/Safaris/SouthernCircuit/MikumiUdzungwa.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Mikumi extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: mikumiMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

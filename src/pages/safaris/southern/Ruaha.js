@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ruahaMD from '../../../content/Safaris/SouthernCircuit/RuahaNationalPark.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Ruaha extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: ruahaMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

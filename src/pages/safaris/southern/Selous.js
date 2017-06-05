@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import selousMD from '../../../content/Safaris/SouthernCircuit/SelousGameReserve.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Selous extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: selousMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>
