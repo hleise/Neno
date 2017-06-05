@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import ngorongoMD from '../../../content/Safaris/NorthernCircuit/NgorongoroConservationArea.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Ngorongo extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: ngorongoMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

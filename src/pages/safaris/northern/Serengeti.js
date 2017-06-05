@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import serengetiMD from '../../../content/Safaris/NorthernCircuit/SerengetiNationalPark.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Serengeti extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: serengetiMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

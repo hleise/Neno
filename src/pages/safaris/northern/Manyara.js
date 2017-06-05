@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import manyaraMD from '../../../content/Safaris/NorthernCircuit/LakeManyaraNationalPark.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Manyara extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: manyaraMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

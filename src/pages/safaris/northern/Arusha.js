@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import arushaMD from '../../../content/Safaris/NorthernCircuit/ArushaNationalPark.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Arusha extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+            <div className='markdown' dangerouslySetInnerHTML={{__html: arushaMD}}>
+            </div>
             </HorizontalTextSection>
           </div>
       </div>
