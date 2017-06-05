@@ -10,6 +10,8 @@ import Booking from './pages/Booking';
 import CarRental from './pages/CarRental';
 import FlightInfo from './pages/FlightInfo';
 import history from './pages/History';
+import General from './pages/GeneralInfo';
+import Volunteers from './pages/Volunteers';
 import Hotels from './pages/Hotels';
 import HotelHandler from './pages/HotelHandler';
 import PackageTours from './pages/PackageTours';
@@ -39,6 +41,8 @@ class App extends Component {
               <Route exact path='/car-rental' component={CarRental}/>
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
+              <Route exact path='/general-information' component={General}/>
+              <Route exact path='/volunteers' component={Volunteers}/>
               <Route exact path='/hotels' component={Hotels}/>
               <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route path='*' component={Home}/>
