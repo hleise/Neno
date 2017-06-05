@@ -12,6 +12,7 @@ import FlightInfo from './pages/FlightInfo';
 import history from './pages/History';
 import General from './pages/GeneralInfo';
 import Volunteers from './pages/Volunteers';
+import Gallery from './pages/Gallery';
 import Hotels from './pages/Hotels';
 import HotelHandler from './pages/HotelHandler';
 import PackageTours from './pages/PackageTours';
@@ -43,6 +44,7 @@ class App extends Component {
               <Route exact path='/history-of-zanzibar' component={history}/>
               <Route exact path='/general-information' component={General}/>
               <Route exact path='/volunteers' component={Volunteers}/>
+              <Route exact path='/gallery' component={Gallery}/>
               <Route exact path='/hotels' component={Hotels}/>
               <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route path='*' component={Home}/>
