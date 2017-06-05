@@ -1,0 +1,3 @@
+## Mikumi and Udzungwa national parks
+
+Mikumi and Udzungwa national parks are for the well-travelled safari enthusiast, and they border the Selous Game Reserve. Mikumi is one of Tanzania's smaller parks, and is best experienced with a four-wheel drive vehicle and a guide. The environment is similar to that of the Selous Game Reserve with grasslands, wetlands, and woodlands. In addition, Mikumi National Park acts as a basecamp for trips into the Udzungwa Mountains. The mountains contain a small, densely-forested park where keen wildlife enthusiasts can hike in search of endemic species. __Read More__
