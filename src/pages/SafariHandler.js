@@ -21,6 +21,12 @@ import Mafia from './safaris/coast/Mafia';
 import Pemba from './safaris/coast/Pemba';
 import Ras from './safaris/coast/Ras';
 
+import Threeday from './safaris/threetoseven/3day';
+import Fourday from './safaris/threetoseven/4day';
+import Fiveday from './safaris/threetoseven/5day';
+import Sevenday from './safaris/threetoseven/7day';
+import Daysinfo from './safaris/threetoseven/daysinfo';
+
 
 class SafariHandler extends Component {
   render() {
@@ -64,6 +70,21 @@ class SafariHandler extends Component {
         break;
       case 'ras-kutani-area':
         page = <Ras/>;
+        break;
+      case '3-days':
+        page = <Threeday/>;
+        break;
+      case '4-days':
+        page = <Fourday/>;
+        break;
+      case '5-days':
+        page = <Fiveday/>;
+        break;
+      case '7-days':
+        page = <Sevenday/>;
+        break;
+      case 'general-information':
+        page = <Daysinfo/>;
         break;
     }
     return (
