@@ -1,10 +1,10 @@
 .image-wrapper {
+  @include transition(margin, 0.5s, ease);
+  display: flex;
+  height: 100vh;
   height: 100vh;
   overflow: hidden;
-  display: flex;
-  @include transition(margin, 0.5s, ease);
   width: 100vw;
-  height: 100vh;
 
   cursor: pointer;
 
@@ -14,7 +14,6 @@
     z-index:99;
     text-align:center;
     justify-content: center;
-
   }
 
   .image {
