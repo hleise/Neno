@@ -16,7 +16,13 @@
   }
 
   .image {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: white;
+    }
 
 
     .left-image {

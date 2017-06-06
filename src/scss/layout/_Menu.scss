@@ -23,4 +23,9 @@
 .back-button {
   padding: 15px;
   cursor: pointer;
+  @include transition(all, 0.25s, ease);
+}
+
+.back-button:hover {
+  transform: translateX(-10px);
 }
