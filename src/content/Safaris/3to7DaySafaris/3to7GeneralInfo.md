@@ -1,4 +1,4 @@
-# 3 to 7 Day Safaris, Overnight at Campsite or Lodge
+## 3 to 7 Day Safaris, Overnight at Campsite or Lodge
 
 Tanzania's national parks and conservation areas are unique, diverse, and overflowing with natural beauty and wildlife surprises. The system of protected conservation areas also cover one-fourth of Tanzania’s land mass. We will organize a camping safari or a lodge safari in order to suit your needs, and we can also tailor a custom safari based on your requests.
 

@@ -1,0 +1,3 @@
+## Mahale Mountains National Park
+
+The famous Mahale Mountains National Park contains some of the last remaining wild chimpanzees in Africa, it is also the only place where lions and chimpanzees co-exist. This smaller park offers a large variety of activities for visitors, including tracking wild chimpanzees, water activities, and relaxing on deserted sandy beaches. Ascending to the highest peak, Mt. Nkungwe, is a two to three day endeavor that is perfect for climbing enthusiasts. There is a wide array of activities due to the close proximity of Lake Tanganyika and nearby villages. __Read more__
