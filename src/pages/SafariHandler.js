@@ -27,6 +27,8 @@ import Fiveday from './safaris/threetoseven/5day';
 import Sevenday from './safaris/threetoseven/7day';
 import Daysinfo from './safaris/threetoseven/daysinfo';
 
+import Hadza from './safaris/cultural/Hadza';
+import Maasai from './safaris/cultural/Maasai';
 
 class SafariHandler extends Component {
   render() {
@@ -85,6 +87,12 @@ class SafariHandler extends Component {
         break;
       case 'general-information':
         page = <Daysinfo/>;
+        break;
+      case 'hadza':
+        page = <Hadza/>;
+        break;
+      case 'maasai':
+        page = <Maasai/>;
         break;
     }
     return (
