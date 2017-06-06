@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import kataviMD from '../../../content/Safaris/WesternCircuit/KataviNationalPark.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Katavi extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: kataviMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

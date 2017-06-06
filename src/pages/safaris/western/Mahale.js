@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import mahaleMD from '../../../content/Safaris/WesternCircuit/MahaleMountains.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Mahale extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: mahaleMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>
