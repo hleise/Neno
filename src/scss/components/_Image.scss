@@ -1,42 +1,26 @@
-.image-wrapper {
+.image-row {
   @include transition(margin, 0.5s, ease);
   display: flex;
   height: 100vh;
   overflow: hidden;
-
   cursor: pointer;
 
-  h1{
-    position:absolute;
-    margin:0;
-    z-index:99;
-    text-align:center;
-    justify-content: center;
-  }
-
   .image {
+    width: 50%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
 
+    .gallery-image {
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+    }
     h1 {
       color: white;
-    }
-
-
-    .left-image {
       position: absolute;
-      max-width: 100%;
-      height:35vw;
-
-    }
-
-    .right-image {
-      position:absolute;
-      max-width: 100%;
-      height:35vw;
-
+      z-index: 99;
     }
   }
 }
