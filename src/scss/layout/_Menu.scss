@@ -1,6 +1,6 @@
 .menu {
   @include transition(all, 0.5s, ease-in-out);
-  background: $nav-bar-color;
+  background: rgba(0, 255, 255, 0);
   display: flex;
   justify-content: center;
   align-items: center;

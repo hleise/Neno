@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-import TextSection from './components/TextSection.js';
-import markdownFile  from './content/home.md';
+import HorizontalTextSection from './components/HorizontalTextSection.js';
+import HomeContent from './content/home.md';
+import PageLayout from './layout/PageLayout';
 
 
 class Home extends Component {
   rawMarkup(){
-           return{ __html: markdownFile};
+           return{ __html: HomeContent};
   }
   render() {
     return (
-      <div className="home">
-        <div className='image-wrapper'>
-          <div className='image'>
-            <img className='left-image' src={require('./img/5.jpg')} alt='left'/>
-          </div>
-          <div className='image'>
-            <img className='right-image' src={require('./img/4.jpg')} alt='right'/>
-          </div>
-        </div>
-        <TextSection>
-          <h1>Neno</h1>
-            <div className='home-markdown' dangerouslySetInnerHTML={this.rawMarkup()}>
+      <PageLayout>
+        <div className="page">
+            <div className="banner">
+              <h1>Neno Tours & Travels</h1>
+              <img className='home-image' src={require('./img/5.jpg')} />
             </div>
-        </TextSection>
-      </div>
+            <div className="info">
+              <HorizontalTextSection>
+                <div className='markdown' dangerouslySetInnerHTML={this.rawMarkup()} />
+              </HorizontalTextSection>
+            </div>
+        </div>
+      </PageLayout>
     );
   }
 }

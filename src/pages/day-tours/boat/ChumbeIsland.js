@@ -11,9 +11,8 @@ class ChumbeIsland extends Component {
             <img className='banner-image' src={require('../../../img/day-tours/boat/2.jpg')} />
           </div>
           <div className="info">
-           <HorizontalTextSection>
-            <div className='markdown' dangerouslySetInnerHTML={{__html: chumbeMark}}>
-            </div>
+            <HorizontalTextSection>
+              <div className='markdown' dangerouslySetInnerHTML={{__html: chumbeMark}} />
             </HorizontalTextSection>
           </div>
       </div>

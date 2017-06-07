@@ -16,12 +16,23 @@
       justify-content: center;
       flex-direction: column;
       align-items: center;
+
       h1 {
-        
         z-index: 1;
         color: $section-color;
 
       }
+
+      .home-image {
+        height: 100vh;
+        object-fit: cover;
+        object-position: 50% 20%;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+      }
+
+
       .banner-image {
         filter: brightness(40%) saturate(120%) sepia(40%) blur(0px);
         height: 100vh;
