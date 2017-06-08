@@ -21,7 +21,7 @@ class Section extends Component {
       <div className='car-rental-blocks'>
         {imageArray.map((img,i) => (
         <div key={i} className='car-wrapper'>
-          <img className='img' src={require('../img/' + imageArray[i] + '.jpg')} />
+          <img className='car-img' src={require('../img/' + imageArray[i] + '.jpg')} />
           <div className='car-markdown' dangerouslySetInnerHTML={{__html: mdArray[i]}}>
           </div>
         </div>
