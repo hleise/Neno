@@ -1,3 +1,5 @@
+$hover-color: rgba(50, 44, 49, 0.75);
+
 .image-row {
   @include transition(margin, 0.5s, ease);
   display: flex;
@@ -5,7 +7,7 @@
   overflow: hidden;
   cursor: pointer;
 
-  .image {
+  .gallery-image-container {
     width: 50%;
     height: 33.33vh;
     display: flex;
@@ -15,10 +17,20 @@
   align-content: center;
 
 
+
+
     .gallery-image {
       width: 100%;
       height: 33.33vh;
       object-fit: cover;
+    }
+    .gallery-image-container:hover {
+      background: $hover-color;
+      opacity: 1;
+      cursor: pointer;
+    }
+    .gallery-image-container:hover > h1 {
+      transform: translateY(0px);
     }
     h1 {
       color: white;
@@ -30,7 +42,11 @@
       -webkit-align-content: center;
     align-content: center;
     align-items: center;
-	
+    @include transition(all, 0.2s, ease);
+    transform: translateY(-10px);
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 1.5em;
+
     }
   }
 }
