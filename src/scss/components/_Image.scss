@@ -24,11 +24,13 @@
       color: white;
       position: absolute;
       z-index: 99;
-      text-align:center;
+      text-align: -webkit-center;
       justify-content: center;
       width:50%;
       -webkit-align-content: center;
     align-content: center;
+    align-items: center;
+	
     }
   }
 }
