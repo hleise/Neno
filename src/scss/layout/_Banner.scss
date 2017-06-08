@@ -1,0 +1,62 @@
+.banner {
+  @include transition(margin, 0.5s, ease);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  cursor: pointer;
+  align-items: center;
+    h1{
+
+    }
+
+
+
+  .section-title {
+    position: absolute;
+    margin: 0;
+    z-index: 9;
+    color: white;
+    display: flex;
+    @include user-select(none);
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    width: 100%;
+    height:100vh;
+    h1 {
+
+      a {
+        color: white;
+
+      }
+      @include transition($hover-prop, $hover-duration, $hover-easing);
+      transform: translateY(-10px);
+    }
+    opacity: 0;
+    @include transition($hover-prop, $hover-duration, $hover-easing);
+  }
+  .section-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 20%;
+    filter: brightness(70%) saturate(90%) sepia(10%) blur(0px);
+  }
+}
+
+.banner:hover > .section-title {
+  background: $hover-color;
+  h1 {
+    transform: translateY(0px);
+  }
+  opacity: 1;
+}
+
+.menu:hover ~ .-banner .section-title {
+  background: $hover-color;
+  transform: translateY(0px);
+  opacity: 1;
+}

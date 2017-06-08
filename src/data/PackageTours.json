@@ -1,0 +1,19 @@
+[
+  {
+    "sectionTitle":"Northern Package Tours",
+    "imgFolder":"northern-package",
+    "featuredTours": [
+      "Karibu Package",
+      "Hakuna Matata Package"
+    ]
+  },
+  {
+    "sectionTitle":"Southern Package Tours",
+    "imgFolder":"southern-package",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  }
+]

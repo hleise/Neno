@@ -1,0 +1,77 @@
+$slide-duration: 0.5s;
+$hover-color: rgba(50, 44, 49, 0.75);
+$hover-prop: all;
+$hover-duration: 0.25s;
+$hover-easing: ease-in-out;
+$block-height: 160px;
+
+
+.section {
+  display: inline-flex;
+
+  .featured-tours {
+    display: flex;
+    flex-direction: column;
+
+    .row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 15px 0px;
+
+
+      .block {
+        height: $block-height;
+        width: 250px;
+        padding: 0px 15px;
+
+        .title {
+          position: absolute;
+          height: $block-height;
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @include transition(all, 0.2s, ease);
+          opacity: 0;
+          @include user-select(none);
+
+          h3 {
+            text-align: center;
+            a {
+              color: white;
+              text-align: center;
+            }
+            @include transition(all, 0.2s, ease);
+            transform: translateY(-10px);
+            color: white;
+            font-family: 'Oswald', Helvetica, sans-serif;
+            font-size: 1.5em;
+          }
+        }
+
+
+        .title:hover > h3 {
+          transform: translateY(0px);
+        }
+
+        .title:hover {
+          background: $hover-color;
+          opacity: 1;
+          cursor: pointer;
+        }
+
+        .image {
+          width: 250px;
+          height: $block-height;
+          object-fit: cover;
+          object-position: 50% 100%;
+          @include user-select(none);
+          pointer-events: none;
+          position: absolute;
+
+        }
+      }
+    }
+  }
+}

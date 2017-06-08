@@ -1,0 +1,3 @@
+## Katavi National Park
+
+Katavi National Park contains a very remote area located in the Katavi Region of Tanzania. Although this park is less frequently visited than the other big parks in the country, it remains the third largest national park in Tanzania. There is a high level of biodiversity in the park, including several species of carnivorous animals and large animal herds. To give you an idea of the remoteness of this park, most drives from nearby cities require around 20 hours and a chartered flight will take approximately 3 hours. This National Park is perfect for travelers seeking an uninterrupted experience with western Tanzania’s unique ecosystem. __Read more__

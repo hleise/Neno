@@ -1,0 +1,41 @@
+[
+  {
+    "sectionTitle":"Cultural Day Tours",
+    "imgFolder":"cultural-day",
+    "featuredTours": [
+      "Jambiani Village",
+      "Kidichi Village",
+      "Nungwi Village",
+      "Spice Tour"
+    ]
+  },
+  {
+    "sectionTitle":"Boat Tours",
+    "imgFolder":"boat",
+    "featuredTours": [
+      "Safari Blue",
+      "Unguja Ukuu Boat Trip",
+      "Chumbe Island",
+      "Dolphin Tour",
+      "Prison Island",
+      "Sandbank Picnic",
+      "Sunset Dhow Cruise"
+    ]
+  },
+  {
+    "sectionTitle":"Fishing Tours",
+    "imgFolder":"fishing",
+    "featuredTours": [
+      "Local Game Fishing",
+      "Deep Sea Fishing"
+    ]
+  },
+  {
+    "sectionTitle":"Other Tours",
+    "imgFolder":"other",
+    "featuredTours": [
+      "City Tour",
+      "Jozani Forest Tour"
+    ]
+  }
+]

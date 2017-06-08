@@ -1,0 +1,23 @@
+.car-rental{
+
+  .car-wrapper {
+    background-color: white;
+    margin: 20px;
+    overflow: hidden;
+    padding: 10px;
+
+    .car-img {
+      display: block;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .car-markdown {
+      float: left;
+
+      h2 {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

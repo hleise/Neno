@@ -1,0 +1,28 @@
+.hotels-dropdown-container {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 9;
+
+  .nav-bar {
+    position: relative;
+    display: block;
+  }
+
+  .hotels-dropdown {
+    z-index: 9;
+    width: 15%;
+    text-align: center;
+
+    .nav-bar-button {
+        width: 100%;
+
+        .dropdown-options {
+          width: 100%;
+        }
+    }
+  }
+}

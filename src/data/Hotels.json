@@ -1,0 +1,51 @@
+[
+  {
+    "sectionTitle":"Beach Resorts",
+    "imgFolder":"beach-resort",
+    "featuredTours": [
+      "La Gemma Dell 'Est",
+      "Azanzi",
+      "Diamond Dreams",
+      "Ocean Paradise",
+      "Baraza Beach",
+      "Breezes Beach Club and Spa",
+      "Fumba Beach Lodge",
+      "Bluebay Beach Resort",
+      "Sandies Neptune Pwani Beach Resort",
+      "Zanzibar Retreat Hotel"
+    ]
+  },
+  {
+    "sectionTitle":"Beach Clubs",
+    "imgFolder":"beach-club",
+    "featuredTours": [
+      "Flame Tree Cottages",
+      "Anna of Zanzibar",
+      "Ras Nungwi",
+      "Z Hotel",
+      "Matemwe Beach Village",
+      "Matemwe Retreat",
+      "Pongwe Cottages",
+      "Shooting Star Hotel",
+      "Echo Beach",
+      "Kichanga Lodge",
+      "Karamba Resort",
+      "Unguja Lodge",
+      "Matemwe Bungalows"
+    ]
+  },
+  {
+    "sectionTitle":"City Hotels",
+    "imgFolder":"city-hotel",
+    "featuredTours": [
+      "Grand Palace Hotel",
+      "Swahili House",
+      "Zenji Hotel",
+      "Tembo House Hotel",
+      "Dhow Palace Hotel",
+      "236 Huruzumi Hotel",
+      "Africa House Hotel",
+      "Zanzibar Palace Hotel"
+    ]
+  }
+]
