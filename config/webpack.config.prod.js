@@ -111,6 +111,7 @@ module.exports = {
           /\.(js|jsx)$/,
           /\.css$/,
           /\.scss$/,
+          /\.md$/,
           /\.json$/,
           /\.svg$/
         ],
