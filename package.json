@@ -1,6 +1,7 @@
 {
   "name": "neno",
   "version": "0.1.0",
+  "homepage": "http://13.58.139.60/neno",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
