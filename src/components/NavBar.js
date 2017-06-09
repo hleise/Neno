@@ -64,20 +64,20 @@ class NavBar extends Component {
                 </h3>
               </div>
               <div className='dropdown-options'>
-                  <div className='dropdown-option'>
-                    <h3>
-                      <Link to="/flight-info">
-                        Flight Info
-                      </Link>
-                    </h3>
-                  </div>
-                  <div className='dropdown-option'>
-                    <h3>
-                      <Link to="/car-rental">
-                        Car Rental
-                      </Link>
-                    </h3>
-                  </div>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/car-rental">
+                      Car Rental
+                    </Link>
+                  </h3>
+                </div>
+                <div className='dropdown-option'>
+                  <h3>
+                    <Link to="/flight-info">
+                      Flight Info
+                    </Link>
+                  </h3>
+                </div>
               </div>
             </div>
             <div className='nav-bar-button'>
@@ -91,8 +91,8 @@ class NavBar extends Component {
               <div className='dropdown-options'>
                 <div className='dropdown-option'>
                   <h3>
-                    <Link to="/volunteers">
-                      Volunteers
+                    <Link to="/general-information">
+                      General Information
                     </Link>
                   </h3>
                 </div>
@@ -105,8 +105,8 @@ class NavBar extends Component {
                 </div>
                 <div className='dropdown-option'>
                   <h3>
-                    <Link to="/general-information">
-                      General Information
+                    <Link to="/volunteers">
+                      Volunteers
                     </Link>
                   </h3>
                 </div>
