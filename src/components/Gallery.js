@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PageLayout from '../layout/PageLayout';
 
+
 class Gallery extends Component {
   render() {
     return (

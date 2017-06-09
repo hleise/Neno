@@ -15,7 +15,7 @@ $hover-color: rgba(50, 44, 49, 0.75);
     align-items: center;
     -webkit-align-content: center;
   align-content: center;
-
+  color:black;
 
 
 
@@ -25,15 +25,15 @@ $hover-color: rgba(50, 44, 49, 0.75);
       object-fit: cover;
       @include user-select(none);
       pointer-events: none;
+
     }
-    .gallery-image-container:hover {
-      background: $hover-color;
-      opacity: 1;
-      cursor: pointer;
-    }
-    .gallery-image-container:hover > h1 {
+    .img:hover{
+    opacity:0.5;
+}
+  /*  .gallery-image:hover > h1 {
       transform: translateY(-10px);
-    }
+      color: $hover-color;
+    } */
     h1 {
       color: white;
       position: absolute;
@@ -50,5 +50,6 @@ $hover-color: rgba(50, 44, 49, 0.75);
     font-size: 1.5em;
 
     }
+
   }
 }
