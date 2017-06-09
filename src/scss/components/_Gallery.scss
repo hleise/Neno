@@ -27,7 +27,15 @@ $hover-color: rgba(50, 44, 49, 0.75);
   }
 
   .gallery-image-container:hover > .gallery-image {
-    opacity: 0.1;
+    opacity: 0.25;
+  }
+
+  .gallery-image-container:hover > h1 {
+    opacity: 0;
+  }
+
+  .gallery-image-container:hover > .text {
+    opacity: 1;
   }
 
   h1 {
@@ -45,4 +53,13 @@ $hover-color: rgba(50, 44, 49, 0.75);
     font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 1.5em;
   }
+  .text {
+  color: white;
+  opacity:0;
+  position: absolute;
+  width:40%;
+  text-align: center;
+  justify-content: center;
+}
+
 }
