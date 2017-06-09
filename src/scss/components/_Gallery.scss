@@ -14,10 +14,8 @@ $hover-color: rgba(50, 44, 49, 0.75);
     justify-content: center;
     align-items: center;
     -webkit-align-content: center;
-  align-content: center;
-  color:black;
-
-
+    align-content: center;
+    color:black;
 
     .gallery-image {
       width: 100%;
@@ -25,31 +23,26 @@ $hover-color: rgba(50, 44, 49, 0.75);
       object-fit: cover;
       @include user-select(none);
       pointer-events: none;
-
     }
-    .img:hover{
-    opacity:0.5;
-}
-  /*  .gallery-image:hover > h1 {
-      transform: translateY(-10px);
-      color: $hover-color;
-    } */
-    h1 {
-      color: white;
-      position: absolute;
-      z-index: 99;
-      text-align: -webkit-center;
-      justify-content: center;
-      width:50%;
-      -webkit-align-content: center;
+  }
+
+  .gallery-image-container:hover > .gallery-image {
+    opacity: 0.1;
+  }
+
+  h1 {
+    color: white;
+    position: absolute;
+    z-index: 99;
+    text-align: -webkit-center;
+    justify-content: center;
+    width:50%;
+    -webkit-align-content: center;
     align-content: center;
     align-items: center;
     @include transition(all, 0.2s, ease);
     transform: translateY(-10px);
     font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 1.5em;
-
-    }
-
   }
 }
