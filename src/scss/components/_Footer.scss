@@ -1,26 +1,14 @@
 .footer {
   background: $nav-bar-color;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
-  h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    height: 10vh;
-    color: grey;
+  width: 50%;
+  height: 150px;
+  h2 {
+    color: white;
   }
-  .fb-logo{
-    position:absolute;
-    margin-left:30vw;
-    margin-top:-1vw;
-  }
-  .ta-logo{
-    position:absolute;
-    margin-left:15vw;
-    margin-top:-1vw;
+  .logo {
+    width: 60px;
   }
 }
