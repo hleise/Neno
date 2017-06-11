@@ -10,7 +10,7 @@ $nav-bar-option-color: #656068;
   position: fixed;
   height: $nav-bar-height;
   box-shadow: 0px 0px 5px 1px rgba(33, 34, 33, 0.5);
-  z-index: 99;
+  z-index: 999;
 
   h3, a {
     cursor: pointer;
