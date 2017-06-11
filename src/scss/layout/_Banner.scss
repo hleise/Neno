@@ -34,7 +34,6 @@
       @include transition($hover-prop, $hover-duration, $hover-easing);
       transform: translateY(-10px);
     }
-    opacity: 0;
     @include transition($hover-prop, $hover-duration, $hover-easing);
   }
   .section-image {
@@ -51,7 +50,6 @@
   h1 {
     transform: translateY(0px);
   }
-  opacity: 1;
 }
 
 .menu:hover ~ .-banner .section-title {
