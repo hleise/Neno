@@ -14,6 +14,9 @@ class Footer extends Component {
         <a href="http://www.tripadvisor.com" rel="external" target="_blank">
           <img className='ta-logo' src={require('../logos/tripadvisor.png')} />
         </a>
+        <Link to="contact">
+          Contact
+        </Link>
       </div>
     );
   }
