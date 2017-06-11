@@ -4,13 +4,7 @@ import { Link } from 'react-router-dom';
 class Menu extends Component {
   render() {
     return (
-      <div className={"menu" + " " + this.props.menu}>
-       <div className='back-button' onMouseDown={this.props.toggleMenu}>
-         <svg width="80px" height="80px" viewBox="0 -20 60 120">
-          <polyline fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
-       45.63,75.8 0.375,38.087 45.63,0.375 "/>
-        </svg>
-       </div>
+      <div className={"menu" + " " + this.props.menu} onMouseDown={this.props.toggleMenu}>
        <div className='featured-tours'>
           {[...Array(Math.ceil(this.props.featuredTours.length / 4))].map((rowOfTours, rowIndex) => (
               <div className='row' key={rowIndex}>
