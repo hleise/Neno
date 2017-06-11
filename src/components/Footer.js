@@ -8,12 +8,12 @@ class Footer extends Component {
         <h3>
           © Neno Tours & Travels
         </h3>
-        <Link to="http://www.facebook.com">
+        <a href="http://www.facebook.com" rel="external" target="_blank">
            <img className='fb-logo' src={require('../logos/facebook.png')} />
-        </Link>
-        <Link to="">
+        </a>
+        <a href="http://www.tripadvisor.com" rel="external" target="_blank">
           <img className='ta-logo' src={require('../logos/tripadvisor.png')} />
-        </Link>
+        </a>
       </div>
     );
   }
