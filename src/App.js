@@ -12,7 +12,7 @@ import FlightInfo from './pages/FlightInfo';
 import history from './pages/History';
 import General from './pages/GeneralInfo';
 import Volunteers from './pages/Volunteers';
-import Gallery from './components/Gallery';
+import Gallery from './pages/Gallery';
 import Hotels from './pages/Hotels';
 import HotelHandler from './pages/HotelHandler';
 import PackageTours from './pages/PackageTours';
