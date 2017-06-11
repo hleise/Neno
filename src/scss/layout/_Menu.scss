@@ -14,10 +14,11 @@
 
 .open {
   transform: translate3d(0,-5vw,0);
-  opacity: 1;
+  
 }
 
 .closed {
   transform: translate3d(0,0,0);
   opacity: 0;
+  display:none;
 }
