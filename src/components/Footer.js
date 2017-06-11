@@ -8,7 +8,7 @@ class Footer extends Component {
         <h3>
           © Neno Tours & Travels
         </h3>
-        <Link to="">
+        <Link to="http://www.facebook.com">
            <img className='fb-logo' src={require('../logos/facebook.png')} />
         </Link>
         <Link to="">
