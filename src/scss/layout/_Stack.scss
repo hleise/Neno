@@ -28,6 +28,7 @@ $block-height: 160px;
         padding: 0px 15px;
 
         .title {
+          background: rgba(50, 44, 49, 0.3);
           position: absolute;
           height: $block-height;
           width: 250px;
@@ -35,7 +36,6 @@ $block-height: 160px;
           justify-content: center;
           align-items: center;
           @include transition(all, 0.2s, ease);
-          opacity: 0;
           @include user-select(none);
 
           h3 {
@@ -59,7 +59,6 @@ $block-height: 160px;
 
         .title:hover {
           background: $hover-color;
-          opacity: 1;
           cursor: pointer;
         }
 
