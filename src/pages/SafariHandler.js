@@ -20,6 +20,7 @@ import Mahale from './safaris/western/Mahale';
 import Mafia from './safaris/coast/Mafia';
 import Pemba from './safaris/coast/Pemba';
 import Ras from './safaris/coast/Ras';
+import Dar from './safaris/coast/Dar';
 
 import Threeday from './safaris/threetoseven/3day';
 import Fourday from './safaris/threetoseven/4day';
@@ -72,6 +73,9 @@ class SafariHandler extends Component {
         break;
       case 'ras-kutani-area':
         page = <Ras/>;
+        break;
+      case 'dar-es-salaam':
+        page = <Dar/>;
         break;
       case '3-days':
         page = <Threeday/>;
