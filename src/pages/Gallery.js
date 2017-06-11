@@ -11,36 +11,30 @@ class Gallery extends Component {
         <div className='gallery-image-container'>
           <h1>Featured</h1>
           <img className='gallery-image' src={require('../img/gallery/0.jpg')} alt='left'/>
-          <div className="text">Day Tours, Package Tours, Safaris, and Hotels. Click on booking to book your African getaway today!</div>
         </div>
         <div className='gallery-image-container'>
           <h1>Adventure</h1>
           <img className='gallery-image' src={require('../img/gallery/1.jpg')} alt='right'/>
-          <div className="text">A collection of adventurous tours ranging from island safaris to deep sea fishing</div>
         </div>
       </div>
       <div className='image-row'>
         <div className='gallery-image-container'>
           <h1>Mainland Tanzania</h1>
           <img className='gallery-image' src={require('../img/gallery/2.jpg')} alt='left'/>
-          <div className="text">Day Tours, Package Tours, Safaris, and Hotels. Click on booking to book your African getaway today!</div>
         </div>
         <div className='gallery-image-container'>
           <h1>Zanzibar Island</h1>
           <img className='gallery-image' src={require('../img/gallery/3.jpg')} alt='right'/>
-          <div className="text">Day Tours, Package Tours, Safaris, and Hotels. Click on booking to book your African getaway today!</div>
         </div>
       </div>
       <div className='image-row'>
         <div className='gallery-image-container'>
           <h1>Culture</h1>
           <img className='gallery-image' src={require('../img/gallery/4.jpg')} alt='left'/>
-          <div className="text">Day Tours, Package Tours, Safaris, and Hotels. Click on booking to book your African getaway today!</div>
         </div>
         <div className='gallery-image-container'>
           <h1>Volunteer Opportunities</h1>
           <img className='gallery-image' src={require('../img/gallery/5.jpg')} alt='right'/>
-          <div className="text">Day Tours, Package Tours, Safaris, and Hotels. Click on booking to book your African getaway today!</div>
         </div>
       </div>
     </page>
