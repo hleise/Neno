@@ -34,6 +34,10 @@ $hover-color: rgba(50, 44, 49, 0.75);
     opacity: 0.25;
   }
 
+  .gallery-image-container:hover > h1 {
+    transform: translateY(0px);
+  }
+
   h1 {
     color: white;
     position: absolute;
@@ -44,7 +48,8 @@ $hover-color: rgba(50, 44, 49, 0.75);
     -webkit-align-content: center;
     align-content: center;
     align-items: center;
-    @include transition(all, 0.2s, ease);
+    @include transition($hover-prop, $hover-duration, $hover-easing);
+    transform: translateY(-5px);
     font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 1.5em;
   }
