@@ -9,9 +9,14 @@ class Footer extends Component {
         <a href="https://www.facebook.com/NenoToursNtravels" rel="external" target="_blank">
            <img className='logo' src={require('../logos/facebook.png')} />
         </a>
-        <a href="https://www.tripadvisor.com/Attraction_Review-g488129-d7391505-Reviews-Neno_Tours_Travel_Agency_Day_Tours-Stone_Town_Zanzibar_City_Zanzibar_Island_Zanzi.html" rel="external" target="_blank">
-          <img className='logo' src={require('../logos/tripadvisor.png')} />
-        </a>
+        <div id="TA_cdsratingsonlywide730" class="TA_cdsratingsonlywide">
+        <ul id="WEQxma20Mkt2" class="TA_links 5is8R91jcm">
+        <li id="LR06aLardN" class="DgWVTXBBL">
+        <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
+        </li>
+        </ul>
+        </div>
+        <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&amp;uniq=730&amp;locationId=7391505&amp;lang=en_US&amp;border=false&amp;shadow=false&amp;display_version=2"></script>
         <Link to="contact">
           <h2>Contact</h2>
         </Link>
