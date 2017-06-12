@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import mafiaMD from '../../../content/Safaris/TheCoastAndIslands/MafiaArchipelago.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Mafia extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+            <div className='markdown' dangerouslySetInnerHTML={{__html: mafiaMD}}>
+            </div>
             </HorizontalTextSection>
           </div>
       </div>

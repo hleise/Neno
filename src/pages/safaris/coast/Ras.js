@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import raskutaniMD from '../../../content/Safaris/TheCoastAndIslands/RasKutaniArea.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Ras extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+           <div className='markdown' dangerouslySetInnerHTML={{__html: raskutaniMD}}>
+           </div>
             </HorizontalTextSection>
           </div>
       </div>

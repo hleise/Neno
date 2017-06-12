@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import pembaMD from '../../../content/Safaris/TheCoastAndIslands/PembaIsland.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 
 
@@ -13,7 +13,8 @@ class Pemba extends Component {
           </div>
           <div className="info">
            <HorizontalTextSection>
-
+            <div className='markdown' dangerouslySetInnerHTML={{__html: pembaMD}}>
+            </div>
             </HorizontalTextSection>
           </div>
       </div>
