@@ -1,14 +1,33 @@
 .footer {
-  background: $nav-bar-color;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
-  height: 150px;
-  h2 {
-    color: white;
+  text-align: center;
+
+  p {
+    color: lightgray;
   }
-  .logo {
-    width: 60px;
+
+  .nav-link {
+    display: inline-block;
+    margin: 20px;
   }
+
+  .logo-link {
+    height: 40px;
+    margin: 10px 10px 0 10px;
+  }
+
+  .neno-logo {
+    display: block;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vivo-acknowledgement {
+    margin: 10px;
+  }
+
+  .vivo-logo {
+    height: 40px;
+  }
+
 }
