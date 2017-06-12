@@ -1,0 +1,3 @@
+## Dar es Salaam
+
+Dar es Salaam is both the largest city and the economic center of Tanzania. This administrative province consists of three local government areas, Kinondoni to the north, Ilala in the center of the region, and Temeke to the south. Dar es Salaam is one of the fastest growing cities in the world, the 2002 census put the population at 2,497,940 whereas the 2012 census report was 4,364,541 people. When travelling to Tanzania, you will most likely arrive at Dar es Salaam’s airport, Julius Nyerere International Airport. From here you can take a connecting flight to Zanzibar and join us here at Neno tours for many adventures! __Read More__
