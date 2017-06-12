@@ -19,6 +19,7 @@ import PackageTours from './pages/PackageTours';
 import PackageToursHandler from './pages/PackageToursHandler';
 import Safaris from './pages/Safaris';
 import SafariHandler from './pages/SafariHandler';
+import Transportation from './pages/Transportation';
 import Layout from './layout/Layout';
 
 
@@ -30,8 +31,9 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path='/' component={Home}/>
-              <Route exact path='/about' component={About}/>
               <Route exact path='/contact' component={Contact}/>
+              <Route exact path='/transportation' component={Transportation}/>
+              <Route exact path='/about' component={About}/>
               <Route exact path='/booking' component={Booking}/>
               <Route exact path='/day-tours' component={DayTours}/>
               <Route path='/day-tours/:tour' component={DayToursHandler}/>

@@ -43,7 +43,7 @@ var Decorators = [{
         style={buttonStyle}
         onClick={this.props.nextSlide}>
           <svg width="80px" height="80px" viewBox="0 -20 60 120">
-            <polyline  transform="rotate(180 50 50) translate(20)" fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
+            <polyline  transform="rotate(180 50 50) translate(20, 26)" fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
          45.63,75.8 0.375,38.087 45.63,0.375 "/>
           </svg>
         </button>
