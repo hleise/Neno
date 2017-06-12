@@ -34,11 +34,11 @@ class Stack extends Component {
         {this.props.data.map((section, i) =>
         <div className='section' id={section.sectionTitle.replace(/\s+/g, '-').toLowerCase()}>
           <Menu
-            menu={this.state.menus[i]}
-            featuredTours={section.featuredTours}
-            page={this.props.page}
-            imgFolder={section.imgFolder}
             toggleMenu={this.toggleMenu.bind(this, i)}
+            page={this.props.page}
+            featuredTours={section.featuredTours}
+            menu={this.state.menus[i]}
+            imgFolder={section.imgFolder}
             />
           <Banner
             page={this.props.page}
