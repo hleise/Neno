@@ -5,21 +5,49 @@ class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <h2>© Neno Tours & Travels</h2>
-        <a href="https://www.facebook.com/NenoToursNtravels" rel="external" target="_blank">
-           <img className='logo' src={require('../logos/facebook.png')} />
-        </a>
-        <div id="TA_cdsratingsonlywide730" class="TA_cdsratingsonlywide">
-        <ul id="WEQxma20Mkt2" class="TA_links 5is8R91jcm">
-        <li id="LR06aLardN" class="DgWVTXBBL">
-        <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
-        </li>
-        </ul>
-        </div>
-        <script src="https://www.jscache.com/wejs?wtype=cdsratingsonlywide&amp;uniq=730&amp;locationId=7391505&amp;lang=en_US&amp;border=false&amp;shadow=false&amp;display_version=2"></script>
-        <Link to="contact">
-          <h2>Contact</h2>
+        <Link to="">
+          <img className='neno-logo' src={require('../logos/logo.png')} />
         </Link>
+        <p>© 2017 Neno Tours & Travels</p>
+        <a href="https://www.facebook.com/NenoToursNtravels" rel="external" target="_blank">
+           <img className='logo-link' src={require('../logos/facebook.png')} />
+        </a>
+        <a href="https://www.tripadvisor.com/Attraction_Review-g488129-d7391505-Reviews-Neno_Tours_Travel_Agency_Day_Tours-Stone_Town_Zanzibar_City_Zanzibar_Island_Zanzi.html" rel="external" target="_blank">
+          <img className='logo-link' src={require('../logos/tripadvisor.png')} />
+        </a>
+        <a href="https://twitter.com/toursneno/" rel="external" target="_blank">
+          <img className='logo-link' src={require('../logos/twitter.png')} />
+        </a>
+        <a href="https://www.instagram.com/nenotourstravelagency/" rel="external" target="_blank">
+          <img className='logo-link' src={require('../logos/instagram.png')} />
+        </a>
+        <a href="https://www.youtube.com/channel/UCj4Ea35V-e1hfZ-otnxYPCg" rel="external" target="_blank">
+          <img className='logo-link' src={require('../logos/youtube.png')} />
+        </a>
+        <div className="links-container">
+          <Link to="">
+            <p className="nav-link">Home</p>
+          </Link>
+          <Link to="booking">
+            <p className="nav-link">Booking</p>
+          </Link>
+          <Link to="transportation">
+            <p className="nav-link">Transportation</p>
+          </Link>
+          <Link to="about">
+            <p className="nav-link">About</p>
+          </Link>
+          <Link to="gallery">
+            <p className="nav-link">Gallery</p>
+          </Link>
+          <Link to="contact">
+            <p className="nav-link">Contact</p>
+          </Link>
+        </div>
+        <a href="http://www.vivoapplications.com" rel="external" target="_blank">
+          <img className='vivo-logo' src={require('../logos/vivo.png')} />
+          <p className="vivo-acknowledgement">Powered by Vivo Applications</p>
+        </a>
       </div>
     );
   }
