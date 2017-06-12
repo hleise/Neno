@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import TextSection from '../components/TextSection.js';
+
+import HorizontalTextSection from '../components/HorizontalTextSection';
 
 class Contact extends Component {
   render() {
     return (
-      <div className="contact">
-        <TextSection>
-          <h1>Neno Tours & Travels</h1>
-        </TextSection>
+      <div className="page">
+          <div className="banner">
+            <h1>Contact</h1>
+
+          </div>
+          <div className="info">
+           <HorizontalTextSection>
+
+            </HorizontalTextSection>
+          </div>
       </div>
     );
   }

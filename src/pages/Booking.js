@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import PageLayout from '../layout/PageLayout';
 
-class Section extends Component {
+import HorizontalTextSection from '../components/HorizontalTextSection';
+
+class Booking extends Component {
   render() {
     return (
-      <PageLayout>
-        <div className='page'>
+      <div className="page">
           <div className="banner">
-            <h1>Car Rental</h1>
-            <img className='banner-image' src={require('../img/history/0.jpg')} />
+            <h1>Booking</h1>
+
           </div>
-          <div className="banner">
-            <h1>Flight Info</h1>
-            <img className='banner-image' src={require('../img/history/0.jpg')} />
+          <div className="info">
+           <HorizontalTextSection>
+
+            </HorizontalTextSection>
           </div>
-       </div>
-     </PageLayout>
+      </div>
     );
   }
 }
 
-export default Section;
+export default Booking;
