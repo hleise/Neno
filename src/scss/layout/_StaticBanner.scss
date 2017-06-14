@@ -11,7 +11,6 @@
 
 
   .banner-title {
-    background: $hover-color;
     position: absolute;
     margin: 0;
     z-index: 9;
@@ -38,7 +37,7 @@
     height: 80vh;
     object-fit: cover;
     object-position: 50% 20%;
-    filter: brightness(70%) saturate(90%) sepia(10%) blur(0px);
+    filter: brightness(70%) saturate(120%);
   }
 }
 

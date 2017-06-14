@@ -35,17 +35,17 @@
     height: 80vh;
     object-fit: cover;
     object-position: 50% 20%;
-    filter: brightness(70%) saturate(90%) sepia(10%) blur(0px);
+    filter: brightness(70%) saturate(120%);
   }
 }
 
-.banner:hover > .section-title {
+.banner:hover > .banner-title {
   background: $hover-color;
   h1 {
     transform: translateY(0px);
   }
 }
 
-.open ~ .banner .section-title h1 {
+.open ~ .banner .banner-title h1 {
   opacity: 0;
 }
