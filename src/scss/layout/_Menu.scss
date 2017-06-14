@@ -1,7 +1,7 @@
 .menu {
   @include transition(all, 0.25s, ease-in-out);
   background: rgba(0, 255, 255, 0);
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   height: 80vh;
@@ -16,8 +16,8 @@
 }
 
 .open {
+  display: flex;
   transform: translate3d(0,-5vw,0);
-
 }
 
 .closed {
@@ -28,6 +28,5 @@
   .menu:hover {
     position: absolute;
     z-index: 1;
-    display: none;
   }
 }
