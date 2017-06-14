@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 import PageLayout from '../layout/PageLayout';
 import { Link } from 'react-router-dom';
 
@@ -8,15 +8,15 @@ class Transportation extends Component {
     return (
       <PageLayout>
         <Link to='car-rental'>
-        <StaticBanner
-          bannerTitle='Car Rental'
+        <Banner
+          sectionTitle='Car Rental'
           page='car-rental'
           i='0'
         />
         </Link>
         <Link to='flight-info'>
-          <StaticBanner
-            bannerTitle='Flight Info'
+          <Banner
+            sectionTitle='Flight Info'
             page='flight-info'
             i='0'
           />
