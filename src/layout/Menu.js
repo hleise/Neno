@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Menu extends Component {
   render() {
     return (
-      <div className={"menu" + " " + this.props.menu} onMouseDown={this.props.toggleMenu}>
+      <div className={"menu " + this.props.menu} onClick={this.props.toggleMenu}>
        <div className='featured-tours'>
           {[...Array(Math.ceil(this.props.featuredTours.length / 4))].map((rowOfTours, rowIndex) => (
               <div className='row' key={rowIndex}>
