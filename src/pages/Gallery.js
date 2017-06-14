@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PageLayout from '../layout/PageLayout';
+import {Link} from 'react-router-dom';
 
 
 class Gallery extends Component {
@@ -9,31 +10,55 @@ class Gallery extends Component {
       <page>
       <div className='image-row'>
         <div className='gallery-image-container'>
-          <h1>Featured</h1>
+          <h1>
+            <Link to="/featured">
+                Featured
+            </Link>
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/0.jpg')} alt='left'/>
         </div>
         <div className='gallery-image-container'>
-          <h1>Adventure</h1>
+          <h1>
+            <Link to="/adventure">
+              Adventure
+            </Link>
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/1.jpg')} alt='right'/>
         </div>
       </div>
       <div className='image-row'>
         <div className='gallery-image-container'>
-          <h1>Mainland Tanzania</h1>
+          <h1>
+            <Link to="/mainland-tanzania">
+              Mainland Tanzania
+            </Link>
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/2.jpg')} alt='left'/>
         </div>
         <div className='gallery-image-container'>
-          <h1>Zanzibar Island</h1>
+          <h1>
+            <Link to="/zanzibar-island">
+              Zanzibar Island
+            </Link>
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/3.jpg')} alt='right'/>
         </div>
       </div>
       <div className='image-row'>
         <div className='gallery-image-container'>
-          <h1>Culture</h1>
+          <h1>
+            <Link to="/culture">
+              Culture
+            </Link>
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/4.jpg')} alt='left'/>
         </div>
         <div className='gallery-image-container'>
-          <h1>Volunteer Opportunities</h1>
+          <h1>
+            <Link to="volunteer-opportunities">
+              Volunteer Opportunities
+            </Link>  
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/5.jpg')} alt='right'/>
         </div>
       </div>

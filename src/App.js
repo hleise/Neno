@@ -13,6 +13,7 @@ import history from './pages/History';
 import General from './pages/GeneralInfo';
 import Volunteers from './pages/Volunteers';
 import Gallery from './pages/Gallery';
+import GalleryHandler from './pages/GalleryHandler';
 import Hotels from './pages/Hotels';
 import HotelHandler from './pages/HotelHandler';
 import PackageTours from './pages/PackageTours';
@@ -47,6 +48,7 @@ class App extends Component {
               <Route exact path='/general-information' component={General}/>
               <Route exact path='/volunteers' component={Volunteers}/>
               <Route exact path='/gallery' component={Gallery}/>
+              <Route path='/gallery-category/:category' component={GalleryHandler}/>
               <Route exact path='/hotels' component={Hotels}/>
               <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route path='*' component={Home}/>

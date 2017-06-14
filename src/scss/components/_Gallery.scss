@@ -52,6 +52,14 @@ $hover-color: rgba(50, 44, 49, 0.75);
     transform: translateY(-5px);
     font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 1.5em;
+    a {
+      cursor: pointer;
+      padding: 5px 10px;
+      color: white;
+      margin: 0;
+    }
   }
+
+
 
 }
