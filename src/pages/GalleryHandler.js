@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-/*import Gallery from './pages';*/
+import Gallery from './Gallery';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
 
