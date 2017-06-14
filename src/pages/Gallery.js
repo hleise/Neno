@@ -11,7 +11,7 @@ class Gallery extends Component {
       <div className='image-row'>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="/featured">
+            <Link to="/gallery-category/featured">
                 Featured
             </Link>
           </h1>
@@ -57,7 +57,7 @@ class Gallery extends Component {
           <h1>
             <Link to="volunteer-opportunities">
               Volunteer Opportunities
-            </Link>  
+            </Link>
           </h1>
           <img className='gallery-image' src={require('../img/gallery/5.jpg')} alt='right'/>
         </div>

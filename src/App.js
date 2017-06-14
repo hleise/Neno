@@ -21,6 +21,7 @@ import PackageToursHandler from './pages/PackageToursHandler';
 import Safaris from './pages/Safaris';
 import SafariHandler from './pages/SafariHandler';
 import Transportation from './pages/Transportation';
+import Featured from './pages/gallery-category/Featured';
 import Layout from './layout/Layout';
 
 
@@ -51,6 +52,7 @@ class App extends Component {
               <Route path='/gallery-category/:category' component={GalleryHandler}/>
               <Route exact path='/hotels' component={Hotels}/>
               <Route path='/hotels/:hotel' component={HotelHandler}/>
+              <Route exact path='/gallery-category/featured' component={Featured}/>
               <Route path='*' component={Home}/>
             </Switch>
           </Layout>
