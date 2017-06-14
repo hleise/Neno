@@ -4,12 +4,12 @@ class Banner extends Component {
   render() {
     return (
       <div className="banner" onMouseDown={this.props.toggleMenu}>
-        <div className="section-title">
+        <div className="banner-title">
           <h1>
             {this.props.sectionTitle}
           </h1>
         </div>
-       <img className='section-image' src={require("../img/" + this.props.page + "/" + this.props.i + ".jpg")} />
+       <img className='banner-image' src={require("../img/" + this.props.page + "/" + this.props.i + ".jpg")} />
       </div>
     );
   }

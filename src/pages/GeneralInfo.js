@@ -9,10 +9,11 @@ class General extends Component {
     return (
       <PageLayout>
       <div className="page">
-          <div className="banner">
-            <h1>General Information</h1>
-            <img className='banner-image' src={require('../img/geninfo/0.jpg')} />
-          </div>
+          <StaticBanner
+            bannerTitle='General Info'
+            page='geninfo'
+            i='0'
+          />
           <div className="info">
            <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: generalMark}}>

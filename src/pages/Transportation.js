@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-
-import HorizontalTextSection from '../components/HorizontalTextSection';
+import StaticBanner from '../layout/StaticBanner';
+import PageLayout from '../layout/PageLayout';
+import { Link } from 'react-router-dom';
 
 class Transportation extends Component {
   render() {
     return (
-      <div className="page">
-          <div className="banner">
-            <h1>Transportation</h1>
-
-          </div>
-          <div className="info">
-           <HorizontalTextSection>
-
-            </HorizontalTextSection>
-          </div>
-      </div>
+      <PageLayout>
+        <Link to='car-rental'>
+        <StaticBanner
+          bannerTitle='Car Rental'
+          page='car-rental'
+          i='0'
+        />
+        </Link>
+        <Link to='flight-info'>
+          <StaticBanner
+            bannerTitle='Flight Info'
+            page='flight-info'
+            i='0'
+          />
+        </Link>
+      </PageLayout>
     );
   }
 }

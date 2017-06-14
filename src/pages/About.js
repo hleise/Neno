@@ -1,16 +1,33 @@
 import React, { Component } from 'react';
-import HorizontalTextSection from '../components/HorizontalTextSection';
+import StaticBanner from '../layout/StaticBanner';
 import PageLayout from '../layout/PageLayout';
+import { Link } from 'react-router-dom';
 
 class About extends Component {
   render() {
     return (
       <PageLayout>
-        <div className="page">
-            <div className="banner">
-              <h1>About</h1>
-            </div>
-        </div>
+        <Link to='general-information'>
+          <StaticBanner
+            bannerTitle='General Info'
+            page='geninfo'
+            i='0'
+          />
+        </Link>
+        <Link to='history-of-zanzibar'>
+        <StaticBanner
+          bannerTitle='History of Zanzibar'
+          page='history'
+          i='0'
+        />
+        </Link>
+        <Link to='volunteers'>
+        <StaticBanner
+          bannerTitle='Volunteers'
+          page='volunteer'
+          i='0'
+        />
+        </Link>
       </PageLayout>
     );
   }

@@ -9,15 +9,16 @@ class Volunteers extends Component {
     return (
       <PageLayout>
       <div className="page">
-          <div className="banner">
-            <h1>Volunteers</h1>
-            <img className='banner-image' src={require('../img/volunteer/0.jpg')} />
-          </div>
-          <div className="info">
-           <HorizontalTextSection>
+        <StaticBanner
+          bannerTitle='Volunteers'
+          page='volunteer'
+          i='0'
+        />
+        <div className="info">
+         <HorizontalTextSection>
 
-            </HorizontalTextSection>
-          </div>
+          </HorizontalTextSection>
+        </div>
       </div>
       </PageLayout>
     );

@@ -9,10 +9,11 @@ class History extends Component {
     return (
       <PageLayout>
       <div className="page">
-          <div className="banner">
-            <h1>History Of Zanzibar</h1>
-            <img className='banner-image' src={require('../img/history/0.jpg')} />
-          </div>
+          <StaticBanner
+            bannerTitle='History of Zanzibar'
+            page='history'
+            i='0'
+          />
           <div className="info">
            <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: historyMark}}>
