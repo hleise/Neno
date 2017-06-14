@@ -1,7 +1,10 @@
 # Neno Tours & Travels
 
-Neno Tours & Travel Agency offers you, the discerning traveler, the most care-free way to experience the best of Zanzibar and Tanzania.
-We warmly welcome you to experience adventurous or chilled-out holidays of your choice, whether on the beach on or safari. While here, you will enjoy the delicious Swahili cuisine and the unique culture of the Swahili coast. Most of the beach hotels here are blessed with crystal-blue waters and powdery white sand � a natural paradise awaits.
-We also offer great adventure sports and wildlife tours, including climbing Mount Kilimanjaro, safaris around Tanzania, photographic safaris, cultural tourism, ecotourism, and camping safaris.
-We offer very affordable budget tour packages for your holiday, and we can tailor a tour package to suit your exact requirements and budget, because we take pride in putting together a customized tour itinerary that gives you the best holiday you could hope for.
-Our friendly team of professional tour guides are here to introduce you to these magical islands and the adventures of the mainland. So let us know where you would like to go, and we'll help you make it happen !!!
+Kuwakaribisha Kwa Ziara Neno
+
+Welcome to Neno Tours
+
+A tour agency for the adventurous traveler, Neno Tours is the most effortless way to experience the best of Zanzibar and Tanzania.
+We warmly welcome you to experience the holiday of your choice, from relaxing on the beach to spotting wildlife on the Serengeti. While here, you'll have the opportunity to experience the unique culture of the Swahili coast and enjoy our delicious cuisine. Here, a natural paradise awaits, where most of the beaches are blessed with crystal-blue waters and powdery white sand.
+
+We offer a number of exciting outdoor activities, such as climbing Mount Kilimanjaro, exploring picturesque safaris around Tanzania, experiencing the culture, and visiting many of our conservation areas. We pride ourselves in giving you a customized itinerary to suit your needs and we strive to make it as affordable as possible. Our knowledgeable team of professional tour guides are here to help you experience Tanzania in its full glory.
