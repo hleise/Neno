@@ -19,7 +19,7 @@ class Gallery extends Component {
         </div>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="/adventure">
+            <Link to="/gallery-category/adventure">
               Adventure
             </Link>
           </h1>
@@ -29,7 +29,7 @@ class Gallery extends Component {
       <div className='image-row'>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="/mainland-tanzania">
+            <Link to="/gallery-category/mainland-tanzania">
               Mainland Tanzania
             </Link>
           </h1>
@@ -37,7 +37,7 @@ class Gallery extends Component {
         </div>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="/zanzibar-island">
+            <Link to="/gallery-category/zanzibar-island">
               Zanzibar Island
             </Link>
           </h1>
@@ -47,7 +47,7 @@ class Gallery extends Component {
       <div className='image-row'>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="/culture">
+            <Link to="/gallery-category/culture">
               Culture
             </Link>
           </h1>
@@ -55,7 +55,7 @@ class Gallery extends Component {
         </div>
         <div className='gallery-image-container'>
           <h1>
-            <Link to="volunteer-opportunities">
+            <Link to="/gallery-category/volunteer-opportunities">
               Volunteer Opportunities
             </Link>
           </h1>

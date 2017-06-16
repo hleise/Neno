@@ -22,6 +22,11 @@ import Safaris from './pages/Safaris';
 import SafariHandler from './pages/SafariHandler';
 import Transportation from './pages/Transportation';
 import Featured from './pages/gallery-category/Featured';
+import Adventure from './pages/gallery-category/Adventure';
+import Culture from './pages/gallery-category/Culture';
+import Island from './pages/gallery-category/Island';
+import Mainland from './pages/gallery-category/Mainland';
+import VolunteerOps from './pages/gallery-category/VolunteerOps';
 import Layout from './layout/Layout';
 
 
@@ -53,6 +58,11 @@ class App extends Component {
               <Route exact path='/hotels' component={Hotels}/>
               <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route exact path='/gallery-category/featured' component={Featured}/>
+              <Route exact path='/gallery-category/adventure' component={Adventure}/>
+              <Route exact path='/gallery-category/culture' component={Culture}/>
+              <Route exact path='/gallery-category/zanzibar-island' component={Island}/>
+              <Route exact path='/gallery-category/mainland-tanzania' component={Mainland}/>
+              <Route exact path='/gallery-category/volunteer-opportunities' component={VolunteerOps}/>
               <Route path='*' component={Home}/>
             </Switch>
           </Layout>
