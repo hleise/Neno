@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Redirect, Route, BrowserRouter, Switch } from 'react-router-dom';
 import Home from './Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -64,6 +64,7 @@ class App extends Component {
               <Route exact path='/gallery-category/mainland-tanzania' component={Mainland}/>
               <Route exact path='/gallery-category/volunteer-opportunities' component={VolunteerOps}/>
               <Route path='*' component={Home}/>
+              <Redirect component={Home}/>
             </Switch>
           </Layout>
         </BrowserRouter>

@@ -1,12 +1,34 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import MenuButton from './MenuButton'
 
 class NavBar extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      MenuButtonStyle: 'shown'
+    }
+    this.toggleMenuBar = this.toggleMenuBar.bind(this)
+  }
+  toggleMenuBar() {
+    this.setState((prevState, props) => {
+      var newMenuButtonStyle;
+      if(prevState.MenuButtonStyle === 'shown') {
+        newMenuButtonStyle = 'not-shown'
+      } else if (prevState.MenuButtonStyle === 'not-shown') {
+        newMenuButtonStyle = 'shown'
+      }
+      return {
+        MenuButtonStyle: newMenuButtonStyle
+      }
+    })
+  }
   render() {
     return (
       <div>
         <div className='nav-bar-container'>
           <div className='nav-bar'>
+          <MenuButton className={this.state.MenuButtonStyle} togglePosition={this.toggleMenuBar}/>
           <div className='nav-bar-button'>
             <div className='nav-bar-button-title'>
               <h3>

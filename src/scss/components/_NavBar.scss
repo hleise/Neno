@@ -14,7 +14,17 @@ $nav-bar-option-color: #656068;
 
   @media all and(max-width: $mobile-width) {
     display: block;
+
+    .shown ~ .nav-bar-button {
+      transform: translateY(-200px);
+    }
+
+    .not-shown ~ .nav-bar-button {
+        transform: translateY(60px);
+    }
   }
+
+
 
   h3, a {
     cursor: pointer;
@@ -30,6 +40,7 @@ $nav-bar-option-color: #656068;
 
 
   .nav-bar-button {
+    transition: all 0.5s ease;
 
     .nav-bar-button-title {
       display: flex;
