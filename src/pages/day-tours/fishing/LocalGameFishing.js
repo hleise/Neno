@@ -6,8 +6,10 @@ class LocalGameFishing extends Component {
   render() {
     return (
       <div className="page">
-          <div className="banner">
+          <div className="static-banner">
+            <div className="banner-title">
             <h1>Local Game Fishing</h1>
+            </div>
             <img className='banner-image' src={require('../../../img/day-tours/fishing/1.jpg')} />
           </div>
           <div className="info">

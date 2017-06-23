@@ -6,8 +6,10 @@ class DeepSeaFishing extends Component {
   render() {
     return (
       <div className="page">
-          <div className="banner">
-            <h1>Deep Sea Fishing</h1>
+          <div className="static-banner">
+            <div className="banner-title">
+              <h1>Deep Sea Fishing</h1>
+            </div>
             <img className='banner-image' src={require('../../../img/day-tours/fishing/0.jpg')} />
           </div>
           <div className="info">

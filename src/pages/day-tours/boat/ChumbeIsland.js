@@ -6,8 +6,10 @@ class ChumbeIsland extends Component {
   render() {
     return (
       <div className="page">
-          <div className="banner">
-            <h1>Chumbe Island</h1>
+          <div className="static-banner">
+            <div className="banner-title">
+              <h1>Chumbe Island</h1>
+            </div>
             <img className='banner-image' src={require('../../../img/day-tours/boat/2.jpg')} />
           </div>
           <div className="info">
