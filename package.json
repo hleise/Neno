@@ -6,6 +6,7 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-image": "^1.0.1",
     "react-photo-gallery": "^5.6.1"
   },
   "devDependencies": {

@@ -3,8 +3,19 @@ import Gallery from 'react-photo-gallery';
 import PageLayout from '../../layout/PageLayout';
 
 export default class Sample extends React.Component {
-  openLightbox() {
-
+  constructor(props) {
+    super(props)
+    this.state = {
+      selectedImageIndex: -1
+    }
+    this.openLightbox = this.openLightbox.bind(this)
+  }
+  openLightbox(i) {
+    this.setState((prevState, props) => {
+      return {
+        selectedImageIndex:i
+      }
+    })
   }
   render() {
     	return (
