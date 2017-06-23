@@ -6,7 +6,7 @@ class Menu extends Component {
     return 1
   }
   render() {
-    var col = Math.floor(document.documentElement.clientWidth / 300);
+    var col = Math.floor(document.documentElement.clientWidth / 250);
     return (
       <div className={"menu " + this.props.menu} onClick={this.props.toggleMenu}>
        <div className='featured-tours'>
