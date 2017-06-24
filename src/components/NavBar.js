@@ -38,7 +38,7 @@ class NavBar extends Component {
               </h3>
             </div>
           </div>
-            <div className='nav-bar-button'>
+            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/booking">
@@ -77,7 +77,7 @@ class NavBar extends Component {
                 </div>
               </div>
             </div>
-            <div className='nav-bar-button'>
+            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/transportation">
@@ -102,7 +102,7 @@ class NavBar extends Component {
                 </div>
               </div>
             </div>
-            <div className='nav-bar-button'>
+            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/about">
@@ -134,7 +134,7 @@ class NavBar extends Component {
                 </div>
             </div>
           </div>
-            <div className='nav-bar-button'>
+            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/gallery">
@@ -143,7 +143,7 @@ class NavBar extends Component {
                 </h3>
               </div>
             </div>
-            <div className='nav-bar-button'>
+            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/contact">

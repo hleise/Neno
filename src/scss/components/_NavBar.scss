@@ -21,6 +21,19 @@ $nav-bar-option-color: #656068;
 
     .not-shown ~ .nav-bar-button {
         transform: translateY(60px);
+        .nav-bar-button-title {
+          width: 100%;
+          h3 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+            }
+          }
+        }
     }
   }
 

@@ -10,10 +10,10 @@ export default class Sample extends React.Component {
     }
     this.openLightbox = this.openLightbox.bind(this)
   }
-  openLightbox(i) {
+  openLightbox(i) { 
     this.setState((prevState, props) => {
       return {
-        selectedImageIndex:i
+        selectedImageIndex: i
       }
     })
   }
