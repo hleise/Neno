@@ -10,7 +10,6 @@ class Menu extends Component {
     this.getWidth = this.getWidth.bind(this)
   }
   getWidth() {
-    console.log('asdf');
     let col = Math.floor(document.documentElement.clientWidth / 250)
     this.setState({ col })
   }
