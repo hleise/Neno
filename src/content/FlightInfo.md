@@ -2,6 +2,19 @@
 
 Zanzibar International Airport (ZNZ/HTZA) carries primarily domestic connections from Arusha, Kilimanjaro, and Dar es Salaam. There is also a convenient connection from Nairobi which allows tourists who are exploring in Kenya, to come and relax on the beaches of Zanzibar. The Zanzibar airport has connections to all major safaris in the area.
 
+**Airlines Flying to Zanzibar**
+
+*  Air Tanzania
+*  Air Italy
+*  Belair Airlines
+*  Blue Panorama Airlines
+*  Condor
+*  Edelweiss Air
+*  Eurofly
+*  Kenya Airways
+*  Livingston Airlines
+*  Neos
+*  South African Airways
 
 ## Flying to Northern Tanzania
 
