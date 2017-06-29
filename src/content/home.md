@@ -1,6 +1,6 @@
 # Neno Tours & Travels
 
-## <center>Welcome to Neno Tours | Kuwakaribisha Kwa Ziara Neno</center>
+## <center>For daring adventures.</center>
 
 A tour agency for the adventurous traveler, Neno Tours is the most effortless way to experience the best of Zanzibar and Tanzania.
 We warmly welcome you to experience the holiday of your choice, from relaxing on the beach to spotting wildlife on the Serengeti. While here, you'll have the opportunity to experience the unique culture of the Swahili coast and enjoy our delicious cuisine. Here, a natural paradise awaits, where most of the beaches are blessed with crystal-blue waters and powdery white sand.
