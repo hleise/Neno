@@ -28,8 +28,7 @@ import Island from './pages/gallery-category/Island';
 import Mainland from './pages/gallery-category/Mainland';
 import VolunteerOps from './pages/gallery-category/VolunteerOps';
 import Layout from './layout/Layout';
-
-
+import SimplyBooking from './SimplyBooking'
 
 class App extends Component {
   render() {
@@ -38,6 +37,7 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path='/' component={Home}/>
+              <Route exact path='/simply-booking' component={SimplyBooking}/>
               <Route exact path='/contact' component={Contact}/>
               <Route exact path='/transportation' component={Transportation}/>
               <Route exact path='/about' component={About}/>

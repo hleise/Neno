@@ -5,6 +5,7 @@ import PageLayout from './layout/PageLayout';
 import Slider from './components/Slider';
 var Carousel = require('nuka-carousel');
 import SmoothScroll from './components/SmoothScroll'
+var SimplybookWidget = require('./SimplyBookMe')
 
 var buttonStyle = {
   border:'none',
@@ -60,6 +61,23 @@ var Decorators = [{
 
 class Home extends Component {
   render() {
+    var widget = new SimplybookWidget({
+      "widget_type":"iframe",
+      "url":"https:\/\/vivoapps.simplybook.me",
+      "theme":"default",
+      "theme_settings":{
+        "sb_base_color":"#f1f1f1",
+        "booking_nav_bg_color":"#ffffff",
+        "body_bg_color":"#f1f1f1",
+        "dark_font_color":"#494949",
+        "light_font_color":"#ffffff",
+        "btn_color_1":"#5e7da7"},
+        "timeline":"modern",
+        "datepicker":"top_calendar",
+        "is_rtl":false,
+        "app_config":{
+          "predefined":[]}
+        });
     return (
       <div className='home'>
         <PageLayout>
@@ -86,9 +104,9 @@ class Home extends Component {
               <button>
                 <svg width="80px" height="80px" viewBox="0 -20 60 120">
                   <polyline  transform="rotate(270 50 50) translate(10, -5)" fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
-               45.63,75.8 0.375,38.087 45.63,0.375 "/>
+               25.63,75.8 0.375,38.087 25.63,0.375 "/>
                <polyline  transform="rotate(270 50 50) translate(50, -5)" fill="none" stroke="#f1f1f1" strokeWidth="9" strokeLinecap="miter" strokeLineJoin="round" points="
-            45.63,75.8 0.375,38.087 45.63,0.375 "/>
+            25.63,75.8 0.375,38.087 25.63,0.375 "/>
                 </svg>
               </button>
             </div>
@@ -105,6 +123,7 @@ class Home extends Component {
                 </HorizontalTextSection>
               </div>
           </div>
+          {widget.init()}
         </PageLayout>
       </div>
     );

@@ -79,6 +79,7 @@ export default class Sample extends React.Component {
         width: 600,
         height: 600,
         alt: 'image 1',
+        caption: 'Featured'
       },
       {
         src: require('../../img/featured-gallery/1.jpg'),
