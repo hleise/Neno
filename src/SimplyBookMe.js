@@ -5,8 +5,8 @@ var SimplybookWidget = function (options) {
         'theme': 'default',
         'theme_settings': {},
         'app_config': {},
-        'timeline': null,
-        'datepicker': null,
+        'timeline': 'modern',
+        'datepicker': 'Top calendar',
         'url': '',
         // iframe widget options
         'iframe_postpone': false,
