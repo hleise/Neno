@@ -152,9 +152,13 @@ SimplybookWidget.prototype.updateWidgetSize = function (data) {
 };
 
 SimplybookWidget.prototype.displayIframe = function () {
-    document.write(
-        '<iframe width="100%" border="0" frameborder="0" src="' + this.getUrl() + '" name="' + this.name + '" id="' + this.name + '"></iframe>'
-    );
+    var bookingWidget = document.createElement('div');
+    bookingWidget.innerHTML = '<iframe style="position: relative; height: 150vh; margin-top: 50px;" width="100%" border="0" frameborder="0" src="' + this.getUrl() + '" name="' + this.name + '" id="' + this.name + '"></iframe>';
+
+    setTimeout(function(){
+      document.getElementById('root').firstChild.insertBefore(bookingWidget, document.getElementsByClassName('footer')[0]);
+     }, 1000);
+
     this.frame = document.getElementById(this.name);
 
     this.subscribeMessages();

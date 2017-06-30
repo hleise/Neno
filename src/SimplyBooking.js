@@ -24,7 +24,9 @@ class SimplyBooking extends Component {
     return (
       <div>
         <PageLayout>
+          <div id='booking'>
           {widget.init()}
+          </div>
         </PageLayout>
       </div>
     );
