@@ -9,14 +9,14 @@ class SimplyBooking extends Component {
       "url":"https:vivoapps.simplybook.me",
       "theme":"default",
       "theme_settings":{
-        "sb_base_color":"#f1f1f1",
-        "booking_nav_bg_color":"#ffffff",
-        "body_bg_color":"#f1f1f1",
+        "sb_base_color":"#656068",
+        "booking_nav_bg_color":"#656068",
+        "body_bg_color":"#656068",
         "dark_font_color":"#494949",
         "light_font_color":"#ffffff",
         "btn_color_1":"#5e7da7"},
         "timeline":"modern",
-        "datepicker":"top_calendar",
+        "datepicker":"Top calendar",
         "is_rtl":false,
         "app_config":{
           "predefined":[]}
