@@ -14,7 +14,7 @@ var SimplybookWidget = function (options) {
         'button_position': 'right',
         'button_position_offset': 'auto',
         'button_background_color': '#656068',
-        'button_text_color': '#656068',
+        'button_text_color': '#ffffff',
         'button_title': 'Book Now',
         'button_preload': true,
         'button_custom_id': null,
