@@ -18,7 +18,7 @@ class Footer extends Component {
         <a href="https://twitter.com/toursneno/" rel="external" target="_blank">
           <img className='logo-link' src={require('../logos/twitter.png')} />
         </a>
-        <a href="https://www.instagram.com/nenotourstravelagency/" rel="external" target="_blank">
+        <a href="https://www.instagram.com/p/BV0N1uLgjQY/" rel="external" target="_blank">
           <img className='logo-link' src={require('../logos/instagram.png')} />
         </a>
         <a href="https://www.youtube.com/channel/UCj4Ea35V-e1hfZ-otnxYPCg" rel="external" target="_blank">
