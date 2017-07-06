@@ -37,6 +37,7 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path='/' component={Home}/>
+              <Route exact path='/' component={NotFound}/>
               <Route exact path='/simply-booking' component={SimplyBooking}/>
               <Route exact path='/contact' component={Contact}/>
               <Route exact path='/transportation' component={Transportation}/>
@@ -63,7 +64,6 @@ class App extends Component {
               <Route exact path='/gallery-category/zanzibar-island' component={Island}/>
               <Route exact path='/gallery-category/mainland-tanzania' component={Mainland}/>
               <Route exact path='/gallery-category/volunteer-opportunities' component={VolunteerOps}/>
-              <Route exact path='/not-found' component={Home}/>
               <Route path='*' component={Home}/>
               <Redirect component={Home}/>
             </Switch>
