@@ -57,7 +57,7 @@ export default class Sample extends React.Component {
               photos={PHOTO_SET}
               onClickPhoto={this.openLightbox}
               cols={this.state.col}
-              margin={10}/>
+              margin={5}/>
               <Lightbox
                 theme={{container: { background: 'rgba(0, 0, 0, 0.85)' }}}
                 images={PHOTO_SET}
