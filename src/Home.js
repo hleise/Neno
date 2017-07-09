@@ -80,7 +80,7 @@ class Home extends Component {
             <img src={require('./img/home/7.jpg')}/>
           </Carousel>
           <div className='home-header'>
-            <h1>Adventure awaits.</h1>
+            <h1>Welcome to Neno Tours | Karibu Neno Tours</h1>
           </div>
           <SmoothScroll section="home-page">
             <div className='home-page-smooth-scroll-container'>
@@ -96,11 +96,6 @@ class Home extends Component {
           </SmoothScroll>
           <div className="page" id="home-page">
               <div className="info">
-                <HorizontalTextSection>
-                  <div className='markdown'>
-                    <h1>Welcome to Neno Tours | Karibu Neno Tours</h1>
-                  </div>
-                </HorizontalTextSection>
                 <HorizontalTextSection>
                   <div className='markdown' dangerouslySetInnerHTML={{__html: HomeContent}} />
                 </HorizontalTextSection>
