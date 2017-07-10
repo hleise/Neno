@@ -13,9 +13,10 @@ class Menu extends Component {
     let col = Math.floor(document.documentElement.clientWidth / 250)
     this.setState({ col })
   }
-  render() {
+  componentDidMount() {
     window.addEventListener('resize', this.getWidth)
-
+  }
+  render() {
     return (
       <div className={"menu " + this.props.menu} onClick={this.props.toggleMenu}>
        <div className='featured-tours'>
