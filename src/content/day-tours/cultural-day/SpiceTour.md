@@ -1,6 +1,6 @@
 ## Spice Tour
 
-The history of Zanzibar would be incomplete without cloves, nutmeg, cinnamon, pepper, and many other spices which are essential ingredients in a Zanzibari’s everyday life. Zanzibar and spice have been involved in a romantic entanglement dating back to the 16th century, and have been an important part of the economy ever since. The spice fields can be seen in the plantations just outside Zanzibar Town, therefore the spice tour is also is a fantastic opportunity to see the countryside and rural areas of Zanzibar, as well as connect with the local people.
+The __history of Zanzibar__ would be incomplete without cloves, nutmeg, cinnamon, pepper, and many other spices which are essential ingredients in a Zanzibari’s everyday life. Zanzibar and spice have been involved in a romantic entanglement dating back to the 16th century, and have been an important part of the economy ever since. The spice fields can be seen in the plantations just outside Zanzibar Town, therefore the spice tour is also is a fantastic opportunity to see the countryside and rural areas of Zanzibar, as well as connect with the local people.
 
 We have developed a special spice tour with in-depth information not only about spices, but also organically grown herbs and a detailed description about their uses in traditional dishes. We also explore their use in cures for ailments, and even for dyeing traditional ceremonial outfits for weddings and festivals. We have knowledgeable guides trained by a famous herbalist in Zanzibar named Mr. Madawa.
 
@@ -10,5 +10,3 @@ After the tour we invite you to join us for an opulent traditional Swahili lunch
 
 The best place to buy fresh spices is directly from the source, at the spice farms.
 The half-day trip includes transport, guide, entrance fees, and a superb lunch.
-
-__Click here to book this trip.__

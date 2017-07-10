@@ -7,5 +7,3 @@ The island lies just off the Old Stone Town, and is home to giant tortoises that
 The island is bordered with a beautiful coral reef, and is ideal for snorkeling. There is also the option of sunbathing on the lovely white beach. This island tour is excellent for a day trip, and we will serve refreshments throughout.
 
 Prison Island also has a small restaurant where you can enjoy freshly caught fish. The half-day or full-day trip includes the boat ride, entrance fees, and snorkeling equipment.
-
-__Click here to book this trip.__

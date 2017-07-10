@@ -4,10 +4,10 @@ import MenuButton from './MenuButton'
 
 class NavBar extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       MenuButtonStyle: 'shown'
-    }
+    };
     this.toggleMenuBar = this.toggleMenuBar.bind(this)
   }
   toggleMenuBar() {

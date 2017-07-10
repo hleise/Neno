@@ -5,11 +5,11 @@ class MenuButton extends Component {
     super(props);
     this.state = {
       position: 'icon-closed'
-    }
+    };
     this.handleClick = this.handleClick.bind(this)
   }
   handleClick() {
-    this.props.togglePosition()
+    this.props.togglePosition();
     this.setState((prevState,props) => {
       if(prevState.position === 'icon-closed') {
         return { position: 'icon-open'}

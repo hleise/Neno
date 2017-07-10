@@ -40,5 +40,3 @@ The boats are available for half day or full day charters, and the more experien
 *  12 hr Night Fishing Charter (6pm – 6am): 1100 USD (Broad billing - Drifting & trolling).
 
 **Please note: These rates are for the boat, NOT per person and exclude travel from hotel to Nungwi.**
-
-__Click here to book this trip.__

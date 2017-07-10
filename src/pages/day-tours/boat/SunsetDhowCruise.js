@@ -1,23 +1,25 @@
-import React, { Component } from 'react';
-import sunsetMark from '../../../content/SunsetCruise.md';
+import React, {Component} from 'react';
+import sunsetMark from '../../../content/day-tours/boat/SunsetCruise.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
+import BookingButton from "../../../components/BookingButton";
 
 class SunsetDhowCruise extends Component {
   render() {
     return (
       <div className="page">
-          <div className="static-banner">
-            <div className="banner-title">
-              <h1>Sunset Dhow Cruise</h1>
-            </div>
-            <img className='banner-image' src={require('../../../img/day-tours/boat/6.jpg')} />
+        <div className="static-banner">
+          <div className="banner-title">
+            <h1>Sunset Dhow Cruise</h1>
           </div>
-          <div className="info">
-           <HorizontalTextSection>
+          <img className='banner-image' src={require('../../../img/day-tours/boat/6.jpg')}/>
+        </div>
+        <div className="info">
+          <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: sunsetMark}}>
             </div>
-            </HorizontalTextSection>
-          </div>
+            <BookingButton/>
+          </HorizontalTextSection>
+        </div>
       </div>
     );
   }

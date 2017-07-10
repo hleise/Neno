@@ -17,5 +17,3 @@ Safari Blue explores the Menai Bay Conservation Area, which is home to two diffe
 Menai Bay has been designated as a Conservation Area since 1998 due to its outstanding natural beauty. The bay has a number of pristine sandbanks which were naturally carved by the sea, wind, and waves. The sandbanks and uninhabited islands that litter the bay are perfect stepping stones to explore the area. Join the crew for a sail on an “ngalawa”- a local canoe with outriggers which have been carved from a single mango tree.
 
 When Safari Blue comes to an end, we will return in a traditional lateen sailboat as the full splendor of the African sunset reveals itself.
-
-__Click here to book this trip.__

@@ -14,5 +14,3 @@ A seemingly uninhabited sandbank in the ocean suddenly comes to life with millio
 After lunch, relax on the sandbank and listen to the birds around you as the waves lap against the shore.
 
 We will slowly sail back to __Stone Town__ after soaking up the sun, our arrival time back at shore will be approximately 2:30pm.
-
-__Click here to book this trip.__

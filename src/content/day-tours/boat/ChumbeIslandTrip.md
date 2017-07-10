@@ -21,5 +21,3 @@ An overnight accommodation on Chumbe Island is something really special, it is w
 *  **265 USD per person per night for an overnight trip including all daytime activities.**
 
 The prices above don’t include transportation from your hotel to Mbweni Beach.
-
-__Click here to book this trip.__

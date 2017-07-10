@@ -7,5 +7,3 @@ We will take you to the small uninhabited islands, Miwi and Nianembe, and the to
 There are unspoiled beaches with glooming white sands, perfect for relaxation. The sea around the islands is also ideal for snorkeling if you desire to explore. We'll arrange a barbecue with fresh caught fish, delicious local dishes, and tropical fruits.
 
 **The day trip includes the transfer from Stone Town, motorboat/sailboat, guide, snorkeling equipment, and lunch.**
-
-__Click here to book this trip.__

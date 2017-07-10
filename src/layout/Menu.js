@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 class Menu extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       col: 4
-    }
+    };
     this.getWidth = this.getWidth.bind(this)
   }
   getWidth() {
-    let col = Math.floor(document.documentElement.clientWidth / 250)
+    let col = Math.floor(document.documentElement.clientWidth / 250);
     this.setState({ col })
   }
   componentDidMount() {
