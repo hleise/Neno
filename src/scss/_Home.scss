@@ -10,6 +10,7 @@
     z-index: 9;
     h1 {
       color: white;
+      text-align: center;
     }
     pointer-events: none;
   }
@@ -41,4 +42,15 @@
     filter: brightness(75%) saturate(110%);
   }
 
+  .slider-decorator-0 {
+    @media all and(max-width: $mobile-width) {
+      display: none;
+    }
+  }
+
+  .slider-decorator-1 {
+    @media all and(max-width: $mobile-width) {
+      display: none;
+    }
+  }
 }
