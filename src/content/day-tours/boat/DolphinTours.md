@@ -9,5 +9,3 @@ For guests staying in Stone Town, we will pick you up from your hotel at 6:00am.
 You can decide to do the trip later in the afternoon, but the probability of seeing dolphins is very low. Although dolphin-spotting is a popular activity, sightings aren't guaranteed and swimming with dolphins is a rare occurrence. Just like with other wild animals, spotting dolphins requires time and patience as they are in their natural environment. Dolphin tours last two to three hours, and the best time of the year to see these extraordinary mammals is between **October and February**.
 
 The dolphin trip can be combined with the __Jozani Forest tour__, as the forest is on the way to Kizimkazi. We pass through the Jozani forest on the way back from dolphin tour.
-
-__Click here to book this trip.__

@@ -28,9 +28,8 @@ var SimplybookWidget = function (options) {
             continue;
         }
         this.options[name] = options[name];
-    };
-
-    // this.init();
+    }
+  // this.init();
 };
 
 SimplybookWidget.prototype.init = function () {

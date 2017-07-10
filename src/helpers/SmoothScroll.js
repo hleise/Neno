@@ -32,7 +32,7 @@ var smoothScroll = {
             html.scrollHeight,
             html.offsetHeight
         );
-        var windowHeight = window.innerHeight
+        var windowHeight = window.innerHeight;
         var offset = window.pageYOffset;
         var delta = nodeTop - offset;
         var bottomScrollableY = height - windowHeight;

@@ -12,7 +12,7 @@ class Stack extends Component {
         "closed",
         "closed"
       ]
-    }
+    };
     this.toggleMenu = this.toggleMenu.bind(this);
   }
   toggleMenu(i) {

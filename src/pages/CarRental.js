@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 import HorizontalTextSection from '../components/HorizontalTextSection.js';
 
-import markdown1 from '../content/CarRental/Motorcyle.md';
-import markdown2 from '../content/CarRental/Vespa.md';
-import markdown3 from '../content/CarRental/VitaraPackage1.md';
-import markdown4 from '../content/CarRental/VitaraPackage2.md';
-import markdown5 from '../content/CarRental/VitaraPackage3.md';
+import markdown1 from '../content/car-rental/Motorcyle.md';
+import markdown2 from '../content/car-rental/Vespa.md';
+import markdown3 from '../content/car-rental/VitaraPackage1.md';
+import markdown4 from '../content/car-rental/VitaraPackage2.md';
+import markdown5 from '../content/car-rental/VitaraPackage3.md';
 
 import StaticBanner from '../layout/StaticBanner';
 

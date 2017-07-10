@@ -6,5 +6,3 @@ We set sail from one of East Africa's oldest bays where the horizon is dotted wi
 
 A real adventure awaits you!
 The half-day and full-day trip includes the boat ride, fishing guide, local fishing gear, fruits, and drinks.
-
-__Click here to book this trip.__

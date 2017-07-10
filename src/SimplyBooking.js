@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PageLayout from './layout/PageLayout'
-var SimplybookWidget = require('./SimplyBookMe')
+var SimplybookWidget = require('./SimplyBookMe');
 
 class SimplyBooking extends Component {
   render() {

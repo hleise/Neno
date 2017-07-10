@@ -6,7 +6,7 @@ class SmoothScroll extends Component {
       this.state = {
         negativeOffset: 0,
         timer: null
-      }
+      };
       this.handleSectionClick = this.handleSectionClick.bind(this);
       this.stop = this.stop.bind(this);
       this.scrollTo = this.scrollTo.bind(this);
@@ -54,7 +54,7 @@ class SmoothScroll extends Component {
             html.scrollHeight,
             html.offsetHeight
         );
-        var windowHeight = window.innerHeight
+        var windowHeight = window.innerHeight;
         var offset = window.pageYOffset;
         var delta = nodeTop - offset;
         var bottomScrollableY = height - windowHeight;

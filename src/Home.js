@@ -15,7 +15,7 @@ var buttonStyle = {
   outline: 'none',
   zIndex: '99',
   cursor: 'pointer'
-}
+};
 
 var Decorators = [{
   component: React.createClass({

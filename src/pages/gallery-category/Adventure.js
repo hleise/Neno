@@ -5,14 +5,14 @@ import Lightbox from 'react-images';
 
 export default class Sample extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       currentImage: 0,
       col: 3,
       lightboxIsOpen: false
-    }
-    this.openLightbox = this.openLightbox.bind(this)
-    this.getWidth = this.getWidth.bind(this)
+    };
+    this.openLightbox = this.openLightbox.bind(this);
+    this.getWidth = this.getWidth.bind(this);
     this.closeLightbox = this.closeLightbox.bind(this);
   	this.openLightbox = this.openLightbox.bind(this);
   	this.gotoNext = this.gotoNext.bind(this);
@@ -46,7 +46,7 @@ export default class Sample extends React.Component {
       });
   }
   getWidth() {
-    let col = Math.floor(document.documentElement.clientWidth / 250)
+    let col = Math.floor(document.documentElement.clientWidth / 250);
     this.setState({ col })
   }
   render() {
