@@ -61,6 +61,10 @@ var Decorators = [{
 
 class Home extends Component {
   render() {
+    var iframe = document.getElementById("booking-iframe");
+    if(iframe) {
+      iframe.style.display = "none";
+    }
     return (
       <div className='home'>
         <PageLayout>
@@ -80,7 +84,7 @@ class Home extends Component {
             <img src={require('./img/home/7.jpg')}/>
           </Carousel>
           <div className='home-header'>
-            <h1>Welcome to Neno Tours | Karibu Neno Tours</h1>
+            <h1>Neno Tours</h1>
           </div>
           <SmoothScroll section="home-page">
             <div className='home-page-smooth-scroll-container'>

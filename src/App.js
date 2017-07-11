@@ -64,8 +64,6 @@ class App extends Component {
               <Route exact path='/gallery-category/mainland-tanzania' component={Mainland}/>
               <Route exact path='/gallery-category/volunteer-opportunities' component={VolunteerOps}/>
               <Route path='*' component={Home}/>
-              <Route path='*' component={NotFound}/>
-              <Redirect component={Home}/>
             </Switch>
           </Layout>
         </BrowserRouter>

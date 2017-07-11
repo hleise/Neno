@@ -152,11 +152,11 @@ SimplybookWidget.prototype.updateWidgetSize = function (data) {
 
 SimplybookWidget.prototype.displayIframe = function () {
     var bookingWidget = document.createElement('div');
-    bookingWidget.innerHTML = '<iframe style="position: relative; height: 100vh; padding-top: 50px; margin-top: -80px; " width="100%" border="0" frameborder="0" scrolling="no" src=" //vivoapps.simplybook.me/v2/#book"></iframe>';
+    bookingWidget.innerHTML = '<iframe id="booking-iframe" style="position: relative; height: 100vh; padding-top: 50px; margin-top: 0px; " width="100%" border="0" frameborder="0" scrolling="yes" src=" //vivoapps.simplybook.me/v2/#book"></iframe>';
 
     setTimeout(function(){
       document.getElementById('root').firstChild.insertBefore(bookingWidget, document.getElementsByClassName('footer')[0]);
-     }, 1000);
+    }, 500);
 
     this.frame = document.getElementById(this.name);
 
