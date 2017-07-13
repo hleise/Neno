@@ -328,9 +328,9 @@ SimplybookWidget.prototype.getIframeNode = function () {
         this.subscribeMessages();
     }
 
-    var frame = document.getElementById("iframe"),
+  /*  var frame = this.frame,
   frameDoc = frame.contentDocument || frame.contentWindow.document;
-  frameDoc.documentElement.innerHTML = "";
+  frameDoc.documentElement.innerHTML = "";   */
 };
 
 module.exports = SimplybookWidget;
