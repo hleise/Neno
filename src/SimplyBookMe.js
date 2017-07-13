@@ -328,9 +328,12 @@ SimplybookWidget.prototype.getIframeNode = function () {
         this.subscribeMessages();
     }
 
-  /*  var frame = this.frame,
-  frameDoc = frame.contentDocument || frame.contentWindow.document;
-  frameDoc.documentElement.innerHTML = "";   */
+    var iframe = this.frame;
+    var html = "";
+
+    iframe.contentWindow.document.open();
+    iframe.contentWindow.document.write(html);
+    iframe.contentWindow.document.close();
 };
 
 module.exports = SimplybookWidget;
