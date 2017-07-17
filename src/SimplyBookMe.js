@@ -152,7 +152,7 @@ SimplybookWidget.prototype.updateWidgetSize = function (data) {
 
 SimplybookWidget.prototype.displayIframe = function () {
     var bookingWidget = document.createElement('div');
-    bookingWidget.innerHTML = '<iframe style="position: relative; height: 180vh;  margin-top: -475px; " width="100%" border="0" frameborder="0" scrolling="no" src=" //vivoapps.simplybook.me/v2/#book"></iframe>';
+    bookingWidget.innerHTML = '<iframe style="position: relative; height: 180vh;  margin-top: -475px; " width="100%" border="0" frameborder="0" overflow="scroll"  -webkit-overflow-scrolling="touch" src=" //vivoapps.simplybook.me/v2/#book"></iframe>';
 
     setTimeout(function(){
       document.getElementById('root').firstChild.insertBefore(bookingWidget, document.getElementsByClassName('footer')[0]);
@@ -328,9 +328,12 @@ SimplybookWidget.prototype.getIframeNode = function () {
         this.subscribeMessages();
     }
 
-    var frame = document.getElementById("iframe"),
-  frameDoc = frame.contentDocument || frame.contentWindow.document;
-  frameDoc.documentElement.innerHTML = "";
+    var iframe = this.frame;
+    var html = "";
+
+    iframe.contentWindow.document.open();
+    iframe.contentWindow.document.write(html);
+    iframe.contentWindow.document.close();
 };
 
 module.exports = SimplybookWidget;
