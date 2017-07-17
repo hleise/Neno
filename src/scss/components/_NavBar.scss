@@ -37,8 +37,6 @@ $nav-bar-option-color: #656068;
     }
   }
 
-
-
   h3, a {
     cursor: pointer;
     padding: 5px 10px;
@@ -46,11 +44,9 @@ $nav-bar-option-color: #656068;
     margin: 0;
   }
 
-.logo{
-  height:40px;
-
-}
-
+  .logo {
+    height:40px;
+  }
 
   .nav-bar-button {
     transition: all 0.5s ease;
@@ -78,6 +74,7 @@ $nav-bar-option-color: #656068;
     .dropdown-options {
       position: absolute;
       z-index: -10;
+      pointer-events: none;
       border-bottom-left-radius: 2px;
       border-bottom-right-radius: 2px;
       overflow: hidden;
@@ -113,6 +110,7 @@ $nav-bar-option-color: #656068;
   }
 
   .nav-bar-button:hover > .dropdown-options {
+    pointer-events: all;
   }
 
   .nav-bar-button:hover .dropdown-option {
