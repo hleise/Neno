@@ -60,6 +60,25 @@ var Decorators = [{
 
 
 class Home extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      selected: "-selected"
+    }
+  }
+  componentWillMount() {
+    setInterval(() => {
+      if(this.state.selected === "-unselected") {
+        this.setState({
+          selected: "-selected"
+        })
+      } else {
+        this.setState({
+          selected: "-unselected"
+        })
+      }
+    }, 3000)
+  }
   render() {
     var iframe = document.getElementById("booking-iframe");
     if(iframe) {
@@ -84,7 +103,14 @@ class Home extends Component {
             <img src={require('./img/home/7.jpg')}/>
           </Carousel>
           <div className='home-header'>
-            <h1>Neno Tours</h1>
+            <div className="nav-link">
+              <li className={"nav-item-above nav-item-above" + this.state.selected}>
+                <h1>Neno Tours</h1>
+              </li>
+              <li className={"nav-item nav-item" + this.state.selected}>
+                <h1>Adventure Awaits</h1>
+              </li>
+            </div>
           </div>
           <SmoothScroll section="home-page">
             <div className='home-page-smooth-scroll-container'>

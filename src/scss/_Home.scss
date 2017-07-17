@@ -8,10 +8,43 @@
     justify-content: center;
     align-items: center;
     z-index: 9;
+
+    .nav-item-above-selected {
+        transform: rotate3d(1,0,0,0);
+    }
+
+    .nav-item-selected {
+        transform: rotate3d(1,0,0,90deg);
+    }
+
+    .nav-item-above-unselected {
+        transform: rotate3d(1,0,0,-90deg);
+    }
+
+    .nav-item-unselected {
+        transform: rotate3d(1,0,0,0);
+    }
+
+    .nav-link > .nav-item-above {
+      @include transition(all, 0.5s, ease-in-out);
+      transform-origin: center top 8px;
+      height: 0vh;
+    }
+
+    .nav-link > .nav-item {
+      @include transition(all, 0.5s, ease-in-out);
+      transform-origin: center bottom 8px;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
     h1 {
       color: white;
       text-align: center;
     }
+
     pointer-events: none;
   }
   .home-page-smooth-scroll-container {
