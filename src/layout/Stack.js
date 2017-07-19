@@ -15,6 +15,12 @@ class Stack extends Component {
     };
     this.toggleMenu = this.toggleMenu.bind(this);
   }
+  componentDidMount() {
+    setTimeout(function(){
+      var iframe = document.getElementById('booking-iframe')
+      iframe.style.display = 'none'
+    },1200)
+  }
   toggleMenu(i) {
     this.setState((prevState, props) => {
       var newMenus = prevState.menus;
