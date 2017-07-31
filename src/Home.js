@@ -63,7 +63,8 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      selected: "-selected"
+      selected: "-selected",
+      vertical: false
     }
   }
   componentWillMount() {
@@ -79,11 +80,28 @@ class Home extends Component {
       }
     }, 3000)
   }
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+        const w = Math.max(document.body.clientWidth, window.innerWidth || 0)
+        if(w < 800) {
+          this.setState({
+            vertical: true
+          })
+          return;
+        } else {
+          this.setState({
+            vertical: false
+          })
+        }
+        return;
+    })
+  }
   render() {
     var iframe = document.getElementById("booking-iframe");
     if(iframe) {
       iframe.style.display = "none";
     }
+
     return (
       <div className='home'>
         <PageLayout>
@@ -93,7 +111,7 @@ class Home extends Component {
             speed={500}
             autoplay={true}
             autoplayInterval={4000}
-            vertical={true}
+            vertical={this.state.vertical}
             decorators={Decorators}
             wrapAround>
             <img src={require('./img/home/0.jpg')}/>
