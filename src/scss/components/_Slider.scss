@@ -11,3 +11,7 @@
     transform: translate3d(-50vw, 0, 0);
   }
 }
+
+.slider-list li:nth-child(8) img {
+  object-position: 0% 100%;
+}

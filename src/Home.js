@@ -89,8 +89,11 @@ class Home extends Component {
         <PageLayout>
           <Carousel
             dragging={true}
-            easing="easeInOutSine"
+            easing="easeInQuad"
             speed={500}
+            autoplay={true}
+            autoplayInterval={4000}
+            vertical={true}
             decorators={Decorators}
             wrapAround>
             <img src={require('./img/home/0.jpg')}/>
