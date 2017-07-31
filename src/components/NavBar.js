@@ -30,7 +30,7 @@ class NavBar extends Component {
           <div className='nav-bar'>
           <MenuButton className={this.state.MenuButtonStyle} togglePosition={this.toggleMenuBar}/>
           <div className='nav-bar-button'>
-            <div className='nav-bar-button-title'>
+            <div className='nav-bar-button-title' onClick={this.toggleMenuBar}>
               <h3>
                 <Link to="">
                    <img className='logo' src={require('../logos/logo.png')} />
