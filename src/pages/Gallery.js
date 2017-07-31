@@ -9,11 +9,17 @@ class Gallery extends Component {
       <page>
       <div className='image-row'>
         <Link to="/gallery-category/featured" className='gallery-image-container'>
-          <h1>Featured</h1>
+          <h1>
+            Featured |
+            Mandhari
+          </h1>
           <img className='gallery-image' src={require('../img/gallery/0.jpg')} alt='left'/>
         </Link>
         <Link to="/gallery-category/adventure" className='gallery-image-container'>
-            <h1>Adventure</h1>
+            <h1>
+              Adventure |
+              Mtiti
+            </h1>
             <img className='gallery-image' src={require('../img/gallery/1.jpg')} alt='right'/>
         </Link>
       </div>
