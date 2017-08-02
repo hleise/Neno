@@ -5,7 +5,6 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import DayTours from './pages/DayTours';
 import DayToursHandler from './pages/DayToursHandler';
-import NotFound from './pages/NotFound';
 import Booking from './pages/Booking';
 import CarRental from './pages/CarRental';
 import FlightInfo from './pages/FlightInfo';

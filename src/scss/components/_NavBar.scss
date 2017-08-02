@@ -1,4 +1,5 @@
 $nav-bar-option-color: #656068;
+$nav-bar-option-hover-color: #f1f1f1;
 
 .nav-bar {
   width: 100%;
@@ -90,7 +91,7 @@ $nav-bar-option-color: #656068;
     }
 
     .dropdown-option:hover > a {
-      color: #f1f1f1;
+      color: $nav-bar-option-hover-color;
     }
 
 
@@ -101,7 +102,7 @@ $nav-bar-option-color: #656068;
         .dropdown-option:hover {
           h3 {
             a {
-                color: #f1f1f1;
+                color: $nav-bar-option-hover-color;
                 cursor: pointer;
             }
           }
@@ -124,7 +125,7 @@ $nav-bar-option-color: #656068;
     .nav-bar-button-title {
       h3 {
         a {
-            color: #f1f1f1;
+            color: $nav-bar-option-hover-color;
         }
 
       }

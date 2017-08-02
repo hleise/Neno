@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import PageLayout from '../layout/PageLayout';
 import {Link} from 'react-router-dom';
 
 
 class Gallery extends Component {
   render() {
     return (
-      <page>
+      <page className='gallery'>
       <div className='image-row'>
         <Link to="/gallery-category/featured" className='gallery-image-container'>
           <h1>

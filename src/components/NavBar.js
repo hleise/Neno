@@ -5,32 +5,43 @@ import MenuButton from './MenuButton'
 class NavBar extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       MenuButtonStyle: 'shown'
     };
-    this.toggleMenuBar = this.toggleMenuBar.bind(this)
+
+    this.toggleMenuBar = () => {
+      this.setState((prevState, props) => {
+        if(prevState.MenuButtonStyle === 'shown') {
+          return {
+            MenuButtonStyle: 'not-shown'
+          }
+        } else if (prevState.MenuButtonStyle === 'not-shown') {
+          return {
+            MenuButtonStyle: 'shown'
+          }
+        }
+      })
+    };
+
+    this.closeMenuBar = () => {
+      this.refs.menuButton.closeIcon();
+      this.setState(() => {
+        return {
+          MenuButtonStyle: 'shown'
+        }
+      });
+    };
   }
-  toggleMenuBar() {
-    this.setState((prevState, props) => {
-      var newMenuButtonStyle;
-      if(prevState.MenuButtonStyle === 'shown') {
-        newMenuButtonStyle = 'not-shown'
-      } else if (prevState.MenuButtonStyle === 'not-shown') {
-        newMenuButtonStyle = 'shown'
-      }
-      return {
-        MenuButtonStyle: newMenuButtonStyle
-      }
-    })
-  }
+
   render() {
     return (
       <div>
         <div className='nav-bar-container'>
           <div className='nav-bar'>
-          <MenuButton className={this.state.MenuButtonStyle} togglePosition={this.toggleMenuBar}/>
+          <MenuButton ref='menuButton' className={this.state.MenuButtonStyle} togglePosition={this.toggleMenuBar}/>
           <div className='nav-bar-button'>
-            <div className='nav-bar-button-title' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button-title' onClick={this.closeMenuBar}>
               <h3>
                 <Link to="">
                    <img className='logo' src={require('../logos/logo.png')} />
@@ -38,7 +49,7 @@ class NavBar extends Component {
               </h3>
             </div>
           </div>
-            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button' onClick={this.closeMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/booking">
@@ -77,7 +88,7 @@ class NavBar extends Component {
                 </div>
               </div>
             </div>
-            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button' onClick={this.closeMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/transportation">
@@ -102,7 +113,7 @@ class NavBar extends Component {
                 </div>
               </div>
             </div>
-            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button' onClick={this.closeMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/about">
@@ -134,7 +145,7 @@ class NavBar extends Component {
                 </div>
             </div>
           </div>
-            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button' onClick={this.closeMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/gallery">
@@ -143,7 +154,7 @@ class NavBar extends Component {
                 </h3>
               </div>
             </div>
-            <div className='nav-bar-button' onClick={this.toggleMenuBar}>
+            <div className='nav-bar-button' onClick={this.closeMenuBar}>
               <div className='nav-bar-button-title'>
                 <h3>
                   <Link to="/contact">

@@ -17,13 +17,14 @@
     @include user-select(none);
     justify-content: center;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
     width: 100%;
-    height:80vh;
+    height: 80vh;
 
     h1 {
       @include transition($hover-prop, $hover-duration, $hover-easing);
       transform: translateY(-10px);
+      cursor: pointer;
       a {
         color: white;
       }

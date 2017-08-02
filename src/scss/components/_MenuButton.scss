@@ -42,18 +42,6 @@ $bar-margin: 5px;
       transition: all $time ease;
     }
   }
-  .icon:hover {
-    .top-bar {
-      transform: translateY(12px) rotateZ(45deg);
-    }
-    .middle-bar {
-      transform: scaleY(0) scaleX(0);
-      opacity: 0;
-    }
-    .bottom-bar {
-      transform: translateY(-12px) rotateZ(-45deg);
-    }
-  }
 
   .icon-open {
     .top-bar {
