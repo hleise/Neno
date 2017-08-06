@@ -1,5 +1,10 @@
 .page-layout {
+
   padding-top: 40px;
+
+  @media all and(max-width: $mobile-width) {
+    padding-top: 60px;
+  }
 
   li.slider-slide {
     cursor: default;
