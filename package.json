@@ -1,7 +1,7 @@
 {
   "name": "neno",
   "version": "0.1.0",
-  "homepage": "http://13.58.139.60/",
+  "homepage": "http://18.220.94.27/",
   "private": true,
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
