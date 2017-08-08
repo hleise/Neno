@@ -9,7 +9,7 @@ class StaticBanner extends Component {
           <h1>{this.props.bannerTitle}</h1>
         </div>
         <div className="banner-description">
-          <h2>Click here to see more...</h2>
+          
         </div>
        <img className='banner-image' src={require('../img/' + this.props.page + "/" + this.props.i + ".jpg")} />
       </div>
