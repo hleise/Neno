@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import sunsetMark from '../../../content/day-tours/boat/SunsetCruise.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
+import StaticBanner from '../../../layout/StaticBanner'
 
 class SunsetDhowCruise extends Component {
   render() {
     return (
       <div className="page">
-        <div className="static-banner">
-          <div className="banner-title">
-            <h1>Sunset Dhow Cruise</h1>
-          </div>
-          <img className='banner-image' src={require('../../../img/day-tours/boat/6.jpg')}/>
-        </div>
+        <StaticBanner
+          bannerTitle='Sunset Dhow Cruise'
+          page='day-tours/boat'
+          i='6'
+        />
         <div className="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: sunsetMark}}>

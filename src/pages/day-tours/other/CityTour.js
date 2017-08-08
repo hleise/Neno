@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import cityMark from '../../../content/day-tours/other/ZanzibarCulturalTownTour.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
+import StaticBanner from '../../../layout/StaticBanner'
 
 class CityTour extends Component {
   render() {
     return (
       <div className="page">
-        <div className="static-banner">
-          <div className="banner-title">
-            <h1>City Tour</h1>
-          </div>
-          <img className='banner-image' src={require('../../../img/day-tours/other/0.jpg')}/>
-        </div>
+        <StaticBanner
+          bannerTitle='City Tour'
+          page='day-tours/other'
+          i='0'
+        />
         <div className="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: cityMark}}>

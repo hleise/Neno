@@ -14,6 +14,7 @@
     z-index: 9;
     color: white;
     display: flex;
+    flex-direction: column;
     @include user-select(none);
     justify-content: center;
     align-items: center;
