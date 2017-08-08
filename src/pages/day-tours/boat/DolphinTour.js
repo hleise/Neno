@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import dolphinMark from '../../../content/day-tours/boat/DolphinTours.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
+import StaticBanner from '../../../layout/StaticBanner'
 
 class DolpinTour extends Component {
   render() {
     return (
       <div className="page">
-        <div className="static-banner">
-          <div className="banner-title">
-            <h1>Dolphin Tour</h1>
-          </div>
-          <img className='banner-image' src={require('../../../img/day-tours/boat/3.jpg')}/>
-        </div>
+        <StaticBanner
+          bannerTitle='Dolphin Tour'
+          page='day-tours/boat'
+          i='3'
+        />
         <div className="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: dolphinMark}}>

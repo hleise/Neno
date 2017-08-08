@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import chumbeMark from '../../../content/day-tours/boat/ChumbeIslandTrip.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
+import StaticBanner from '../../../layout/StaticBanner'
 
 class ChumbeIsland extends Component {
   render() {
     return (
       <div className="page">
-        <div className="static-banner">
-          <div className="banner-title">
-            <h1>Chumbe Island</h1>
-          </div>
-          <img className='banner-image' src={require('../../../img/day-tours/boat/2.jpg')}/>
-        </div>
+        <StaticBanner
+          bannerTitle='Chumbe Island'
+          page='day-tours/boat'
+          i='2'
+        />
         <div className="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: chumbeMark}}/>
