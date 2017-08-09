@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DownArrow from '../components/DownArrow'
 
 class StaticBanner extends Component {
   render() {
@@ -10,6 +11,7 @@ class StaticBanner extends Component {
         <div className="banner-description">
         </div>
        <img className='banner-image' src={require('../img/' + this.props.page + "/" + this.props.i + ".jpg")} />
+          <DownArrow/>
       </div>
     );
   }

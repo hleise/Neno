@@ -4,7 +4,6 @@ import HomeContent from './content/home.md'
 import PageLayout from './layout/PageLayout'
 import Slider from './components/Slider'
 var Carousel = require('nuka-carousel')
-import SmoothScroll from './components/SmoothScroll'
 import DownArrow from './components/DownArrow'
 
 
@@ -134,13 +133,9 @@ class Home extends Component {
               </li>
             </div>
           </div>
-          <SmoothScroll section="home-page">
-            <div className='home-page-smooth-scroll-container'>
-              <button>
+            <div className='home-page-smooth-scroll-container'>            
                 <DownArrow/>
-              </button>
             </div>
-          </SmoothScroll>
           <div className="page" id="home-page">
               <div className="info" id="info">
                 <HorizontalTextSection>
