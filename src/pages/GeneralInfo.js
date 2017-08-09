@@ -14,7 +14,7 @@ class General extends Component {
             page='geninfo'
             i='0'
           />
-          <div className="info">
+          <div className="info" id="info">
            <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: generalMark}}>
             </div>

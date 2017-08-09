@@ -12,7 +12,7 @@ class Selous extends Component {
           <h1>Selous Game Refuge</h1>
           <img className='banner-image' src={require('../../../img/safaris/southern/0.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: selousMD}}>
             </div>

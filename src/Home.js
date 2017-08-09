@@ -142,7 +142,7 @@ class Home extends Component {
             </div>
           </SmoothScroll>
           <div className="page" id="home-page">
-              <div className="info">
+              <div className="info" id="info">
                 <HorizontalTextSection>
                   <div className='markdown' dangerouslySetInnerHTML={{__html: HomeContent}} />
                 </HorizontalTextSection>

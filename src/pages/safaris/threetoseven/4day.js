@@ -12,7 +12,7 @@ class Fourday extends Component {
           <h1>4 Days</h1>
           <img className='banner-image' src={require('../../../img/safaris/long/1.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: fourMD}}>
             </div>

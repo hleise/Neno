@@ -14,7 +14,7 @@ class Volunteers extends Component {
           page='volunteer'
           i='0'
         />
-        <div className="info">
+        <div className="info" id="info">
          <HorizontalTextSection>
 
           </HorizontalTextSection>

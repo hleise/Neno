@@ -13,7 +13,7 @@ class ChumbeIsland extends Component {
           page='day-tours/boat'
           i='2'
         />
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: chumbeMark}}/>
             <BookingButton/>

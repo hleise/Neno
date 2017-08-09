@@ -13,7 +13,7 @@ class SpiceTour extends Component {
           page='day-tours/cultural-day'
           i='3'
         />
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: spiceMark}}>
             </div>

@@ -13,7 +13,7 @@ class DolpinTour extends Component {
           page='day-tours/boat'
           i='3'
         />
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: dolphinMark}}>
             </div>

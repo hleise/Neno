@@ -13,7 +13,7 @@ class CityTour extends Component {
           page='day-tours/other'
           i='0'
         />
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: cityMark}}>
             </div>
