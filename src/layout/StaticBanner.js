@@ -10,8 +10,8 @@ class StaticBanner extends Component {
         </div>
         <div className="banner-description">
         </div>
-       <img className='banner-image' src={require('../img/' + this.props.page + "/" + this.props.i + ".jpg")} />
-          <DownArrow/>
+        <img className='banner-image' src={require('../img/' + this.props.page + "/" + this.props.i + ".jpg")} />
+        <DownArrow section='info'/>
       </div>
     );
   }

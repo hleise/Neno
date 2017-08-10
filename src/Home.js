@@ -133,11 +133,9 @@ class Home extends Component {
               </li>
             </div>
           </div>
-            <div className='home-page-smooth-scroll-container'>            
-                <DownArrow/>
-            </div>
+          <DownArrow section='home-page'/>
           <div className="page" id="home-page">
-              <div className="info" id="info">
+              <div className="info">
                 <HorizontalTextSection>
                   <div className='markdown' dangerouslySetInnerHTML={{__html: HomeContent}} />
                 </HorizontalTextSection>
