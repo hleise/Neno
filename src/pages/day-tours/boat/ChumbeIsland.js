@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import chumbeMark from '../../../content/day-tours/boat/ChumbeIslandTrip.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class ChumbeIsland extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Chumbe Island'
+        <Banner
+          title='Chumbe Island'
           page='day-tours/boat'
           i='2'
         />

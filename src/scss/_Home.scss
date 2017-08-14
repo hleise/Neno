@@ -47,30 +47,6 @@
 
     pointer-events: none;
   }
-  .home-page-smooth-scroll-container {
-    width: 100vw;
-    height: 120vh;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: none;
-    .smooth-scroll {
-      pointer-events: fill;
-      cursor: pointer;
-      background: transparent;
-      border-color: transparent;
-      padding: 10px;
-      outline: none;
-      svg {
-        transition: all 0.25s ease;
-      }
-    }
-    .smooth-scroll:hover svg {
-      transform: translateY(10px);
-    }
-  }
   img {
     filter: brightness(75%) saturate(110%);
   }

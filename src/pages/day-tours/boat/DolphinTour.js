@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import dolphinMark from '../../../content/day-tours/boat/DolphinTours.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class DolpinTour extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Dolphin Tour'
+        <Banner
+          title='Dolphin Tour'
           page='day-tours/boat'
           i='3'
         />

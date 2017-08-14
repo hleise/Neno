@@ -18,7 +18,7 @@ class Stack extends Component {
   componentDidMount() {
     setTimeout(function(){
       var iframe = document.getElementById('booking-iframe')
-      iframe.style.display = 'none'
+      if(iframe !== null) iframe.style.display = 'none'
     },1200)
   }
   toggleMenu(i) {
@@ -38,7 +38,7 @@ class Stack extends Component {
     return (
       <div className={this.props.className}>
         {this.props.data.map((section, i) =>
-        <div className='section' id={section.sectionTitle.replace(/\s+/g, '-').toLowerCase()}>
+        <div className='section' id={section.title.replace(/\s+/g, '-').toLowerCase()}>
           <Menu
             toggleMenu={this.toggleMenu.bind(this, i)}
             page={this.props.page}
@@ -47,8 +47,10 @@ class Stack extends Component {
             imgFolder={section.imgFolder}
             />
           <Banner
+            rollOver={true}
+            enableToggle={true}
             page={this.props.page}
-            sectionTitle={section.sectionTitle}
+            title={section.title}
             toggleMenu={this.toggleMenu.bind(this, i)}
             i={i}
             />

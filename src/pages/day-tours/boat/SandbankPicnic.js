@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import sandMark from '../../../content/day-tours/boat/SandbankPicnic.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class SandbankPicnic extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Sandbank Picnic'
+        <Banner
+          title='Sandbank Picnic'
           page='day-tours/boat'
           i='5'
         />

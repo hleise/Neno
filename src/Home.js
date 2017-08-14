@@ -64,7 +64,8 @@ class Home extends Component {
     super(props)
     this.state = {
       selected: "-selected",
-      vertical: false
+      vertical: false,
+      dragging: false
     }
   }
   componentWillMount() {
@@ -85,12 +86,14 @@ class Home extends Component {
         const w = Math.max(document.body.clientWidth, window.innerWidth || 0)
         if(w < 800) {
           this.setState({
-            vertical: true
+            vertical: true,
+            dragging: false
           })
           return;
         } else {
           this.setState({
-            vertical: false
+            vertical: false,
+            dragging: true
           })
         }
         return;
@@ -106,7 +109,7 @@ class Home extends Component {
       <div className='home'>
         <PageLayout>
           <Carousel
-            dragging={true}
+            dragging={this.state.dragging}
             easing="easeInQuad"
             speed={500}
             autoplay={true}

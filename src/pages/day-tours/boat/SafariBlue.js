@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import blueMark from '../../../content/day-tours/boat/SafariBlue.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class SafariBlue extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Safari Blue'
+        <Banner
+          title='Safari Blue'
           page='day-tours/boat'
           i='0'
         />

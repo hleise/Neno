@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 import PageLayout from '../layout/PageLayout';
 import HorizontalTextSection from '../components/HorizontalTextSection.js';
 import flightMark from '../content/FlightInfo.md';
@@ -9,8 +9,8 @@ class FlightInfo extends Component {
     return (
       <PageLayout>
       <div className="page">
-        <StaticBanner
-          bannerTitle='Flight Info'
+        <Banner
+          title='Flight Info'
           page='flight-info'
           i='0'
           />

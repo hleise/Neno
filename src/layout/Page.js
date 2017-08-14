@@ -1,21 +1,21 @@
 import React, {Component} from 'react';
-import cityMark from '../../../content/day-tours/other/ZanzibarCulturalTownTour.md';
+import jamMark from '../../../content/day-tours/cultural-day/JamVillageTour.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
 import Banner from '../../../layout/Banner'
 
-class CityTour extends Component {
+class Page extends Component {
   render() {
     return (
       <div className="page">
         <Banner
-          title='City Tour'
-          page='day-tours/other'
-          i='0'
+          title={this.props.title}
+          page={this.props.page}
+          i={this.props.i}
         />
         <div className="info" id="info">
           <HorizontalTextSection>
-            <div className='markdown' dangerouslySetInnerHTML={{__html: cityMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: jamMark}}>
             </div>
             <BookingButton/>
           </HorizontalTextSection>
@@ -25,4 +25,4 @@ class CityTour extends Component {
   }
 }
 
-export default CityTour;
+export default Page;

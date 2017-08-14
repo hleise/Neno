@@ -30,6 +30,11 @@
         color: white;
       }
     }
+
+    h2 {
+      @include transition($hover-prop, $hover-duration, $hover-easing);
+      transform: translateY(8px);
+    }
     @include transition($hover-prop, $hover-duration, $hover-easing);
   }
   .banner-image {
@@ -41,10 +46,13 @@
   }
 }
 
-.banner:hover > .banner-title {
+.roll-over:hover > .banner-title {
   background: $hover-color;
   h1 {
     transform: translateY(0px);
+  }
+  h2 {
+    transform: translateY(-3px);
   }
 }
 

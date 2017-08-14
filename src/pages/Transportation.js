@@ -9,14 +9,14 @@ class Transportation extends Component {
       <PageLayout>
         <Link to='car-rental'>
         <Banner
-          sectionTitle='Car Rental'
+          title='Car Rental'
           page='car-rental'
           i='0'
         />
         </Link>
         <Link to='flight-info'>
           <Banner
-            sectionTitle='Flight Info'
+            title='Flight Info'
             page='flight-info'
             i='0'
           />

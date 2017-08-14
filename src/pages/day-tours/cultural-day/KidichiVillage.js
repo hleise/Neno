@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import kidMark from '../../../content/day-tours/cultural-day/KidVillageTour.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class Kidichi extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Kidichi Village'
+        <Banner
+          title='Kidichi Village'
           page='day-tours/cultural-day'
           i='1'
         />

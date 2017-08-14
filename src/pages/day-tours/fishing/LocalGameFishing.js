@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import localMark from '../../../content/day-tours/fishing/LocalGameFishing.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class LocalGameFishing extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Local Game Fishing'
+        <Banner
+          title='Local Game Fishing'
           page='day-tours/fishing'
           i='1'
         />

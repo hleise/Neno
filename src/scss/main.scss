@@ -1,7 +1,8 @@
 $mobile-width: 800px;
 
+@import './Animations.scss';
+
 @import './helpers/mixins.scss';
-@import './helpers/_animation_mixins.scss';
 @import './helpers/variables.scss';
 
 @import './Home.scss';
@@ -10,7 +11,7 @@ $mobile-width: 800px;
 @import './layout/Stack.scss';
 @import './layout/Menu.scss';
 @import './layout/Banner.scss';
-@import './layout/StaticBanner.scss';
+@import './layout/Banner.scss';
 @import './layout/PageLayout.scss';
 
 @import './components/BookingButton.scss';

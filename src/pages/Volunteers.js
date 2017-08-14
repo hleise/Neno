@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 import HorizontalTextSection from '../components/HorizontalTextSection.js';
 
 import PageLayout from '../layout/PageLayout';
@@ -9,8 +9,8 @@ class Volunteers extends Component {
     return (
       <PageLayout>
       <div className="page">
-        <StaticBanner
-          bannerTitle='Volunteers'
+        <Banner
+          title='Volunteers'
           page='volunteer'
           i='0'
         />

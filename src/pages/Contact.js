@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import HorizontalTextSection from '../components/HorizontalTextSection';
 import contactMark from '../content/Contact.md';
 import PageLayout from '../layout/PageLayout';
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 
 class Contact extends Component {
   render() {
     return (
       <PageLayout>
         <div className="page">
-          <StaticBanner
-            bannerTitle='Contact Us'
+          <Banner
+            title='Contact Us'
             page='contact'
             i='0'
           />

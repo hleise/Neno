@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import sunsetMark from '../../../content/day-tours/boat/SunsetCruise.md';
 import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
 import BookingButton from "../../../components/BookingButton";
-import StaticBanner from '../../../layout/StaticBanner'
+import Banner from '../../../layout/Banner'
 
 class SunsetDhowCruise extends Component {
   render() {
     return (
       <div className="page">
-        <StaticBanner
-          bannerTitle='Sunset Dhow Cruise'
+        <Banner
+          title='Sunset Dhow Cruise'
           page='day-tours/boat'
           i='6'
         />

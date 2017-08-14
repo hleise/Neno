@@ -8,7 +8,7 @@ import markdown3 from '../content/car-rental/VitaraPackage1.md';
 import markdown4 from '../content/car-rental/VitaraPackage2.md';
 import markdown5 from '../content/car-rental/VitaraPackage3.md';
 
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 
 class Section extends Component {
   render() {
