@@ -4,7 +4,7 @@ import HomeContent from './content/home.md'
 import PageLayout from './layout/PageLayout'
 import Slider from './components/Slider'
 var Carousel = require('nuka-carousel')
-import DownArrow from './components/DownArrow'
+import DownArrow from './components//DownArrow/DownArrow'
 
 
 var buttonStyle = {
@@ -68,19 +68,6 @@ class Home extends Component {
       dragging: false
     }
   }
-  componentWillMount() {
-    setInterval(() => {
-      if(this.state.selected === "-unselected") {
-        this.setState({
-          selected: "-selected"
-        })
-      } else {
-        this.setState({
-          selected: "-unselected"
-        })
-      }
-    }, 3000)
-  }
   componentDidMount() {
     window.addEventListener('resize', () => {
         const w = Math.max(document.body.clientWidth, window.innerWidth || 0)
@@ -98,6 +85,17 @@ class Home extends Component {
         }
         return;
     })
+    setInterval(() => {
+      if(this.state.selected === "-unselected") {
+        this.setState({
+          selected: "-selected"
+        })
+      } else {
+        this.setState({
+          selected: "-unselected"
+        })
+      }
+    }, 3000)
   }
   render() {
     var iframe = document.getElementById("booking-iframe");

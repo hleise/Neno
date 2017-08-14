@@ -12,6 +12,7 @@ class Transportation extends Component {
           title='Car Rental'
           page='car-rental'
           i='0'
+          rollOver='true'
         />
         </Link>
         <Link to='flight-info'>
@@ -19,6 +20,7 @@ class Transportation extends Component {
             title='Flight Info'
             page='flight-info'
             i='0'
+            rollOver='true'
           />
         </Link>
       </PageLayout>

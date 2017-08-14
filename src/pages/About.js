@@ -12,6 +12,7 @@ class About extends Component {
             title='General Info'
             page='geninfo'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='history-of-zanzibar'>
@@ -19,6 +20,7 @@ class About extends Component {
           title='History of Zanzibar'
           page='history'
           i='0'
+          rollOver='true'
         />
         </Link>
         <Link to='volunteers'>
@@ -26,6 +28,7 @@ class About extends Component {
           title='Volunteers'
           page='volunteer'
           i='0'
+          rollOver='true'
         />
         </Link>
       </PageLayout>

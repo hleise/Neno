@@ -14,6 +14,7 @@ class Menu extends Component {
     this.setState({ col })
   }
   componentDidMount() {
+    this.getWidth()
     window.addEventListener('resize', this.getWidth)
   }
   render() {

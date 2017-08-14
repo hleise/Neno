@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DownArrow from '../components/DownArrow'
+import DownArrow from '../components/DownArrow/DownArrow'
 
 class Banner extends Component {
   constructor(props) {

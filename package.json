@@ -51,6 +51,7 @@
     "postcss-loader": "1.2.2",
     "promise": "7.1.1",
     "raw-loader": "^0.5.1",
+    "react-3d-carousel": "0.0.6",
     "react-dev-utils": "^0.5.2",
     "react-images": "https://github.com/hleise/react-images/tarball/master",
     "react-measure": "^2.0.2",

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SmoothScroll from '../components/SmoothScroll'
+import SmoothScroll from '../../components/SmoothScroll'
+import './DownArrow.scss'
 
 class DownArrow extends Component {
   render() {

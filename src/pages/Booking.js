@@ -12,6 +12,7 @@ class Booking extends Component {
           title='Day Tours'
           page='day-tours'
           i='0'
+          rollOver='true'
         />
         </Link>
         <Link to='package-tours'>
@@ -19,6 +20,7 @@ class Booking extends Component {
             title='Package Tours'
             page='package-tours'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='safaris'>
@@ -26,6 +28,7 @@ class Booking extends Component {
             title='Safaris'
             page='safaris'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='hotels'>
@@ -33,6 +36,7 @@ class Booking extends Component {
             title='Hotels'
             page='hotels'
             i='0'
+            rollOver='true'
           />
         </Link>
       </PageLayout>
