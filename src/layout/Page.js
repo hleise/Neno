@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import jamMark from '../../../content/day-tours/cultural-day/JamVillageTour.md';
-import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
-import BookingButton from "../../../components/BookingButton";
-import Banner from '../../../layout/Banner'
+import HorizontalTextSection from '../components/HorizontalTextSection.js';
+import BookingButton from "../components/BookingButton";
+import Banner from './Banner'
 
 class Page extends Component {
   render() {
@@ -12,10 +11,11 @@ class Page extends Component {
           title={this.props.title}
           page={this.props.page}
           i={this.props.i}
+          downArrow={true}
         />
         <div className="info" id="info">
           <HorizontalTextSection>
-            <div className='markdown' dangerouslySetInnerHTML={{__html: jamMark}}>
+            <div className='markdown' dangerouslySetInnerHTML={{__html: this.props.markdown}}>
             </div>
             <BookingButton/>
           </HorizontalTextSection>
