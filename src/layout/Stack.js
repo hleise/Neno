@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import Menu from './Menu';
-import Carousel from 'react-3d-carousel'
 
 class Stack extends Component {
   constructor(props) {
@@ -12,36 +11,31 @@ class Stack extends Component {
         "closed",
         "closed",
         "closed"
-      ],
-      images: [
-        require('../img/day-tours/boat/0.jpg'),
-        require('../img/day-tours/boat/1.jpg'),
-        require('../img/day-tours/boat/2.jpg'),
-        require('../img/day-tours/boat/3.jpg'),
-        require('../img/day-tours/boat/4.jpg'),
-        require('../img/day-tours/boat/5.jpg')
-      ],
-      width: 400,
-      layout: 'prism',
-      ease: 'linear',
-      duration: 400,
-      carousel: false
+      ]
     };
     this.toggleMenu = this.toggleMenu.bind(this)
-    this.enableCarousel = this.enableCarousel.bind(this)
+    this.enablegrid = this.enablegrid.bind(this)
   }
-  enableCarousel() {
+  enablegrid() {
     let width = Math.floor(document.documentElement.clientWidth);
     console.log(width)
     if( width <= 800) {
-      this.setState({ carousel: true })
+      //currently turned off
+      this.setState({
+        grid: true,
+        menus: [
+          "open",
+          "open",
+          "open",
+          "open"
+        ] })
     } else {
-      this.setState({ carousel: false })
+      this.setState({ grid: false })
     }
   }
   componentDidMount() {
-    this.enableCarousel()
-    window.addEventListener('resize', this.enableCarousel)
+    this.enablegrid()
+    window.addEventListener('resize', this.enablegrid)
     setTimeout(function(){
       var iframe = document.getElementById('booking-iframe')
       if(iframe !== null) iframe.style.display = 'none'
@@ -63,16 +57,7 @@ class Stack extends Component {
   render() {
     return (
       <div className={this.props.className}>
-        { this.state.carousel ? <Carousel
-          width={this.state.width}
-          images={this.state.images}
-          ease={this.state.ease}
-          duration={this.state.duration}
-          layout={this.state.layout}
-        /> :
-
-
-        this.props.data.map((section, i) =>
+        {this.props.data.map((section, i) =>
         <div className='section' id={section.title.replace(/\s+/g, '-').toLowerCase()}>
           <Menu
             toggleMenu={this.toggleMenu.bind(this, i)}
@@ -81,7 +66,8 @@ class Stack extends Component {
             menu={this.state.menus[i]}
             imgFolder={section.imgFolder}
             />
-          <Banner
+          {this.state.grid ? '' :
+            <Banner
             rollOver={true}
             enableToggle={true}
             page={this.props.page}
@@ -89,18 +75,12 @@ class Stack extends Component {
             toggleMenu={this.toggleMenu.bind(this, i)}
             i={i}
             />
+          }
         </div>
-        )
-
-
-        }
+        )}
       </div>
     );
-
   }
 }
-
-
-
 
 export default Stack;
