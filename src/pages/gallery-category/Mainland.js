@@ -49,7 +49,7 @@ export default class Sample extends React.Component {
       });
   }
   setWidth() {
-    let col = Math.floor(document.documentElement.clientWidth / 300);
+    let col = this.getWidth();
     this.setState({ col });
   }
   render() {
