@@ -1,0 +1,14 @@
+button {
+  pointer-events: fill;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  padding: 10px;
+  outline: none;
+  svg {
+    transition: all 0.25s ease;
+  }
+}
+button:hover > svg {
+  transform: translateY(10px);
+}

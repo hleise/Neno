@@ -1,8 +1,7 @@
 $mobile-width: 800px;
 
-@import './Animations.scss';
-
 @import './helpers/mixins.scss';
+@import './helpers/_animation_mixins.scss';
 @import './helpers/variables.scss';
 
 @import './Home.scss';
@@ -11,7 +10,7 @@ $mobile-width: 800px;
 @import './layout/Stack.scss';
 @import './layout/Menu.scss';
 @import './layout/Banner.scss';
-@import './layout/Banner.scss';
+@import './layout/StaticBanner.scss';
 @import './layout/PageLayout.scss';
 
 @import './components/BookingButton.scss';
@@ -24,6 +23,7 @@ $mobile-width: 800px;
 @import './components/Footer.scss';
 @import './components/HorizontalTextSection.scss';
 @import './components/Slider.scss';
+@import './components/DownArrow.scss';
 
 @import './pages/transportation/CarRental.scss';
 @import './pages/transportation/FlightInfo.scss';
@@ -80,6 +80,5 @@ body {
   }
   a{
     text-decoration:none;
-    user-select: none;
   }
 }

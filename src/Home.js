@@ -4,7 +4,7 @@ import HomeContent from './content/home.md'
 import PageLayout from './layout/PageLayout'
 import Slider from './components/Slider'
 var Carousel = require('nuka-carousel')
-import DownArrow from './components//DownArrow/DownArrow'
+import DownArrow from './components/DownArrow'
 
 
 var buttonStyle = {
@@ -64,27 +64,10 @@ class Home extends Component {
     super(props)
     this.state = {
       selected: "-selected",
-      vertical: false,
-      dragging: false
+      vertical: false
     }
   }
-  componentDidMount() {
-    window.addEventListener('resize', () => {
-        const w = Math.max(document.body.clientWidth, window.innerWidth || 0)
-        if(w < 800) {
-          this.setState({
-            vertical: true,
-            dragging: false
-          })
-          return;
-        } else {
-          this.setState({
-            vertical: false,
-            dragging: true
-          })
-        }
-        return;
-    })
+  componentWillMount() {
     setInterval(() => {
       if(this.state.selected === "-unselected") {
         this.setState({
@@ -97,6 +80,22 @@ class Home extends Component {
       }
     }, 3000)
   }
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+        const w = Math.max(document.body.clientWidth, window.innerWidth || 0)
+        if(w < 800) {
+          this.setState({
+            vertical: true
+          })
+          return;
+        } else {
+          this.setState({
+            vertical: false
+          })
+        }
+        return;
+    })
+  }
   render() {
     var iframe = document.getElementById("booking-iframe");
     if(iframe) {
@@ -107,7 +106,7 @@ class Home extends Component {
       <div className='home'>
         <PageLayout>
           <Carousel
-            dragging={this.state.dragging}
+            dragging={true}
             easing="easeInQuad"
             speed={500}
             autoplay={true}

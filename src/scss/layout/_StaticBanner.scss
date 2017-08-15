@@ -1,0 +1,76 @@
+.static-banner {
+  @include transition(margin, 0.5s, ease);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  z-index: 9;
+  align-items: center;
+
+  .home-page-smooth-scroll-container {
+    width: 100vw;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    z-index: 9;
+    .smooth-scroll {
+      pointer-events: fill;
+      cursor: pointer;
+      background: transparent;
+      border-color: transparent;
+      padding: 10px;
+      outline: none;
+      svg {
+        transition: all 0.25s ease;
+      }
+    }
+    .smooth-scroll:hover svg {
+      transform: translateY(10px);
+    }
+  }
+
+  .banner-title {
+    position: absolute;
+    margin: 0;
+    z-index: 9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    @include user-select(none);
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    width: 100%;
+    height:80vh;
+    h1 {
+      cursor: default;
+      a {
+        color: white;
+        cursor: default;
+      }
+      @include transition($hover-prop, $hover-duration, $hover-easing);
+      transform: translateY(0px);
+    }
+    opacity: 1;
+    @include transition($hover-prop, $hover-duration, $hover-easing);
+  }
+  .banner-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: 50% 20%;
+    filter: brightness(70%) saturate(120%);
+    user-select: none;
+  }
+}
+
+.menu:hover ~ .-banner .banner-title {
+  background: $hover-color;
+  transform: translateY(0px);
+  opacity: 1;
+}
