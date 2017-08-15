@@ -10,7 +10,7 @@
 
   .banner-title {
     @include dropin(0.5s);
-    position: absolute;
+    position: relative;
     margin: 0;
     z-index: 9;
     color: white;
@@ -55,6 +55,10 @@
   h2 {
     transform: translateY(-3px);
   }
+}
+
+.roll-over .banner-title {
+  position: absolute;
 }
 
 .open ~ .banner .banner-title h1{
