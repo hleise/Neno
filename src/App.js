@@ -48,8 +48,8 @@ class App extends Component {
               <Route exact path='/booking' component={Booking}/>
               <Route exact path='/day-tours' component={DayTours}/>
               <Route path='/day-tours/:tour' component={DayToursHandler}/>
-              <Route exact path='/package-tours' component={PackageTours}/>
-              <Route path='/package-tours/:tour' component={PackageToursHandler}/>
+              <Route exact path='/packages' component={PackageTours}/>
+              <Route path='/packages/:tour' component={PackageToursHandler}/>
               <Route exact path='/safaris' component={Safaris}/>
               <Route path='/safaris/:safari' component={SafariHandler}/>
               <Route exact path='/car-rental' component={CarRental}/>

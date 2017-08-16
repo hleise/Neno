@@ -15,10 +15,10 @@ class Booking extends Component {
           rollOver='true'
         />
         </Link>
-        <Link to='package-tours'>
+        <Link to='packages'>
           <Banner
             title='Package Tours'
-            page='package-tours'
+            page='packages'
             i='0'
             rollOver='true'
           />

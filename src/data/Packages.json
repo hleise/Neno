@@ -1,0 +1,73 @@
+[
+  {
+    "title":"Northern Packages",
+    "imgFolder":"northern-packages",
+    "featuredTours": [
+      "Karibu Package",
+      "Hakuna Matata Package"
+    ]
+  },
+  {
+    "title":"Southern Packages",
+    "imgFolder":"southern-packages",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Western Packages",
+    "imgFolder":"western-packages",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Zanzibar Holidays",
+    "imgFolder":"zanzibar-holidays",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Beach Packages",
+    "imgFolder":"beach-packages",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Zanzibar Weddings",
+    "imgFolder":"zanzibar-weddings",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Island Escape Packages",
+    "imgFolder":"island-escape-packages",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  },
+  {
+    "title":"Education Volunteer Trips",
+    "imgFolder":"education-volunteer-trips",
+    "featuredTours": [
+      "Jambo Package",
+      "Spice Package",
+      "Zanzibar Short Cultural Packages"
+    ]
+  }
+]

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import PackageTours from './PackageTours';
-import PackageToursData from '../data/PackageTours.json';
+import Packages from './PackageTours';
+import PackageData from '../data/PackageTours.json';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
 
-import Karibu from './package-tours/northern-package/Karibu';
-import Hakuna from './package-tours/northern-package/Hakuna';
+import Karibu from './packages/northern-package/Karibu';
+import Hakuna from './packages/northern-package/Hakuna';
 
-import Jambo from './package-tours/southern-package/Jambo';
-import SpicePackage from './package-tours/southern-package/Spice';
-import Short from './package-tours/southern-package/Short';
+import Jambo from './packages/southern-package/Jambo';
+import SpicePackage from './packages/southern-package/Spice';
+import Short from './packages/southern-package/Short';
 
-class PackageToursHandler extends Component {
+class PackageHandler extends Component {
   render() {
     var page;
     switch(this.props.match.params.tour) {
@@ -39,4 +39,4 @@ class PackageToursHandler extends Component {
   }
 }
 
-export default PackageToursHandler;
+export default PackageHandler;

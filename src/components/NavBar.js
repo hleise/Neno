@@ -67,8 +67,8 @@ class NavBar extends Component {
                 </div>
                 <div className='dropdown-option'>
                   <h3>
-                    <Link to="/package-tours">
-                      Package Tours
+                    <Link to="/packages">
+                      Packages
                     </Link>
                   </h3>
                 </div>
