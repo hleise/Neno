@@ -1,0 +1,60 @@
+$scale: 1.2;
+
+@mixin dropin($t) {
+-webkit-animation: dropin $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: dropin $t; /* Firefox < 16 */
+    -ms-animation: dropin $t; /* Internet Explorer */
+     -o-animation: dropin $t; /* Opera < 12.1 */
+        animation: dropin $t;
+}
+
+@keyframes dropin {
+    from {
+      opacity: 0.5;
+      transform: scale($scale);
+    }
+    to   {
+      opacity: 1.0;
+      transform: scale(1);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropin {
+    from {
+      transform: scale($scale);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropin {
+    from {
+      transform: scale($scale);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropin {
+    from {
+      transform: scale($scale);
+    }
+    to   {
+      transform: scale(1);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropin {
+    from {
+      transform: scale($scale);
+    }
+    to   {
+      transform: scale(1);
+    }
+}

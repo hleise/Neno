@@ -1,0 +1,57 @@
+@mixin slideout($t) {
+-webkit-animation: slideout $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: slideout $t; /* Firefox < 16 */
+    -ms-animation: slideout $t; /* Internet Explorer */
+     -o-animation: slideout $t; /* Opera < 12.1 */
+        animation: slideout $t;
+}
+
+
+@keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to   {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideout {
+    from {
+     transform: translate3d(0, 0, 0);
+    }
+    to {
+     transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to   {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -120vh, 0);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideout {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, -120vh, 0);
+    }
+}

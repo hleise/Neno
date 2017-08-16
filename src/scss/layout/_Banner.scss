@@ -9,11 +9,13 @@
   align-items: center;
 
   .banner-title {
-    position: absolute;
+    @include dropin(0.5s);
+    position: relative;
     margin: 0;
     z-index: 9;
     color: white;
     display: flex;
+    flex-direction: column;
     @include user-select(none);
     justify-content: center;
     align-items: center;
@@ -29,6 +31,11 @@
         color: white;
       }
     }
+
+    h2 {
+      @include transition($hover-prop, $hover-duration, $hover-easing);
+      transform: translateY(8px);
+    }
     @include transition($hover-prop, $hover-duration, $hover-easing);
   }
   .banner-image {
@@ -40,13 +47,23 @@
   }
 }
 
-.banner:hover > .banner-title {
+.roll-over:hover > .banner-title {
   background: $hover-color;
   h1 {
     transform: translateY(0px);
   }
+  h2 {
+    transform: translateY(-3px);
+  }
 }
 
-.open ~ .banner .banner-title h1 {
+.roll-over .banner-title {
+  position: absolute;
+}
+
+.open ~ .banner .banner-title h1{
+  opacity: 0;
+}
+.open ~ .banner .banner-title h2 {
   opacity: 0;
 }

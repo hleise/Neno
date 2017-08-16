@@ -1,6 +1,6 @@
 [
   {
-    "sectionTitle":"Cultural Day Tours",
+    "title":"Cultural Day Tours",
     "imgFolder":"cultural-day",
     "featuredTours": [
       "Jambiani Village",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "sectionTitle":"Boat Tours",
+    "title":"Boat Tours",
     "imgFolder":"boat",
     "featuredTours": [
       "Safari Blue",
@@ -23,7 +23,7 @@
     ]
   },
   {
-    "sectionTitle":"Fishing Tours",
+    "title":"Fishing Tours",
     "imgFolder":"fishing",
     "featuredTours": [
       "Local Game Fishing",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "sectionTitle":"Other Tours",
+    "title":"Other Tours",
     "imgFolder":"other",
     "featuredTours": [
       "City Tour",

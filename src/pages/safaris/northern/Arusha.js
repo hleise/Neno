@@ -12,7 +12,7 @@ class Arusha extends Component {
           <h1>Arusha National Park</h1>
           <img className='banner-image' src={require('../../../img/safaris/northern/0.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: arushaMD}}>
             </div>

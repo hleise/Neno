@@ -12,7 +12,7 @@ class Pemba extends Component {
           <h1>Pemba Island</h1>
           <img className='banner-image' src={require('../../../img/safaris/coast/1.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: pembaMD}}>
             </div>

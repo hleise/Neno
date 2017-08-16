@@ -1,6 +1,6 @@
 [
   {
-    "sectionTitle":"Northern Circuit Safaris",
+    "title":"Northern Circuit Safaris",
     "imgFolder":"northern",
     "featuredTours": [
       "Arusha National Park",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "sectionTitle":"Southern Circuit Safaris",
+    "title":"Southern Circuit Safaris",
     "imgFolder":"southern",
     "featuredTours": [
       "Selous Game Refuge",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "sectionTitle":"Western Circuit Safaris",
+    "title":"Western Circuit Safaris",
     "imgFolder":"western",
     "featuredTours": [
       "Katavi National Park",
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "sectionTitle":"The Coast & Islands",
+    "title":"The Coast & Islands",
     "imgFolder":"coast",
     "featuredTours": [
       "Mafia Archipelago",
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "sectionTitle":"3 to 7 Day Safaris",
+    "title":"3 to 7 Day Safaris",
     "imgFolder":"long",
     "featuredTours": [
       "3 Days",
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "sectionTitle":"Cultural Safaris",
+    "title":"Cultural Safaris",
     "imgFolder":"tribe",
     "featuredTours": [
       "Hadza",

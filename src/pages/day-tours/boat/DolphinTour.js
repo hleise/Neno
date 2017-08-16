@@ -1,28 +1,18 @@
 import React, {Component} from 'react';
-import dolphinMark from '../../../content/day-tours/boat/DolphinTours.md';
-import HorizontalTextSection from '../../../components/HorizontalTextSection.js';
-import BookingButton from "../../../components/BookingButton";
+import markdown from '../../../content/day-tours/boat/DolphinTours.md';
+import Page from     '../../../layout/Page'
 
-class DolpinTour extends Component {
+class DolphinTour extends Component {
   render() {
     return (
-      <div className="page">
-        <div className="static-banner">
-          <div className="banner-title">
-            <h1>Dolphin Tour</h1>
-          </div>
-          <img className='banner-image' src={require('../../../img/day-tours/boat/3.jpg')}/>
-        </div>
-        <div className="info">
-          <HorizontalTextSection>
-            <div className='markdown' dangerouslySetInnerHTML={{__html: dolphinMark}}>
-            </div>
-            <BookingButton/>
-          </HorizontalTextSection>
-        </div>
-      </div>
+      <Page
+        markdown={markdown}
+        title='Dolphin Tour'
+        page={'day-tours/boat'}
+        i={3}
+      />
     );
   }
 }
 
-export default DolpinTour;
+export default DolphinTour;

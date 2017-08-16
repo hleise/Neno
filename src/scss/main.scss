@@ -1,7 +1,8 @@
 $mobile-width: 800px;
 
+@import './Animations.scss';
 @import './helpers/mixins.scss';
-@import './helpers/_animation_mixins.scss';
+
 @import './helpers/variables.scss';
 
 @import './Home.scss';
@@ -23,6 +24,7 @@ $mobile-width: 800px;
 @import './components/Footer.scss';
 @import './components/HorizontalTextSection.scss';
 @import './components/Slider.scss';
+@import './components/DownArrow.scss';
 
 @import './pages/transportation/CarRental.scss';
 @import './pages/transportation/FlightInfo.scss';
@@ -49,7 +51,7 @@ body {
   background: $nav-bar-color;
   font-family: sans-serif;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  overflow-x:hidden;
+  overflow-x: hidden;
 
   p, h1, h2, h3, h4, h5, h6, li {
     margin: 0;

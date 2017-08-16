@@ -12,7 +12,7 @@ class Ras extends Component {
           <h1>Ras Kutani Area</h1>
           <img className='banner-image' src={require('../../../img/safaris/coast/2.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: raskutaniMD}}>
             </div>
