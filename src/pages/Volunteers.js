@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Banner from '../layout/Banner';
 import HorizontalTextSection from '../components/HorizontalTextSection.js';
-import markdown from '../content/Volunteers.md';
+import volunteersMarkdown from '../content/Volunteers.md';
 import PageLayout from '../layout/PageLayout';
 
 class Volunteers extends Component {
@@ -16,7 +16,7 @@ class Volunteers extends Component {
         />
         <div className="info" id="info">
          <HorizontalTextSection>
-           <div className='markdown' dangerouslySetInnerHTML={{__html: markdown}}></div>
+           <div className='markdown' dangerouslySetInnerHTML={{__html: volunteersMarkdown}}></div>
          </HorizontalTextSection>
         </div>
       </div>
