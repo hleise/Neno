@@ -12,7 +12,7 @@ class Dar extends Component {
           <h1>Dar es Salaam</h1>
           <img className='banner-image' src={require('../../../img/safaris/coast/0.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: darMD}}>
             </div>

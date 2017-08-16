@@ -12,7 +12,7 @@ class Manyara extends Component {
           <h1>Lake Manyara National Park</h1>
           <img className='banner-image' src={require('../../../img/safaris/northern/3.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: manyaraMD}}>
             </div>

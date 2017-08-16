@@ -9,23 +9,26 @@ class About extends Component {
       <PageLayout>
         <Link to='general-information'>
           <Banner
-            sectionTitle='General Info'
+            title='General Info'
             page='geninfo'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='history-of-zanzibar'>
         <Banner
-          sectionTitle='History of Zanzibar'
+          title='History of Zanzibar'
           page='history'
           i='0'
+          rollOver='true'
         />
         </Link>
         <Link to='volunteers'>
         <Banner
-          sectionTitle='Volunteers'
+          title='Volunteers'
           page='volunteer'
           i='0'
+          rollOver='true'
         />
         </Link>
       </PageLayout>

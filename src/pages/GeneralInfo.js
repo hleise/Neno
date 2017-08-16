@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import StaticBanner from '../layout/StaticBanner';
+import Banner from '../layout/Banner';
 import HorizontalTextSection from '../components/HorizontalTextSection.js';
 import generalMark from '../content/GeneralInfo.md';
 import PageLayout from '../layout/PageLayout';
@@ -9,12 +9,12 @@ class General extends Component {
     return (
       <PageLayout>
       <div className="page">
-          <StaticBanner
-            bannerTitle='General Info'
+          <Banner
+            title='General Info'
             page='geninfo'
             i='0'
           />
-          <div className="info">
+          <div className="info" id="info">
            <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: generalMark}}>
             </div>

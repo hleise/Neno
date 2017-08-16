@@ -11,6 +11,10 @@
   position: absolute;
   animation: slidein 1s;
   display: none;
+  @media all and(max-width: $mobile-width) {
+    position: relative;
+    height: auto;
+  }
 }
 
 .open {

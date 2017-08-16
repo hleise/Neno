@@ -1,6 +1,6 @@
 [
   {
-    "sectionTitle":"Northern Package Tours",
+    "title":"Northern Package Tours",
     "imgFolder":"northern-package",
     "featuredTours": [
       "Karibu Package",
@@ -8,7 +8,7 @@
     ]
   },
   {
-    "sectionTitle":"Southern Package Tours",
+    "title":"Southern Package Tours",
     "imgFolder":"southern-package",
     "featuredTours": [
       "Jambo Package",

@@ -1,0 +1,57 @@
+@mixin dropout($t) {
+-webkit-animation: dropout $t; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: dropout $t; /* Firefox < 16 */
+    -ms-animation: dropout $t; /* Internet Explorer */
+     -o-animation: dropout $t; /* Opera < 12.1 */
+        animation: dropout $t;
+}
+
+
+@keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes dropout {
+    from {
+      transform: scale(1);
+    }
+    to   {
+      transform: scale(1.2);
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes dropout {
+    from {
+      transform: scale(1);
+     }
+    to   {
+      transform: scale(1.2);
+     }
+}

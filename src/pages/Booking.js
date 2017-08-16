@@ -9,30 +9,34 @@ class Booking extends Component {
       <PageLayout>
         <Link to='day-tours'>
         <Banner
-          sectionTitle='Day Tours'
+          title='Day Tours'
           page='day-tours'
           i='0'
+          rollOver='true'
         />
         </Link>
         <Link to='package-tours'>
           <Banner
-            sectionTitle='Package Tours'
+            title='Package Tours'
             page='package-tours'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='safaris'>
           <Banner
-            sectionTitle='Safaris'
+            title='Safaris'
             page='safaris'
             i='0'
+            rollOver='true'
           />
         </Link>
         <Link to='hotels'>
           <Banner
-            sectionTitle='Hotels'
+            title='Hotels'
             page='hotels'
             i='0'
+            rollOver='true'
           />
         </Link>
       </PageLayout>

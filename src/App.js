@@ -28,9 +28,14 @@ import Mainland from './pages/gallery-category/Mainland';
 import VolunteerOps from './pages/gallery-category/VolunteerOps';
 import Layout from './layout/Layout';
 import SimplyBooking from './SimplyBooking'
+import createHistory from 'history/createBrowserHistory'
 
 class App extends Component {
   render() {
+    const history = createHistory()
+    history.listen((location, action) => {
+      console.log('changed!');
+    });
     return (
         <BrowserRouter>
           <Layout>

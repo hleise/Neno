@@ -12,7 +12,7 @@ class Daysinfo extends Component {
           <h1>General Information</h1>
           <img className='banner-image' src={require('../../../img/safaris/long/4.jpg')}/>
         </div>
-        <div className="info">
+        <div className="info" id="info">
           <HorizontalTextSection>
             <div className='markdown' dangerouslySetInnerHTML={{__html: daysMD}}>
             </div>

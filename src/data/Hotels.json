@@ -1,6 +1,6 @@
 [
   {
-    "sectionTitle":"Beach Resorts",
+    "title":"Beach Resorts",
     "imgFolder":"beach-resort",
     "featuredTours": [
       "La Gemma Dell 'Est",
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "sectionTitle":"Beach Clubs",
+    "title":"Beach Clubs",
     "imgFolder":"beach-club",
     "featuredTours": [
       "Flame Tree Cottages",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "sectionTitle":"City Hotels",
+    "title":"City Hotels",
     "imgFolder":"city-hotel",
     "featuredTours": [
       "Grand Palace Hotel",
