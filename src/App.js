@@ -15,8 +15,8 @@ import Gallery from './pages/Gallery';
 import GalleryHandler from './pages/GalleryHandler';
 import Hotels from './pages/Hotels';
 import HotelHandler from './pages/HotelHandler';
-import PackageTours from './pages/PackageTours';
-import PackageToursHandler from './pages/PackageToursHandler';
+import packages from './pages/Packages';
+import packagesHandler from './pages/PackageHandler';
 import Safaris from './pages/Safaris';
 import SafariHandler from './pages/SafariHandler';
 import Transportation from './pages/Transportation';
@@ -48,8 +48,8 @@ class App extends Component {
               <Route exact path='/booking' component={Booking}/>
               <Route exact path='/day-tours' component={DayTours}/>
               <Route path='/day-tours/:tour' component={DayToursHandler}/>
-              <Route exact path='/packages' component={PackageTours}/>
-              <Route path='/packages/:tour' component={PackageToursHandler}/>
+              <Route exact path='/packages' component={packages}/>
+              <Route path='/packages/:tour' component={packagesHandler}/>
               <Route exact path='/safaris' component={Safaris}/>
               <Route path='/safaris/:safari' component={SafariHandler}/>
               <Route exact path='/car-rental' component={CarRental}/>

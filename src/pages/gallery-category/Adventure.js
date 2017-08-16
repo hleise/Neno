@@ -92,19 +92,19 @@ export default class Sample extends React.Component {
         alt: 'image 1',
       },
       {
-        src: require('../../img/packages/northern-package/1.jpg'),
+        src: require('../../img/packages/northern-packages/1.jpg'),
         width: 600,
         height: 600,
         alt: 'image 1',
       },
       {
-        src: require('../../img/packages/southern-package/1.jpg'),
+        src: require('../../img/packages/southern-packages/1.jpg'),
         width: 600,
         height: 600,
         alt: 'image 1',
       },
       {
-        src: require('../../img/packages/southern-package/2.jpg'),
+        src: require('../../img/packages/southern-packages/2.jpg'),
         width: 600,
         height: 600,
         alt: 'image 1',

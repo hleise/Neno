@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Packages from './PackageTours';
-import PackageData from '../data/PackageTours.json';
+import Packages from './Packages';
+import PackageData from '../data/Packages.json';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
 
-import Karibu from './packages/northern-package/Karibu';
-import Hakuna from './packages/northern-package/Hakuna';
+import Karibu from './packages/northern-packages/Karibu';
+import Hakuna from './packages/northern-packages/Hakuna';
 
-import Jambo from './packages/southern-package/Jambo';
-import SpicePackage from './packages/southern-package/Spice';
-import Short from './packages/southern-package/Short';
+import Jambo from './packages/southern-packages/Jambo';
+import SpicePackage from './packages/southern-packages/Spice';
+import Short from './packages/southern-packages/Short';
 
 class PackageHandler extends Component {
   render() {
