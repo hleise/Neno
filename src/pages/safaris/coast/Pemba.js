@@ -10,7 +10,7 @@ class Pemba extends Component {
       <div className="page">
         <div className="banner">
           <h1>Pemba Island</h1>
-          <img className='banner-image' src={require('../../../img/safaris/coast/1.jpg')}/>
+          <img className='banner-image' src={require('../../../img/safaris/coast-and-islands/1.jpg')}/>
         </div>
         <div className="info" id="info">
           <HorizontalTextSection>

@@ -82,4 +82,7 @@ body {
   a{
     text-decoration:none;
   }
+  img {
+    filter: brightness(100%) saturate(120%) contrast(80%) sepia(1%);
+  }
 }

@@ -71,9 +71,6 @@
       transform: translateY(10px);
     }
   }
-  img {
-    filter: brightness(75%) saturate(110%);
-  }
 
   .slider-decorator-0 {
     @media all and(max-width: $mobile-width) {

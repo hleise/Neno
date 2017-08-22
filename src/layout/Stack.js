@@ -14,11 +14,10 @@ class Stack extends Component {
       ]
     };
     this.toggleMenu = this.toggleMenu.bind(this)
-    this.enablegrid = this.enablegrid.bind(this)
+    this.enableGrid = this.enableGrid.bind(this)
   }
-  enablegrid() {
+  enableGrid() {
     let width = Math.floor(document.documentElement.clientWidth);
-    console.log(width)
     if( width <= 800) {
       //currently turned off
       this.setState({
@@ -34,8 +33,8 @@ class Stack extends Component {
     }
   }
   componentDidMount() {
-    this.enablegrid()
-    window.addEventListener('resize', this.enablegrid)
+    this.enableGrid()
+    window.addEventListener('resize', this.enableGrid)
     setTimeout(function(){
       var iframe = document.getElementById('booking-iframe')
       if(iframe !== null) iframe.style.display = 'none'
@@ -58,11 +57,11 @@ class Stack extends Component {
     return (
       <div className={this.props.className}>
         {this.props.data.map((section, i) =>
-        <div className='section' id={section.title.replace(/\s+/g, '-').toLowerCase()}>
+        <div className='section' key={i} id={section.title.replace(/\s+/g, '-').toLowerCase()}>
           <Menu
             toggleMenu={this.toggleMenu.bind(this, i)}
             page={this.props.page}
-            featuredTours={section.featuredTours}
+            experiences={section.experiences}
             menu={this.state.menus[i]}
             imgFolder={section.imgFolder}
             />

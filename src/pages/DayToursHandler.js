@@ -1,27 +1,25 @@
 import React, { Component } from 'react';
-import DayTours from './DayTours';
-import DayToursData from '../data/DayTours.json';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
 
-import JambianiVillage from './day-tours/cultural-day/JambianiVillage';
-import KidichiVillage from './day-tours/cultural-day/KidichiVillage';
-import NungwiVillage from './day-tours/cultural-day/NungwiVillage';
-import SpiceTour from './day-tours/cultural-day/SpiceTour';
+import JambianiVillage from './day-tours/cultural-day-tours/JambianiVillage';
+import KidichiVillage from './day-tours/cultural-day-tours/KidichiVillage';
+import NungwiVillage from './day-tours/cultural-day-tours/NungwiVillage';
+import SpiceTour from './day-tours/cultural-day-tours/SpiceTour';
 
-import ChumbeIsland from './day-tours/boat/ChumbeIsland';
-import DolphinTour from './day-tours/boat/DolphinTour';
-import PrisonIsland from './day-tours/boat/PrisonIsland';
-import SafariBlue from './day-tours/boat/SafariBlue';
-import SandbankPicnic from './day-tours/boat/SandbankPicnic';
-import SunsetDhowCruise from './day-tours/boat/SunsetDhowCruise';
-import UngujaUkuuBoatTrip from './day-tours/boat/UngujaUkuuBoatTrip';
+import ChumbeIsland from './day-tours/boat-tours/ChumbeIsland';
+import DolphinTour from './day-tours/boat-tours/DolphinTour';
+import PrisonIsland from './day-tours/boat-tours/PrisonIsland';
+import SafariBlue from './day-tours/boat-tours/SafariBlue';
+import SandbankPicnic from './day-tours/boat-tours/SandbankPicnic';
+import SunsetDhowCruise from './day-tours/boat-tours/SunsetDhowCruise';
+import UngujaUkuuBoatTrip from './day-tours/boat-tours/UngujaUkuuBoatTrip';
 
-import DeepSeaFishing from './day-tours/fishing/DeepSeaFishing';
-import LocalGameFishing from './day-tours/fishing/LocalGameFishing';
+import DeepSeaFishing from './day-tours/fishing-tours/DeepSeaFishing';
+import LocalGameFishing from './day-tours/fishing-tours/LocalGameFishing';
 
-import CityTour from './day-tours/other/CityTour';
-import JozaniForestTour from './day-tours/other/JozaniForestTour';
+import CityTour from './day-tours/other-tours/CityTour';
+import JozaniForestTour from './day-tours/other-tours/JozaniForestTour';
 
 class DayToursHandler extends Component {
   render() {

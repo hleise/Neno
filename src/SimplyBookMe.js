@@ -259,8 +259,6 @@ SimplybookWidget.prototype.showPopupFrame = function (navigateTo) {
         this.container.appendChild(this.getIframeNode());
 
         document.body.appendChild(this.container);
-        // console.log("hello");
-        // document.body.insertBefore(this.container, document.body.firstChild);
 
     } else {
         this.container.className = 'simplybook-widget-container active';

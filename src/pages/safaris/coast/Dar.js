@@ -10,7 +10,7 @@ class Dar extends Component {
       <div className="page">
         <div className="banner">
           <h1>Dar es Salaam</h1>
-          <img className='banner-image' src={require('../../../img/safaris/coast/0.jpg')}/>
+          <img className='banner-image' src={require('../../../img/safaris/coast-and-islands/0.jpg')}/>
         </div>
         <div className="info" id="info">
           <HorizontalTextSection>

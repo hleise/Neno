@@ -1,32 +1,31 @@
-import React, { Component } from 'react';
-import Safaris from './Safaris';
-import SafarisData from '../data/Safaris.json';
-import { Route, Switch } from 'react-router-dom';
-import PageLayout from '../layout/PageLayout';
+import React, { Component } from 'react'
+import SafarisData from '../data/Safaris.json'
+import { Route, Switch } from 'react-router-dom'
+import PageLayout from '../layout/PageLayout'
 
-import Arusha from './safaris/northern/Arusha';
-import Ngorongo from './safaris/northern/Ngorongo';
-import Serengeti from './safaris/northern/Serengeti';
-import Manyara from './safaris/northern/Manyara';
-import Tarangire from './safaris/northern/Tarangire';
+import Arusha from './safaris/northern-circuit-safaris/Arusha'
+import Ngorongo from './safaris/northern-circuit-safaris/Ngorongo'
+import Serengeti from './safaris/northern-circuit-safaris/Serengeti'
+import Manyara from './safaris/northern-circuit-safaris/Manyara'
+import Tarangire from './safaris/northern-circuit-safaris/Tarangire'
 
-import Mikumi from './safaris/southern/Mikumi';
-import Ruaha from './safaris/southern/Ruaha';
-import Selous from './safaris/southern/Selous';
+import Mikumi from './safaris/southern-circuit-safaris/Mikumi'
+import Ruaha from './safaris/southern-circuit-safaris/Ruaha'
+import Selous from './safaris/southern-circuit-safaris/Selous'
 
-import Katavi from './safaris/western/Katavi';
-import Mahale from './safaris/western/Mahale';
+import Katavi from './safaris/western-circuit-safaris/Katavi'
+import Mahale from './safaris/western-circuit-safaris/Mahale'
 
-import Mafia from './safaris/coast/Mafia';
-import Pemba from './safaris/coast/Pemba';
-import Ras from './safaris/coast/Ras';
-import Dar from './safaris/coast/Dar';
+import Mafia from './safaris/coast/Mafia'
+import Pemba from './safaris/coast/Pemba'
+import Ras from './safaris/coast/Ras'
+import Dar from './safaris/coast/Dar'
 
-import Threeday from './safaris/threetoseven/3day';
-import Fourday from './safaris/threetoseven/4day';
-import Fiveday from './safaris/threetoseven/5day';
-import Sevenday from './safaris/threetoseven/7day';
-import Daysinfo from './safaris/threetoseven/daysinfo';
+import Threeday from './safaris/three-to-seven-day-safaris/3day'
+import Fourday from './safaris/three-to-seven-day-safaris/4day'
+import Fiveday from './safaris/three-to-seven-day-safaris/5day'
+import Sevenday from './safaris/three-to-seven-day-safaris/7day'
+import Daysinfo from './safaris/three-to-seven-day-safaris/daysinfo'
 
 import Hadza from './safaris/cultural/Hadza';
 import Maasai from './safaris/cultural/Maasai';

@@ -1,43 +1,41 @@
 import React, { Component } from 'react';
-import Hotels from './Hotels';
-import HotelsData from '../data/Hotels.json';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
 
-import Azanzi from './hotels/resorts/Azanzi';
-import BarazaBeach from './hotels/resorts/BarazaBeach';
-import BluebayBeach from './hotels/resorts/BluebayBeach';
-import BreezesBeachClub from './hotels/resorts/BreezesBeachClub';
-import DiamondDreams from './hotels/resorts/DiamondDreams';
-import FumbaBeach from './hotels/resorts/FumbaBeach';
-import LaGemmaDellEst from './hotels/resorts/LaGemmaDellEst';
-import OceanParadise from './hotels/resorts/OceanParadise';
-import SandiesNeptune from './hotels/resorts/SandiesNeptune';
-import ZanzibarRetreat from './hotels/resorts/ZanzibarRetreat';
+import Azanzi from './hotels/beach-resorts/Azanzi'
+import BarazaBeach from './hotels/beach-resorts/BarazaBeach'
+import BluebayBeach from './hotels/beach-resorts/BluebayBeach'
+import BreezesBeachClub from './hotels/beach-resorts/BreezesBeachClub'
+import DiamondDreams from './hotels/beach-resorts/DiamondDreams'
+import FumbaBeach from './hotels/beach-resorts/FumbaBeach'
+import LaGemmaDellEst from './hotels/beach-resorts/LaGemmaDellEst'
+import OceanParadise from './hotels/beach-resorts/OceanParadise'
+import SandiesNeptune from './hotels/beach-resorts/SandiesNeptune'
+import ZanzibarRetreat from './hotels/beach-resorts/ZanzibarRetreat'
 
-import Anna from './hotels/clubs/Anna';
-import EchoBeach from './hotels/clubs/EchoBeach';
-import FlameTree from './hotels/clubs/FlameTree';
-import KarambaResort from './hotels/clubs/KarambaResort';
-import KichangaLodge from './hotels/clubs/KichangaLodge';
-import MatemweBeach from './hotels/clubs/MatemweBeach';
-import MatemweBungalows from './hotels/clubs/MatemweBungalows';
-import MatemweRetreat from './hotels/clubs/MatemweRetreat';
-import PongweCottages from './hotels/clubs/PongweCottages';
-import RasNungwi from './hotels/clubs/RasNungwi';
-import ShootingStar from './hotels/clubs/ShootingStar';
-import UngujaLodge from './hotels/clubs/UngujaLodge';
-import ZHotel from './hotels/clubs/ZHotel';
+import Anna from './hotels/beach-clubs/Anna'
+import EchoBeach from './hotels/beach-clubs/EchoBeach'
+import FlameTree from './hotels/beach-clubs/FlameTree'
+import KarambaResort from './hotels/beach-clubs/KarambaResort'
+import KichangaLodge from './hotels/beach-clubs/KichangaLodge'
+import MatemweBeach from './hotels/beach-clubs/MatemweBeach'
+import MatemweBungalows from './hotels/beach-clubs/MatemweBungalows'
+import MatemweRetreat from './hotels/beach-clubs/MatemweRetreat'
+import PongweCottages from './hotels/beach-clubs/PongweCottages'
+import RasNungwi from './hotels/beach-clubs/RasNungwi'
+import ShootingStar from './hotels/beach-clubs/ShootingStar'
+import UngujaLodge from './hotels/beach-clubs/UngujaLodge'
+import ZHotel from './hotels/beach-clubs/ZHotel'
 
 
-import Huruzumi from './hotels/city/Huruzumi';
-import AfricaHouse from './hotels/city/AfricaHouse';
-import DhowPalace from './hotels/city/DhowPalace';
-import GrandPalaceHotel from './hotels/city/GrandPalaceHotel';
-import SwahiliHouse from './hotels/city/SwahiliHouse';
-import TemboHouse from './hotels/city/TemboHouse';
-import ZanzibarPalaceHotel from './hotels/city/ZanzibarPalaceHotel';
-import ZenjiHotel from './hotels/city/ZenjiHotel';
+import Huruzumi from './hotels/city-hotels/Huruzumi';
+import AfricaHouse from './hotels/city-hotels/AfricaHouse';
+import DhowPalace from './hotels/city-hotels/DhowPalace';
+import GrandPalaceHotel from './hotels/city-hotels/GrandPalaceHotel';
+import SwahiliHouse from './hotels/city-hotels/SwahiliHouse';
+import TemboHouse from './hotels/city-hotels/TemboHouse';
+import ZanzibarPalaceHotel from './hotels/city-hotels/ZanzibarPalaceHotel';
+import ZenjiHotel from './hotels/city-hotels/ZenjiHotel';
 
 class HotelHandler extends Component {
   render() {

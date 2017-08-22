@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Packages from './Packages';
 import PackageData from '../data/Packages.json';
 import { Route, Switch } from 'react-router-dom';
 import PageLayout from '../layout/PageLayout';
