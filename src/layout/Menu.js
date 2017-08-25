@@ -18,23 +18,46 @@ class Menu extends Component {
     window.addEventListener('resize', this.getWidth)
   }
   render() {
+    var objects = [
+      {
+        "title":"Jambiani Village",
+        
+      },
+      {
+        "title":"Kidichi Village",
+        
+      },
+      {
+        "title":"Nungwi Village",
+        
+      },
+      {
+        "title":"Spice Tour",
+        
+      }
+    ]
+
+    var rows = Math.ceil(this.props.experiences.length / this.state.col)
+
+    var experiences = this.props.experiences.map((e) => { return e.title })
+
     return (
       <div className={"menu " + this.props.menu} onClick={this.props.toggleMenu}>
        <div className='featured-tours'>
-          {[...Array(Math.ceil(this.props.experiences.length / this.state.col))].map((rowOfTours, rowIndex) => (
+          {[...Array(rows)].map((row, rowIndex) => (
               <div className='row' key={rowIndex}>
-                {this.props.experiences.slice(rowIndex*this.state.col,(rowIndex*this.state.col)+this.state.col).map((tour, i) =>
-                  <div className='block' key={i}>
-                    <img className='image' src={require("../img/" + this.props.page + "/"  + this.props.imgFolder + "/" + (i+(rowIndex*this.state.col)) + ".jpg")} />
-                     <Link to={"/" + this.props.page + "/" + tour.replace(/\s+/g, '-').toLowerCase()}>
-                      <div className='title'>
-                        <h3>
-                         {this.props.experiences[(i+(rowIndex*this.state.col))]}
-                        </h3>
-                      </div>
-                    </Link>
-                  </div>
-                )}
+              {experiences.slice(rowIndex*this.state.col,(rowIndex*this.state.col)+this.state.col).map((experience, i) =>
+                    <div className='block' key={i}>
+                      <img className='image' src={require(`../img/${this.props.folder}/${this.props.subFolder}/${(i+(rowIndex*this.state.col))}.jpg`)} />
+                       <Link to={"/" + this.props.folder + "/" + this.props.subFolder + "/" + experience.replace(/\s+/g, '-').toLowerCase()}>
+                        <div className='title'>
+                          <h3>
+                           {experiences[(i+(rowIndex*this.state.col))]}
+                          </h3>
+                        </div>
+                      </Link>
+                    </div>
+              )}
               </div>
           ))
         }
@@ -43,5 +66,11 @@ class Menu extends Component {
     );
   }
 }
+
+
+//<img className='image' src={require("../img/" + this.props.folder + "/" + (i+(rowIndex*this.state.col)) + ".jpg")} />
+
+
+
 
 export default Menu;

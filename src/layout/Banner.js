@@ -18,7 +18,7 @@ class Banner extends Component {
           <h1>{this.props.title}</h1>
           <h2>{this.props.rollOver ? 'Click here to see more...' : ''}</h2>
         </div>
-       <img className='banner-image' src={require("../img/" + this.props.page + "/" + this.props.i + ".jpg")} />
+       <img className='banner-image' src={require("../img/" + this.props.folder + "/" + this.props.i + ".jpg")} />
        {this.props.downArrow ? <DownArrow section='info'/> : ''}
      </div>
     );

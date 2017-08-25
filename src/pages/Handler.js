@@ -6,8 +6,8 @@ class Handler extends Component {
     return (
       <div>
         <Stack
-          className={this.props.page}
-          page={this.props.page}
+          className={this.props.folder}
+          folder={this.props.folder}
           data={this.props.data}/>
       </div>
     );

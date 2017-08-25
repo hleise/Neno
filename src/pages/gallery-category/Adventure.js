@@ -126,5 +126,6 @@ export default class Sample extends React.Component {
         width: 600,
         height: 600,
         alt: 'image 1',
-      }
+      },
+
 ];

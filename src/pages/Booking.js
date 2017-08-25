@@ -7,10 +7,10 @@ class Booking extends Component {
   render() {
     return (
       <PageLayout>
-        <Link to='day-tours'>
+        <Link to='tours'>
         <Banner
           title='Day Tours'
-          page='day-tours'
+          page='tours'
           i='0'
           rollOver='true'
         />

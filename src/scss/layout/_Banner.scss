@@ -10,7 +10,7 @@
 
   .banner-title {
     @include dropin(0.5s);
-    position: relative;
+    position: absolute;
     margin: 0;
     z-index: 9;
     color: white;

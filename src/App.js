@@ -5,7 +5,6 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Handler from './pages/Handler'
 
-import DayToursHandler from './pages/DayToursHandler'
 import Booking from './pages/Booking'
 import CarRental from './pages/CarRental'
 import FlightInfo from './pages/FlightInfo'
@@ -14,9 +13,6 @@ import General from './pages/GeneralInfo'
 import Volunteers from './pages/Volunteers'
 import Gallery from './pages/Gallery'
 import GalleryHandler from './pages/GalleryHandler'
-import HotelHandler from './pages/HotelHandler'
-import packagesHandler from './pages/PackageHandler'
-import SafariHandler from './pages/SafariHandler'
 import Transportation from './pages/Transportation'
 import Featured from './pages/gallery-category/Featured'
 import Adventure from './pages/gallery-category/Adventure'
@@ -28,6 +24,7 @@ import Layout from './layout/Layout'
 import SimplyBooking from './SimplyBooking'
 import createHistory from 'history/createBrowserHistory'
 import Data from './data/data.json'
+import Page from './layout/Page'
 
 class App extends Component {
   render() {
@@ -40,19 +37,18 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path='/' component={Home}/>
-              <Route exact path='/day-tours' component={(props) => <Handler page='day-tours' data={data.tours} />}/>
-              <Route exact path='/packages' component={(props) => <Handler page='packages' data={data.packages} />}/>
-              <Route exact path='/safaris' component={(props) => <Handler page='safaris' data={data.safaris} />}/>
-              <Route exact path='/hotels' component={(props) => <Handler page='hotels' data={data.hotels} />}/>
+              <Route exact path='/tours' component={(props) => <Handler folder='tours' data={data.tours} />}/>
+              <Route exact path='/packages' component={(props) => <Handler folder='packages' data={data.packages} />}/>
+              <Route exact path='/safaris' component={(props) => <Handler folder='safaris' data={data.safaris} />}/>
+              <Route exact path='/hotels' component={(props) => <Handler folder='hotels' data={data.hotels} />}/>
+
+              <Route exact path='/:folder/:subfolder/:experience' component={(props) => <Page {...props} folder={'tours'} />}/>
 
               <Route exact path='/simply-booking' component={SimplyBooking}/>
               <Route exact path='/contact' component={Contact}/>
               <Route exact path='/transportation' component={Transportation}/>
               <Route exact path='/about' component={About}/>
               <Route exact path='/booking' component={Booking}/>
-              <Route path='/day-tours/:tour' component={DayToursHandler}/>
-              <Route path='/packages/:tour' component={packagesHandler}/>
-              <Route path='/safaris/:safari' component={SafariHandler}/>
               <Route exact path='/car-rental' component={CarRental}/>
               <Route exact path='/flight-info' component={FlightInfo}/>
               <Route exact path='/history-of-zanzibar' component={history}/>
@@ -61,7 +57,6 @@ class App extends Component {
               <Route exact path='/gallery' component={Gallery}/>
               <Route path='/gallery-category/:category' component={GalleryHandler}/>
 
-              <Route path='/hotels/:hotel' component={HotelHandler}/>
               <Route exact path='/gallery-category/featured' component={Featured}/>
               <Route exact path='/gallery-category/adventure' component={Adventure}/>
               <Route exact path='/gallery-category/culture' component={Culture}/>

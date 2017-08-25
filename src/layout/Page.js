@@ -5,24 +5,31 @@ import Banner from './Banner'
 
 class Page extends Component {
   render() {
+    const title = this.props.match.params.experience.replace(/-/g, ' ').replace(/(\b[a-z](?!\s))/g, function(x){return x.toUpperCase()})
+    const markdown = this.props.match.params.experience.replace(/-/g, ' ').replace(/(\b[a-z](?!\s))/g, function(x){return x.toUpperCase()}).replace(/\s/g, '')
+
     return (
       <div className="page">
-        <Banner
-          title={this.props.title}
-          page={this.props.page}
-          i={this.props.i}
-          downArrow={true}
-        />
-        <div className="info" id="info">
-          <HorizontalTextSection>
-            <div className='markdown' dangerouslySetInnerHTML={{__html: this.props.markdown}}>
-            </div>
-            <BookingButton/>
-          </HorizontalTextSection>
-        </div>
+      <Banner
+        title={title}
+        folder={this.props.match.params.folder}
+        i={0}
+        downArrow={true}
+      />
+      <div className="info" id="info">
+        <HorizontalTextSection>
+          <div className='markdown' dangerouslySetInnerHTML={{__html: require(`../content/${this.props.match.params.folder}/${this.props.match.params.subfolder}/${markdown}.md`)}} />
+          <BookingButton/>
+        </HorizontalTextSection>
+      </div>
       </div>
     );
   }
 }
+
+
+
+
+
 
 export default Page;

@@ -2,205 +2,371 @@
   "tours":[
     {
       "title":"Cultural Day Tours",
-      "imgFolder":"cultural-day-tours",
+      "folder":"cultural-tours",
       "experiences": [
-        "Jambiani Village",
-        "Kidichi Village",
-        "Nungwi Village",
-        "Spice Tour"
+        {
+          "title":"Jambiani Village"
+        },
+        {
+          "title":"Kidichi Village"
+        },
+        {
+          "title":"Nungwi Village"
+        },
+        {
+          "title":"Spice Tour"
+        }
       ]
     },
     {
       "title":"Boat Tours",
-      "imgFolder":"boat-tours",
+      "folder":"boat-tours",
       "experiences": [
-        "Safari Blue",
-        "Unguja Ukuu Boat Trip",
-        "Chumbe Island",
-        "Dolphin Tour",
-        "Prison Island",
-        "Sandbank Picnic",
-        "Sunset Dhow Cruise"
+        {
+          "title":"Safari Blue"
+        },
+        {
+          "title":"Unguja Ukuu Boat Trip"
+        },
+        {
+          "title":"Dolphin Tour"
+        },
+        {
+          "title":"Prison Island"
+        },
+        {
+          "title":"Sandbank Picnic"
+
+        },
+        {
+          "title":"Sunset Dhow Cruise"
+        }
       ]
     },
     {
       "title":"Fishing Tours",
-      "imgFolder":"fishing-tours",
+      "folder":"fishing-tours",
       "experiences": [
-        "Local Game Fishing",
-        "Deep Sea Fishing"
+        {
+          "title":"Local Game Fishing"
+
+        },
+        {
+          "title":"Deep Sea Fishing"
+
+        }
       ]
     },
     {
       "title":"Other Tours",
-      "imgFolder":"other-tours",
+      "folder":"other-tours",
       "experiences": [
-        "City Tour",
-        "Jozani Forest Tour"
+        {
+          "title":"Stone Town"
+
+        },
+        {
+          "title":"Jozani Forest"
+        }
       ]
     }
   ],
   "hotels":[
     {
       "title":"Beach Resorts",
-      "imgFolder":"beach-resorts",
+      "folder":"beach-resorts",
       "experiences": [
-        "La Gemma Dell 'Est",
-        "Azanzi",
-        "Diamond Dreams",
-        "Ocean Paradise",
-        "Baraza Beach",
-        "Breezes Beach Club and Spa",
-        "Fumba Beach Lodge",
-        "Bluebay Beach Resort",
-        "Sandies Neptune Pwani Beach Resort",
-        "Zanzibar Retreat Hotel"
+        {
+          "title":"La Gemma Dell 'Est"
+        },
+        {
+          "title":"Azanzi"
+        },
+        {
+          "title":"Diamond Dreams"
+        },
+        {
+          "title":"Ocean Paradise"
+        },
+        {
+          "title":"Baraza Beach"
+        },
+        {
+          "title":"Breezes Beach Club and Spa"
+        },
+        {
+          "title":"Sandies Neptune Pwani Beach Resort"
+        },
+        {
+          "title":"Fumba Beach Lodge"
+        },
+        {
+          "title":"Bluebay Beach Resort"
+        },
+        {
+          "title":"Zanzibar Retreat Hotel"
+        }
       ]
     },
     {
       "title":"Beach Clubs",
-      "imgFolder":"beach-clubs",
+      "folder":"beach-clubs",
       "experiences": [
-        "Flame Tree Cottages",
-        "Anna of Zanzibar",
-        "Ras Nungwi",
-        "Z Hotel",
-        "Matemwe Beach Village",
-        "Matemwe Retreat",
-        "Pongwe Cottages",
-        "Shooting Star Hotel",
-        "Echo Beach",
-        "Kichanga Lodge",
-        "Karamba Resort",
-        "Unguja Lodge",
-        "Matemwe Bungalows"
+        {
+          "title":"Flame Tree Cottages"
+        },
+        {
+          "title":"Anna of Zanzibar"
+        },
+        {
+          "title":"Ras Nungwi"
+        },
+        {
+          "title":"Z Hotel"
+        },
+        {
+          "title":"Matemwe Beach Village"
+        },
+        {
+          "title":"Matemwe Retreat"
+        },
+        {
+          "title":"Pongwe Cottages"
+        },
+        {
+          "title":"Shooting Star Hotel"
+        },
+        {
+          "title":"Echo Beach"
+        },
+        {
+          "title":"Kichanga Lodge"
+        },
+        {
+          "title":"Karamba Resort"
+        },
+        {
+          "title":"Unguja Lodge"
+        },
+        {
+          "title":"Sandies Neptune Pwani Beach Resort"
+        },
+        {
+          "title":"Matemwe Bungalows"
+        }
       ]
     },
     {
       "title":"City Hotels",
-      "imgFolder":"city-hotels",
+      "folder":"city-hotels",
       "experiences": [
-        "Grand Palace Hotel",
-        "Swahili House",
-        "Zenji Hotel",
-        "Tembo House Hotel",
-        "Dhow Palace Hotel",
-        "236 Huruzumi Hotel",
-        "Africa House Hotel",
-        "Zanzibar Palace Hotel"
+        {
+          "title":"Grand Palace Hotel"
+        },
+        {
+          "title":"Swahili House"
+        },
+        {
+          "title":"Zenji Hotel"
+        },
+        {
+          "title":"Tembo House Hotel"
+        },
+        {
+          "title":"Dhow Palace Hotel"
+        },
+        {
+          "title":"236 Huruzumi Hotel"
+        },
+        {
+          "title":"Africa House Hotel"
+        },
+        {
+          "title":"Zanzibar Palace Hotel"
+        }
       ]
     }
   ],
   "safaris":[
     {
       "title":"Northern Circuit Safaris",
-      "imgFolder":"western-circuit-safaris",
+      "folder":"western-circuit-safaris",
       "experiences": [
-        "Arusha National Park",
-        "Ngorongo Conservation Area",
-        "Serengeti National Park",
-        "Lake Manyara National Park",
-        "Tarangire National Park"
+        {
+          "title":"Arusha National Park"
+        },
+        {
+          "title":"Ngorongo Conservation Area"
+        },
+        {
+          "title":"Serengeti National Park"
+        },
+        {
+          "title":"Lake Manyara National Park"
+        },
+        {
+          "title":"Tarangire National Park"
+        }
       ]
     },
     {
       "title":"Southern Circuit Safaris",
-      "imgFolder":"southern-circuit-safaris",
+      "folder":"southern-circuit-safaris",
       "experiences": [
-        "Selous Game Refuge",
-        "Ruaha National Park",
-        "Mikumi and Udzungwa National Parks"
+        {
+          "title":"Selous Game Refuge"
+        },
+        {
+          "title":"Ruaha National Park"
+        },
+        {
+          "title":"Mikumi and Udzungwa National Parks"
+        }
       ]
     },
     {
       "title":"Western Circuit Safaris",
-      "imgFolder":"western-circuit-safaris",
+      "folder":"western-circuit-safaris",
       "experiences": [
-        "Katavi National Park",
-        "Mahale Mountains National Park"
+        {
+          "title":"Katavi National Park"
+        },
+        {
+          "title":"Mahale Mountains National Park"
+        }
       ]
     },
     {
       "title":"The Coast & Islands",
-      "imgFolder":"coast-and-islands",
+      "folder":"coast-and-islands",
       "experiences": [
-        "Mafia Archipelago",
-        "Pemba Island",
-        "Ras Kutani Area",
-        "Dar es Salaam"
+        {
+          "title":"Mafia Archipelago"
+        },
+        {
+          "title":"Pemba Island"
+        },
+        {
+          "title":"Ras Kutani Area"
+        },
+        {
+          "title":"Dar es Salaam"
+        }
       ]
     },
     {
       "title":"3 to 7 Day Safaris",
-      "imgFolder":"three-to-seven-day-safaris",
+      "folder":"three-to-seven-day-safaris",
       "experiences": [
-        "3 Days",
-        "4 Days",
-        "5 Days",
-        "7 Days",
-        "General Information"
+        {
+          "title":"3 Days"
+        },
+        {
+          "title":"4 Days"
+        },
+        {
+          "title":"5 Days"
+        },
+        {
+          "title":"7 Days"
+        },
+        {
+          "title":"General Information"
+        }
       ]
     },
     {
       "title":"Cultural Safaris",
-      "imgFolder":"tribe",
+      "folder":"tribe",
       "experiences": [
-        "Hadza",
-        "Maasai"
       ]
     }
   ],
   "packages":[
     {
       "title":"Safari Packages",
-      "imgFolder":"safari-packages",
+      "folder":"safari-packages",
       "experiences": [
+
       ]
     },
     {
       "title":"Zanzibar Holidays",
-      "imgFolder":"zanzibar-holidays",
+      "folder":"safaris/zanzibar-holidays",
       "experiences": [
+
       ]
     },
     {
       "title":"Beach Packages",
-      "imgFolder":"beach-packages",
+      "folder":"beach-packages",
       "experiences": [
-        "Kendwa Beach Package",
-        "Mnemba Beach Package",
-        "Paje Beach Package",
-        "Sandbank Beach Package"
+        {
+          "title":"Kendwa Beach Package"
+        },
+        {
+          "title":"Mnemba Beach Package"
+        },
+        {
+          "title":"Paje Beach Package"
+        },
+        {
+          "title":"Sandbank Beach Package"
+        }
       ]
     },
     {
       "title":"Zanzibar Weddings",
-      "imgFolder":"zanzibar-weddings",
+      "folder":"zanzibar-weddings",
       "experiences": [
-        "Honeymooners Packages",
-        "Symbolic Wedding",
-        "Zanzibar Wedding"
+        {
+          "title":"Honeymooners Packages"
+        },
+        {
+          "title":"Symbolic Wedding"
+        },
+        {
+          "title":"Zanzibar Wedding"
+        }
       ]
     },
     {
       "title":"Island Escape Packages",
-      "imgFolder":"island-escape-packages",
+      "folder":"island-escape-packages",
       "experiences": [
-        "Chumbe Island",
-        "Mnemba Atol",
-        "Mafia Island",
-        "Fanjove Island",
-        "Saanane Island"
+        {
+          "title":"Chumbe Island"
+        },
+        {
+          "title":"Mnemba Atol"
+        },
+        {
+          "title":"Mafia Island"
+        },
+        {
+          "title":"Fanjove Island"
+        },
+        {
+          "title":"Saanane Island"
+        }
       ]
     },
     {
       "title":"Education Volunteer Trips",
-      "imgFolder":"education-volunteer-trips",
+      "folder":"education-volunteer-trips",
       "experiences": [
-        "1 week trip",
-        "2 week trip",
-        "3 week trip",
-        "3 to 6 month trip"
+        {
+          "title":"1 week trip"
+        },
+        {
+          "title":"2 week trip"
+        },
+        {
+          "title":"3 week trip"
+        },
+        {
+          "title":"3 to 6 month trip"
+        }
       ]
     }
   ]

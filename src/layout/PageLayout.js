@@ -7,7 +7,7 @@ class PageLayout extends Component {
     window.scrollTo(0,0)
     setTimeout(function(){
       var iframe = document.getElementById('booking-iframe')
-      iframe.style.display = 'none'
+      if(iframe !== null) iframe.style.display = 'none'
     },1200)
   }
   render() {

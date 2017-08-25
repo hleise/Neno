@@ -60,7 +60,7 @@ class NavBar extends Component {
               <div className='dropdown-options'>
                 <div className='dropdown-option'>
                   <h3>
-                    <Link to="/day-tours">
+                    <Link to="/tours">
                       Day Tours
                     </Link>
                   </h3>

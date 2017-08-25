@@ -60,16 +60,16 @@ class Stack extends Component {
         <div className='section' key={i} id={section.title.replace(/\s+/g, '-').toLowerCase()}>
           <Menu
             toggleMenu={this.toggleMenu.bind(this, i)}
-            page={this.props.page}
+            subFolder={section.folder}
+            folder={this.props.folder}
             experiences={section.experiences}
             menu={this.state.menus[i]}
-            imgFolder={section.imgFolder}
             />
           {this.state.grid ? '' :
             <Banner
             rollOver={true}
             enableToggle={true}
-            page={this.props.page}
+            folder={this.props.folder}
             title={section.title}
             toggleMenu={this.toggleMenu.bind(this, i)}
             i={i}
