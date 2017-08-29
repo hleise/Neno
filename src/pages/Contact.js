@@ -11,7 +11,7 @@ class Contact extends Component {
         <div className="page">
           <Banner
             title='Contact Us'
-            page='contact'
+            folder='contact'
             i='0'
           />
           <div className="info" id="info">
